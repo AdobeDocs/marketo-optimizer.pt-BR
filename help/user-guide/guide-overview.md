@@ -1,9 +1,9 @@
 ---
 title: Documentação do Adobe Marketo Otimizer
 description: Documentação completa para o Marketo Otimizer - explore os recursos disponíveis para integração, automação de marketing baseada em IA, jornadas de pessoas e gerenciamento de público-alvo.
-source-git-commit: 75b481faf0d66210329f95c8afabdfa59e7bcb79
+source-git-commit: 8ca954d9cd08d8c1938aaf1e1a0d1a4a0c439b11
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '423'
 ht-degree: 3%
 
 ---
@@ -16,11 +16,11 @@ O [!DNL Adobe Marketo Optimizer] é uma solução de automação de marketing ba
 
 <table style="table-layout:fixed">
   <tr style="border: 0;">
-  <td valign="top"><a href="/help/prime/setup-prime.md"><img src="assets/do-not-localize/setup-teal.svg"  alt="Lista de verificação de configuração"></a> </td>
-  <td valign="top"><a href="/help/prime/home-insights/home-page.md"><img src="assets/do-not-localize/home-page-teal.svg"  alt="Página inicial"></a> </td>
-  <td valign="top"><a href="/help/prime/agents/chat-interface.md"><img src="assets/do-not-localize/coworker-teal.svg"  alt="Interface de bate-papo de colega"></a> </td>
-  <td valign="top"><a href="/help/prime/marketing/marketing-management.md"><img src="assets/do-not-localize/marketing-hub-teal.svg"  alt="Hub de atividades de marketing"></a> </td>
-  <td valign="top"><a href="/help/prime/content/digital-asset-management.md"><img src="assets/do-not-localize/asset-management-teal.svg"  alt="Gerenciamento de ativos digitais"></a> </td>
+  <td valign="top"><a href="./start/setup-check-list.md"><img src="assets/do-not-localize/setup-teal.svg"  alt="Lista de verificação de configuração"></a> </td>
+  <td valign="top"><a href="./home-insights/home-page.md"><img src="assets/do-not-localize/home-page-teal.svg"  alt="Página inicial"></a> </td>
+  <td valign="top"><a href="./agents/chat-interface.md"><img src="assets/do-not-localize/coworker-teal.svg"  alt="Interface de bate-papo de colega"></a> </td>
+  <td valign="top"><a href="./marketing/marketing-management.md"><img src="assets/do-not-localize/marketing-hub-teal.svg"  alt="Hub de atividades de marketing"></a> </td>
+  <td valign="top"><a href="./content/digital-asset-management.md"><img src="assets/do-not-localize/asset-management-teal.svg"  alt="Gerenciamento de ativos digitais"></a> </td>
   <tr style="border: 0;">
     <td valign="top">
     <div><strong>Instalação</strong><br/><br/>Conclua a instalação e a configuração iniciais para que sua equipe de marketing possa começar.</div>
@@ -40,11 +40,11 @@ O [!DNL Adobe Marketo Optimizer] é uma solução de automação de marketing ba
     </td>
   </tr>
   <tr style="border: 0;">
-    <td align="center"><a href="/help/prime/start/setup-prime.md"><img src="assets/learn-more.svg"></a></td>
-    <td align="center"><a href="/help/prime/home-insights/home-page.md"><img src="assets/learn-more.svg"></a></td>
-    <td align="center"><a href="/help/prime/agents/chat-interface.md"><img src="assets/learn-more.svg"></a></td>
-    <td align="center"><a href="/help/prime/marketing/marketing-management.md"><img src="assets/learn-more.svg"></a></td>
-    <td align="center"><a href="/help/prime/content/digital-asset-management.md"><img src="assets/learn-more.svg"></a></td>
+    <td align="center"><a href="./start/setup-check-list.md"><img src="assets/learn-more.svg"></a></td>
+    <td align="center"><a href="./home-insights/home-page.md"><img src="assets/learn-more.svg"></a></td>
+    <td align="center"><a href="./agents/chat-interface.md"><img src="assets/learn-more.svg"></a></td>
+    <td align="center"><a href="./marketing/marketing-management.md"><img src="assets/learn-more.svg"></a></td>
+    <td align="center"><a href="./content/digital-asset-management.md"><img src="assets/learn-more.svg"></a></td>
     </tr>
 </table>
 
@@ -52,18 +52,18 @@ O [!DNL Adobe Marketo Optimizer] é uma solução de automação de marketing ba
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Get Started
 
 Complete initial setup and configuration, then learn how to navigate the application and use the home page.
 
-[Administrator setup](./start/setup-prime.md) <br/>
+[Administrator setup](./start/setup-check-list.md) <br/>
 [Home page](./home-insights/home-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg)
 
 Coworker
 
@@ -74,7 +74,7 @@ Use natural language to plan programs, build journeys, manage audiences, and cre
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Sales Qualifier
 
@@ -84,7 +84,7 @@ Qualify prospects with AI, run outbound workflows, and connect CRM tasks with BD
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Marketing Management
 
@@ -95,7 +95,7 @@ Organize campaigns into programs, design person journeys with multi-channel cont
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
 
 Audiences
 
@@ -106,7 +106,7 @@ Build and maintain people lists, define event-based audiences, and track engagem
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=pt-BR)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
 
 Content
 
@@ -127,7 +127,7 @@ Author emails and WhatsApp messages, manage templates and assets, create landing
   <tr style="border: 0;">
     <td valign="top">
       <img src="assets/do-not-localize/icon-quick-start.svg" width="35px" alt="Introdução"><br/>
-      <strong>Introdução</strong><br/><a href="./start/setup-prime.md">Lista de verificação de configuração</a><br/><a href="./start/user-management.md">Gerenciamento de usuários</a><br/><a href="./start/email-deliverability.md">Capacidade de entrega de email</a>
+      <strong>Introdução</strong><br/><a href="./start/setup-check-list.md">Lista de verificação de configuração</a><br/><a href="./start/user-management.md">Gerenciamento de usuários</a><br/><a href="./start/email-deliverability.md">Capacidade de entrega de email</a>
     </td>
     <td valign="top">
       <img src="assets/do-not-localize/icon-gen-ai-blue.svg" width="35px" alt="Coworker"><br/>
@@ -159,15 +159,15 @@ Author emails and WhatsApp messages, manage templates and assets, create landing
 
 <table style="table-layout:fixed">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Videos and tutorials</a> - <a href="https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Product description</a>
+<a href="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Videos and tutorials</a> - <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Product description</a>
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/landing/home" target="_blank">Documentation</a> - <a href="https://business.adobe.com/br/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Developer resources</a>
+<a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/home" target="_blank">Documentation</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Developer resources</a>
 </td></tr>
 <tr><td><strong>Adobe Real-Time Customer Data Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/home" target="_blank">Documentation</a> - <a href="https://experienceleague.adobe.com/pt-br/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank">Developer tutorials</a>
+<a href="https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home" target="_blank">Documentation</a> - <a href="https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank">Developer tutorials</a>
 </td><td><strong>Adobe Marketo Engage</strong><br/>
-<a href="https://experienceleague.adobe.com/pt-br/docs/marketo/using/home" target="_blank">User documentation</a> - <a href="https://experienceleague.adobe.com/pt-br/docs/marketo-developer/marketo/home" target="_blank">Developer documentation</a>
+<a href="https://experienceleague.adobe.com/en/docs/marketo/using/home" target="_blank">User documentation</a> - <a href="https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/home" target="_blank">Developer documentation</a>
 </td>
 </tr></table>
 
