@@ -31,7 +31,7 @@ Você pode criar um webinário de duas maneiras:
 
 ## Webinário como um ativo
 
-Um webinário é um ativo que pertence a um [programa](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/prime/marketing-management/programs/programs), da mesma forma que um email ou uma página de aterrissagem. Adicionar um webinário a um programa o registra lá e disponibiliza seus tokens, atributos e atividades para cada jornada e ativo nesse programa.
+Um webinário é um ativo que pertence a um [programa](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/prime/marketing-management/programs/programs), da mesma forma que um email ou uma página de aterrissagem. Adicionar um webinário a um programa o registra lá e disponibiliza seus tokens, atributos e atividades para cada jornada e ativo nesse programa.
 
 >[!IMPORTANT]
 >
@@ -43,7 +43,7 @@ Para qualquer pessoa que seja membro de um programa que contenha um webinário, 
 
 | Estado | Proprietário | Valores |
 |---|---|---|
-| Status do membro do programa | Programa | Configurável por [tipo de programa](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/prime/admin/program-types) |
+| Status do membro do programa | Programa | Configurável por [tipo de programa](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/prime/admin/program-types) |
 | Estado do webinário | Ativo do webinário | Convidado, Inscrito, Participou, Não compareceu, Participou sob demanda |
 | Estado da jornada | Jornada | Estados atuais do nó, pausado, concluído e outros estados do tempo de execução do jornada |
 

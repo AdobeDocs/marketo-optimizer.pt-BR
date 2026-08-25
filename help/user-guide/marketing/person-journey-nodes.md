@@ -17,7 +17,7 @@ O nó _[!UICONTROL Audiência da pessoa]_ é automaticamente o primeiro nó na j
 :::: landing-cards-container
 
 :::
-<!-- ![Person audience node](https://cdn.experienceleague.adobe.com/icons/users.svg) -->
+<!-- ![Person audience node](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=pt-BR) -->
 
 Nó de público-alvo de pessoa
 
@@ -27,7 +27,7 @@ A jornada sempre começa com um nó de público-alvo de pessoa. Defina o públic
 :::
 
 :::
-<!-- ![Action nodes](https://cdn.experienceleague.adobe.com/icons/circle-play.svg) -->
+<!-- ![Action nodes](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR) -->
 
 Nós de ação
 
@@ -37,7 +37,7 @@ Aplique as alterações a cada pessoa em um caminho, como enviar um email ou atu
 :::
 
 :::
-<!-- ![Event nodes](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg) -->
+<!-- ![Event nodes](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR) -->
 
 Nós de evento
 
@@ -47,7 +47,7 @@ Avance as pessoas para a próxima etapa da jornada quando ocorrer uma atividade 
 :::
 
 :::
-<!-- ![Wait nodes](https://cdn.experienceleague.adobe.com/icons/clock.svg) -->
+<!-- ![Wait nodes](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=pt-BR) -->
 
 Esperar nós
 
@@ -57,7 +57,7 @@ Pausar a progressão da jornada por uma duração definida ou até uma data e ho
 :::
 
 :::
-<!-- ![Split and merge paths nodes](https://cdn.experienceleague.adobe.com/icons/code-branch.svg) -->
+<!-- ![Split and merge paths nodes](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR) -->
 
 Dividir e mesclar nós de caminhos
 
@@ -67,7 +67,7 @@ Segmente pessoas em caminhos separados com base em condições, aplique ações 
 :::
 
 :::
-<!-- ![Next best path node](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg) -->
+<!-- ![Next best path node](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=pt-BR) -->
 
 Próximo nó de melhor caminho
 

@@ -28,7 +28,7 @@ Você pode enviar solicitações individuais para acessar e excluir dados do con
 
 As ferramentas de privacidade do [!DNL Marketo Optimizer] ajudam você a cumprir os regulamentos até o [!DNL Privacy Service]. Cada regulamento se aplica se você mantiver dados de pessoas que residem na região associada.
 
-Para obter uma lista atualizada das regulamentações compatíveis, consulte [_Visão geral das regulamentações de privacidade_](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/regulations/overview){target="_blank"} na documentação do Privacy Service.
+Para obter uma lista atualizada das regulamentações compatíveis, consulte [_Visão geral das regulamentações de privacidade_](https://experienceleague.adobe.com/pt-br/docs/experience-platform/privacy/regulations/overview){target="_blank"} na documentação do Privacy Service.
 
 ## Tipos de solicitação {#access-and-delete-requests}
 
@@ -46,7 +46,7 @@ Para obter uma lista atualizada das regulamentações compatíveis, consulte [_V
 * **[!UICONTROL Permissões do Privacy Service]** - `Privacy Read Permission` e `Privacy Write Permission`
 * **[!UICONTROL Governança de dados]** - `View Privacy Console`
 
-Consulte [_Gerenciar permissões do Privacy Service_](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/permissions){target="_blank"} no Guia do [!DNL Privacy Service] para obter informações mais detalhadas.
+Consulte [_Gerenciar permissões do Privacy Service_](https://experienceleague.adobe.com/pt-br/docs/experience-platform/privacy/permissions){target="_blank"} no Guia do [!DNL Privacy Service] para obter informações mais detalhadas.
 
 >[!ENDSHADEBOX]
 
@@ -109,7 +109,7 @@ Use os seguintes valores de campo em sua solicitação:
 | `users.action` | `access` ou `delete` |
 | `users.userIDs.namespace` | `Email` |
 | `include` | `marketo` para incluir dados de [!DNL Marketo Optimizer] e [!DNL Marketo Engage] |
-| `regulation` | Exemplo: `ccpa` <br/>Alguns valores de regulamentos estão sendo alterados para incluir uma abreviação de estado (por exemplo, `ucpa_ut_usa`). Os valores mais antigos permanecem válidos por um período de transição. Consulte a [Visão geral das regras de privacidade](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/regulations/overview){target="_blank"} para obter a lista atual antes de criar integrações com esses valores. |
+| `regulation` | Exemplo: `ccpa` <br/>Alguns valores de regulamentos estão sendo alterados para incluir uma abreviação de estado (por exemplo, `ucpa_ut_usa`). Os valores mais antigos permanecem válidos por um período de transição. Consulte a [Visão geral das regras de privacidade](https://experienceleague.adobe.com/pt-br/docs/experience-platform/privacy/regulations/overview){target="_blank"} para obter a lista atual antes de criar integrações com esses valores. |
 
 O exemplo a seguir envia uma solicitação de exclusão de GDPR que inclui dados [!DNL Marketo Optimizer].
 
