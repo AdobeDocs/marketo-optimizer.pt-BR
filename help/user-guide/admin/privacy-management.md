@@ -3,7 +3,8 @@ title: Gerenciamento de privacidade
 description: Saiba como cumprir com o GDPR, CCPA e outras regulamentações de privacidade no Marketo Otimizer e enviar solicitações usando o Adobe Privacy Service.
 feature: Setup
 role: Admin
-topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+topic_v2:
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 75b481faf0d66210329f95c8afabdfa59e7bcb79
 workflow-type: tm+mt
 source-wordcount: 630

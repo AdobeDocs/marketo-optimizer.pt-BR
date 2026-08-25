@@ -71,7 +71,7 @@ Os tokens do webinário são renderizados no conteúdo do email: assunto, corpo,
 
 >[!IMPORTANT]
 >
->O token da **_URL de Ingresso_** resolve somente para pessoas cujo status do webinário é _Registrado_ ou posterior. O token da URL _**de**_ Gravação só é resolvido depois que a gravação é publicada. Ambos resolvem com antecedência um valor vazio em vez de um erro, portanto, verifique se seus emails são renderizados de forma aceitável antes da publicação.
+>O token da **_URL de Ingresso_** resolve somente para pessoas cujo status do webinário é _Registrado_ ou posterior. O token da URL _&#x200B;**de**&#x200B;_ Gravação só é resolvido depois que a gravação é publicada. Ambos resolvem com antecedência um valor vazio em vez de um erro, portanto, verifique se seus emails são renderizados de forma aceitável antes da publicação.
 
 ## Realizar o webinário {#deliver-webinar}
 

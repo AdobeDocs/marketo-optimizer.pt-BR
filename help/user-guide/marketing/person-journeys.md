@@ -63,11 +63,11 @@ O status de uma jornada pode mudar com base nas ações que você aplica. Com ba
 
 | Status | Descrição | Ações disponíveis |
 | ------ | ----------- | ----------------- |
-| _**Rascunho**_ | Uma jornada não publicada que é editável. | [Publicar](#publish-a-journey), [Duplicar](#duplicate-a-journey), [Excluir](#delete-a-journey) |
-| _**Ativa**_ | O status da jornada muda de _Rascunho_ para _Ao vivo_ quando você publica uma jornada. Nesse estado, ela não é mais editável. | [Duplicar](#duplicate-a-journey), [Fechar para novas entradas](#close-to-new-entries), [Anular](#abort-a-journey) |
-| _**Fechada para novas entradas**_ | O status da jornada muda de _Ativo_ para _Fechado para novas entradas_ quando você clica em **[!UICONTROL Fechar para novas entradas]** no cabeçalho da jornada. | [Duplicar](#duplicate-a-journey), [Anular](#abort-a-journey) |
-| _**Abortada**_ | O status muda para _Ativa_ ou _Fechada para novas entradas_ quando você aborta uma jornada. Uma jornada cancelada não pode ser reiniciada. | [Duplicar](#duplicate-a-journey), [Excluir](#delete-a-journey) |
-| _**Concluída**_ | Quando todos os membros do público-alvo de uma jornada concluírem a jornada, o status mudará de _Ativo_ ou _Fechado para novas entradas_ para _Concluído_. | [Duplicar](#duplicate-a-journey), [Excluir](#delete-a-journey) |
+| _&#x200B;**Rascunho**&#x200B;_ | Uma jornada não publicada que é editável. | [Publicar](#publish-a-journey), [Duplicar](#duplicate-a-journey), [Excluir](#delete-a-journey) |
+| _&#x200B;**Ativa**&#x200B;_ | O status da jornada muda de _Rascunho_ para _Ao vivo_ quando você publica uma jornada. Nesse estado, ela não é mais editável. | [Duplicar](#duplicate-a-journey), [Fechar para novas entradas](#close-to-new-entries), [Anular](#abort-a-journey) |
+| _&#x200B;**Fechada para novas entradas**&#x200B;_ | O status da jornada muda de _Ativo_ para _Fechado para novas entradas_ quando você clica em **[!UICONTROL Fechar para novas entradas]** no cabeçalho da jornada. | [Duplicar](#duplicate-a-journey), [Anular](#abort-a-journey) |
+| _&#x200B;**Abortada**&#x200B;_ | O status muda para _Ativa_ ou _Fechada para novas entradas_ quando você aborta uma jornada. Uma jornada cancelada não pode ser reiniciada. | [Duplicar](#duplicate-a-journey), [Excluir](#delete-a-journey) |
+| _&#x200B;**Concluída**&#x200B;_ | Quando todos os membros do público-alvo de uma jornada concluírem a jornada, o status mudará de _Ativo_ ou _Fechado para novas entradas_ para _Concluído_. | [Duplicar](#duplicate-a-journey), [Excluir](#delete-a-journey) |
 
 ## Criar uma jornada de pessoa {#create-a-person-journey}
 
@@ -98,7 +98,7 @@ O cabeçalho de cada tela de jornada inclui o nome, o status e a programação d
 
 ### Design da jornada {#journey-design}
 
-A _tela de jornada_ é a zona central no espaço de trabalho de jornada. É aqui que você pode adicionar nós de jornada e configurá-los. Clique em um nó para abrir suas propriedades no painel à direita do layout e defina-as de acordo com seu design. Uma jornada de pessoa sempre começa com um nó [_[!UICONTROL Audiência de pessoa ]_](./person-audience-node.md), onde é possível definir a entrada da jornada.
+A _tela de jornada_ é a zona central no espaço de trabalho de jornada. É aqui que você pode adicionar nós de jornada e configurá-los. Clique em um nó para abrir suas propriedades no painel à direita do layout e defina-as de acordo com seu design. Uma jornada de pessoa sempre começa com um nó [_[!UICONTROL Audiência de pessoa &#x200B;]_](./person-audience-node.md), onde é possível definir a entrada da jornada.
 
 Depois de criar uma jornada de pessoa e definir o público-alvo de pessoa, crie a jornada usando nós. A tela de jornada fornece um espaço de design visual em que você pode criar seus casos de uso de marketing B2B em várias etapas usando os seguintes tipos de nó para criar a jornada:
 

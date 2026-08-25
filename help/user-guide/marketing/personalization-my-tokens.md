@@ -1,7 +1,8 @@
 ---
 title: Tokens personalizados para o Personalization
 description: Crie e gerencie Meus tokens personalizados para a personalização dinâmica de seus artefatos de marketing - defina variáveis de texto e número para programas no Marketo Otimizer.
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
 workflow-type: tm+mt
 source-wordcount: 629

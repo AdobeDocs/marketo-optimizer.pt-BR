@@ -38,7 +38,7 @@ Na navegação à esquerda, expanda **[!UICONTROL Gerenciamento de conteúdo]** 
 
 >[!BEGINSHADEBOX]
 
-Na primeira vez que você acessar a biblioteca do _[!UICONTROL Assets]_, verifique os [_[!UICONTROL Termos de Uso da IA Gerativa ]_](https://www.adobe.com/br/legal/licenses-terms/adobe-gen-ai-user-guidelines.html) e confirme seu contrato.
+Na primeira vez que você acessar a biblioteca do _[!UICONTROL Assets]_, verifique os [_[!UICONTROL Termos de Uso da IA Gerativa &#x200B;]_](https://www.adobe.com/br/legal/licenses-terms/adobe-gen-ai-user-guidelines.html) e confirme seu contrato.
 
 ![Caixa de diálogo do contrato de Termos de Uso da IA de Geração na biblioteca da Assets](./assets/dam-asset-library-gen-ai-agree.png){width="500"}
 

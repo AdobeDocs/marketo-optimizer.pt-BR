@@ -60,8 +60,8 @@ Para abrir a superfície de design do [!DNL Adobe Connect], incorporada diretame
 
 1. Escolha um **Modo de entrega**:
 
-   - **Ao vivo** - Os apresentadores hospedam a sessão em tempo real.
-   - **Simulado ao vivo** - O conteúdo pré-gravado é reproduzido no horário agendado, junto com bate-papo ao vivo, pesquisas e perguntas e respostas.
+   &#x200B;- **Ao vivo** - Os apresentadores hospedam a sessão em tempo real.
+   &#x200B;- **Simulado ao vivo** - O conteúdo pré-gravado é reproduzido no horário agendado, junto com bate-papo ao vivo, pesquisas e perguntas e respostas.
 
 1. Escolha uma **sala de webinários**.
 
@@ -111,5 +111,5 @@ Antes de promover o webinário, execute uma sessão de teste para confirmar a sa
 
 Você pode editar um webinário após o início dos registros, mas faça isso com cuidado:
 
-- Editar o agendamento pode acionar notificações de atualização para pessoas já registradas. A capacidade de editar webinários agendados é configurável.
-- Os campos referenciados por tokens em emails em tempo real exigem confirmação explícita para remoção, pois isso interrompe o conteúdo que já está agendado para envio.
+&#x200B;- Editar o agendamento pode acionar notificações de atualização para pessoas já registradas. A capacidade de editar webinários agendados é configurável.
+&#x200B;- Os campos referenciados por tokens em emails em tempo real exigem confirmação explícita para remoção, pois isso interrompe o conteúdo que já está agendado para envio.

@@ -14,7 +14,7 @@ Depois que você [cria um formulário](./forms.md#create-forms), o espaço de de
 
 ![Espaço para design do formulário](assets/form-new-design-space.png){width="700" zoomable="yes"}
 
-O botão _**Enviar**_ (campo de rodapé) faz parte do formulário por padrão e não pode ser removido. Você pode selecionar o componente de botão/rodapé no formulário para [alterar o texto e o estilo do botão](#submit-button).
+O botão _&#x200B;**Enviar**&#x200B;_ (campo de rodapé) faz parte do formulário por padrão e não pode ser removido. Você pode selecionar o componente de botão/rodapé no formulário para [alterar o texto e o estilo do botão](#submit-button).
 
 ## Campos {#fields}
 

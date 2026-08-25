@@ -4,7 +4,9 @@ description: Saiba mais sobre os conceitos por trás dos Webinars interativos no
 keywords: 
 role: User
 feature: Channels
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 75b481faf0d66210329f95c8afabdfa59e7bcb79
 workflow-type: tm+mt
 source-wordcount: 1085
@@ -69,13 +71,13 @@ Os tokens de webinário estão disponíveis em qualquer lugar onde você persona
 
 Os tokens no nível do ativo ficam diretamente na pasta do webinário:
 
-- Título
-- Descrição
-- Data e hora inicial e data e hora final
-- Duração
-- Fuso horário
-- Apresentadores
-- URL de Gravação
+&#x200B;- Título
+&#x200B;- Descrição
+&#x200B;- Data e hora inicial e data e hora final
+&#x200B;- Duração
+&#x200B;- Fuso horário
+&#x200B;- Apresentadores
+&#x200B;- URL de Gravação
 
 >[!NOTE]
 >
@@ -83,9 +85,9 @@ Os tokens no nível do ativo ficam diretamente na pasta do webinário:
 
 Os tokens por destinatário residem em uma subpasta **Member**:
 
-- **Status** - O status atual do webinário do destinatário (Convidado, Registrado, Participou, Não Compareceu ou Participou sob Demanda). Consulte [status do webinário](#webinar-status).
-- **Ingressando na URL** - O link [!DNL Adobe Connect] pessoal do destinatário. Isso é resolvido somente depois que o estado do webinário do recipient é Registrado ou posterior. Resolve vazio para qualquer um em um estágio anterior.
-- **URL de Gravação** - Resolve depois que a gravação é publicada após a sessão ao vivo e permanece vazia até lá. Use-o condicionalmente nos emails pós-webinário para que um link não apareça antes que haja uma gravação para mostrar.
+&#x200B;- **Status** - O status atual do webinário do destinatário (Convidado, Registrado, Participou, Não Compareceu ou Participou sob Demanda). Consulte [status do webinário](#webinar-status).
+&#x200B;- **Ingressando na URL** - O link [!DNL Adobe Connect] pessoal do destinatário. Isso é resolvido somente depois que o estado do webinário do recipient é Registrado ou posterior. Resolve vazio para qualquer um em um estágio anterior.
+&#x200B;- **URL de Gravação** - Resolve depois que a gravação é publicada após a sessão ao vivo e permanece vazia até lá. Use-o condicionalmente nos emails pós-webinário para que um link não apareça antes que haja uma gravação para mostrar.
 
 >[!NOTE]
 >

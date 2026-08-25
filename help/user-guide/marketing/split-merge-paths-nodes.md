@@ -20,7 +20,7 @@ Um nó Caminhos divididos define um ou mais caminhos segmentados com base em fil
 
 <!-- A split based on a people filter is automatically closed with a merge paths node so that all people can move forward to the next step. Split by people paths can include only people actions. These paths cannot be split again and automatically join back. _not currently true_ -->
 
-_**Como funciona um caminho dividido por nó de pessoas**_
+_&#x200B;**Como funciona um caminho dividido por nó de pessoas**&#x200B;_
 
 * A avaliação de cada caminho é de cima para baixo. Se uma pessoa corresponder ao primeiro e ao segundo caminhos, ela continuará somente pelo primeiro caminho.
 * O nó oferece suporte à definição de um caminho _Outras pessoas_, em que você pode adicionar ações ou eventos para pessoas que não correspondem a um dos segmentos/caminhos definidos.
