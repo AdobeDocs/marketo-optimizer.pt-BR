@@ -3,10 +3,10 @@ user-guide-title: Documentação do Marketo Otimizer
 user-guide-description: Saiba mais sobre o Adobe Marketo Otimizer e como você pode usá-lo para executar o marketing coordenado e o envolvimento de vendas com conteúdo personalizado alimentado por IA para clientes potenciais e contas B2B.
 hide: true
 nudge: red
-source-git-commit: d1268dd4fadec58b5adedeaa295ca0624c2c2dcd
+source-git-commit: 6264cadee61cb4a9366df655611803214110cccf
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 46%
+source-wordcount: '219'
+ht-degree: 45%
 
 ---
 
@@ -96,7 +96,6 @@ ht-degree: 46%
     + [Configuração da predefinição do formulário](./admin/configuration-presets-forms.md)
   + [Regras de negócios](./admin/business-rules.md)
   + [Tipos de programas](./admin/program-types.md)
-+ [Qualificador de Vendas](./sales-qualifier/sales-qualifier.md)
 
 <!--
    + [Persona mapping](./admin/persona-mapping.md)
