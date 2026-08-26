@@ -3,9 +3,9 @@ title: Metadados C2PA
 description: Saiba como o Adobe Marketo Otimizer aplica automaticamente metadados C2PA a imagens geradas com IA gerativa e o que isso significa para o seu conteúdo.
 feature: Assets, Content
 role: User
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+source-git-commit: d1268dd4fadec58b5adedeaa295ca0624c2c2dcd
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,8 @@ As organizações de marketing estão mais preocupadas do que nunca com a transp
 Para obter informações abrangentes sobre o histórico de ativos, você pode usar a [ferramenta de inspeção](https://contentauthenticity.adobe.com/inspect) do Adobe Content Authenticity.
 
 Os metadados C2PA persistem com o arquivo de imagem. Quando uma imagem gerada ou editada com IA gerativa é carregada para ou exportada do [!DNL Adobe Marketo Optimizer], seus metadados C2PA são preservados.
+
+Para obter detalhes adicionais sobre a anexação automática de metadados C2PA nos aplicativos do Adobe CX Enterprise, consulte [_Generative AI content transparency_](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency){target="_blank"} no AI no CX Enterprise guide.
 
 >[!NOTE]
 >
