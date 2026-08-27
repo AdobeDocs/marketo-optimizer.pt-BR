@@ -93,7 +93,7 @@ Há vários aspectos a serem considerados antes de você começar a criar formul
 >id="ajo-b2b-prime_lp_form_preset"
 >title="Selecionar uma predefinição"
 >abstract="Escolha uma predefinição que contenha a conexão a ser usada e um conjunto de dados predefinido para o formulário."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/prime/admin/channels/configuration-presets-forms#create-preset" text="Criar uma predefinição de formulário"
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/prime/admin/channels/configuration-presets-forms#create-preset" text="Criar uma predefinição de formulário"
 
 Você pode criar um formulário em [!DNL Marketo Optimizer] clicando em **[!UICONTROL Criar formulário]** na parte superior direita da página da lista _[!UICONTROL Forms]_.
 
