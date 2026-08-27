@@ -22,7 +22,7 @@ ht-degree: 7%
 
 _Modo escuro_ permite que um cliente ou aplicativo de email de suporte exiba emails com planos de fundo mais escuros e cores mais claras para texto, botões e outros elementos visuais. Esse tipo de monitor pode reduzir a tensão ocular, economizar bateria e melhorar a legibilidade em ambientes com pouca luminosidade, proporcionando uma experiência de visualização mais confortável. Como uma tendência crescente nos principais sistemas operacionais e aplicativos, agora é uma consideração importante no design de email moderno para garantir que o conteúdo permaneça legível e visualmente atraente para todos os usuários.
 
-À medida que você [cria seu conteúdo de email](./email-authoring.md) no espaço de design visual do [!DNL Marketo Optimizer], é possível alternar para o modo de exibição _&#x200B;**[!UICONTROL Escuro]**&#x200B;_. Nesta visualização, também é possível definir configurações personalizadas específicas para oferecer suporte a clientes de email quando o modo escuro estiver ativado.
+À medida que você [cria seu conteúdo de email](./email-authoring.md) no espaço de design visual do [!DNL Marketo Optimizer], é possível alternar para o modo de exibição _**[!UICONTROL Escuro]**_. Nesta visualização, também é possível definir configurações personalizadas específicas para oferecer suporte a clientes de email quando o modo escuro estiver ativado.
 
 ## Considerações do cliente de email {#email-client-considerations}
 
