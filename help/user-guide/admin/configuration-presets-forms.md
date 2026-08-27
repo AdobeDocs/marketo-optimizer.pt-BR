@@ -18,7 +18,7 @@ Quando os dados chegam ao endpoint de transmissão, eles são vinculados às inf
 
 ## Pré-requisitos
 
-Para usar formulários web, você deve ter uma ou mais _**conexões de transmissão da API HTTP**_ definidas no Adobe Experience Platform. Verifique se cada conexão que você deseja usar atende aos seguintes requisitos:
+Para usar formulários web, você deve ter uma ou mais _&#x200B;**conexões de transmissão da API HTTP**&#x200B;_ definidas no Adobe Experience Platform. Verifique se cada conexão que você deseja usar atende aos seguintes requisitos:
 
 * O tipo de dados deve ser definido como XDM (não dados brutos)
 * A autenticação deve ser desabilitada (conexão não autenticada)
