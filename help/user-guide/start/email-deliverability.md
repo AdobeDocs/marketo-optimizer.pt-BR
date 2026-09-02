@@ -1,7 +1,7 @@
 ---
 title: Configuração da entregabilidade de email
 description: Configure pools de delegação de subdomínio, DMARC, SPF, DKIM e IP para o Marketo Otimizer.
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+source-git-commit: 81d9880cb37bb60301252b48bd89637b6656a993
 workflow-type: tm+mt
 source-wordcount: '2502'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Ele usa os seguintes blocos fundamentais, configurados por um administrador, nor
 1. [Confirme o pool de IPs](#ip-pools) usado para enviar emails para o subdomínio.
 1. [Crie uma ou mais configurações de canal de email](../admin/email-channel-configuration.md#create-email-channel-configuration) que associam um subdomínio, um pool de IPs e uma identidade de remetente.
 
-![Configuração da capacidade de entrega de emails do Marketo Otimizer](./assets/email-deliverability-diagram.svg){width="550" zoomable="yes"}
+![Configuração da capacidade de entrega de emails do Marketo Otimizer](./assets/email-deliverability-diagram.svg){width="600"}
 
 >[!TIP]
 >
