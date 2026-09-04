@@ -1,9 +1,9 @@
 ---
 title: Habilidades dos colegas de trabalho
 description: Revise as habilidades do CX Enterprise Co-worker no Marketo Otimizer — pacotes de fluxos de trabalho para programas, jornadas, públicos, pontuação, conteúdo e otimização de hora de envio.
-source-git-commit: ef30aa7a901c18c7b9b0919d537ad59db9a6c481
+source-git-commit: 9db94582512d95f6c07d4e978a0a27291b471900
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '581'
 ht-degree: 7%
 
 ---
@@ -37,7 +37,7 @@ Uma _habilidade_ é um fluxo de trabalho empacotado que o Coworker sabe como exe
 | `journey-stop` | Interromper, fechar, parar, parar ou matar jornadas. | Gravar | [!DNL Marketo Optimizer] | Leituras + gravações [!DNL Marketo Optimizer] |
 | `journey-reentry` | Configurar reentrada: permitir/não permitir, lista suspensa, máximo de entradas. | Gravar | [!DNL Marketo Optimizer] | Leituras + gravações [!DNL Marketo Optimizer] |
 | `journey-trafficcontrol` | Execute uma simulação de controle de tráfego mostrando o roteamento de perfis. | Ler | [!DNL Marketo Optimizer] | Leituras [!DNL Marketo Optimizer] (simulação) |
-| `journey-observability` | Progressão de depuração/monitor — caminhos, sincronização, divisões, paralisações e ressonância. | Ler | [!DNL Marketo Optimizer] | Lê [!DNL Marketo Optimizer] + [!DNL Marketo Engage] (verificação da lista estática) |
+| `journey-observability` | Progressão de depuração/monitor — caminhos, sincronização, divisões, paralisações e ressonância. <p>Consulte _[Depurar e monitorar a progressão da jornada](./journey-observability.md)_. | Ler | [!DNL Marketo Optimizer] | Lê [!DNL Marketo Optimizer] + [!DNL Marketo Engage] (verificação da lista estática) |
 
 ## Públicos e pessoas {#audiences-people}
 
