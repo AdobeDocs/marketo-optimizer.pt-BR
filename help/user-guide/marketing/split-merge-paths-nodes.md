@@ -1,9 +1,12 @@
 ---
 title: Nós Dividir e Mesclar Caminhos
 description: Saiba como usar nós de caminhos divididos e mesclados em jornadas de pessoas para segmentar pessoas em caminhos distintos com base em condições definidas e, em seguida, reuni-los em um ponto comum downstream.
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/XMN7lgb77bFlJkNXrmPf9ZSCV-GgIuybtr-O3AsqT2U'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: 660
 ht-degree: 0%
 
 ---
@@ -20,7 +23,7 @@ Um nó Caminhos divididos define um ou mais caminhos segmentados com base em fil
 
 <!-- A split based on a people filter is automatically closed with a merge paths node so that all people can move forward to the next step. Split by people paths can include only people actions. These paths cannot be split again and automatically join back. _not currently true_ -->
 
-_&#x200B;**Como funciona um caminho dividido por nó de pessoas**&#x200B;_
+_**Como funciona um caminho dividido por nó de pessoas**_
 
 * A avaliação de cada caminho é de cima para baixo. Se uma pessoa corresponder ao primeiro e ao segundo caminhos, ela continuará somente pelo primeiro caminho.
 * O nó oferece suporte à definição de um caminho _Outras pessoas_, em que você pode adicionar ações ou eventos para pessoas que não correspondem a um dos segmentos/caminhos definidos.

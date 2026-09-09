@@ -4,10 +4,11 @@ description: Saiba mais sobre os conceitos por trás dos Webinars interativos no
 keywords: 
 role: User
 feature: Channels
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 75b481faf0d66210329f95c8afabdfa59e7bcb79
+TQID: 'https://experienceleague.adobe.com/rcaoljHUnCghXxc-W0LY5DYM-46-9jc5mz39208eMxE'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: 3c1de303-7a7c-59a6-abca-8c534730e19cid: 3cf5f37e-e87e-5179-812b-53ce05d7eebbid: 46e599c6-e20f-5f67-9824-93415016f66bid: 64b90904-e4f0-5c1b-a871-8c6a40b204a1id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4id: d4203578-d294-5145-b397-f26f4488a904
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 1085
 ht-degree: 2%
@@ -31,7 +32,7 @@ Você pode criar um webinário de duas maneiras:
 
 ## Webinário como um ativo
 
-Um webinário é um ativo que pertence a um [programa](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/prime/marketing-management/programs/programs), da mesma forma que um email ou uma página de aterrissagem. Adicionar um webinário a um programa o registra lá e disponibiliza seus tokens, atributos e atividades para cada jornada e ativo nesse programa.
+Um webinário é um ativo que pertence a um [programa](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/prime/marketing-management/programs/programs), da mesma forma que um email ou uma página de aterrissagem. Adicionar um webinário a um programa o registra lá e disponibiliza seus tokens, atributos e atividades para cada jornada e ativo nesse programa.
 
 >[!IMPORTANT]
 >
@@ -43,7 +44,7 @@ Para qualquer pessoa que seja membro de um programa que contenha um webinário, 
 
 | Estado | Proprietário | Valores |
 |---|---|---|
-| Status do membro do programa | Programa | Configurável por [tipo de programa](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/prime/admin/program-types) |
+| Status do membro do programa | Programa | Configurável por [tipo de programa](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/prime/admin/program-types) |
 | Estado do webinário | Ativo do webinário | Convidado, Inscrito, Participou, Não compareceu, Participou sob demanda |
 | Estado da jornada | Jornada | Estados atuais do nó, pausado, concluído e outros estados do tempo de execução do jornada |
 
@@ -71,13 +72,13 @@ Os tokens de webinário estão disponíveis em qualquer lugar onde você persona
 
 Os tokens no nível do ativo ficam diretamente na pasta do webinário:
 
-&#x200B;- Título
-&#x200B;- Descrição
-&#x200B;- Data e hora inicial e data e hora final
-&#x200B;- Duração
-&#x200B;- Fuso horário
-&#x200B;- Apresentadores
-&#x200B;- URL de Gravação
+- Título
+- Descrição
+- Data e hora inicial e data e hora final
+- Duração
+- Fuso horário
+- Apresentadores
+- URL de Gravação
 
 >[!NOTE]
 >
@@ -85,9 +86,9 @@ Os tokens no nível do ativo ficam diretamente na pasta do webinário:
 
 Os tokens por destinatário residem em uma subpasta **Member**:
 
-&#x200B;- **Status** - O status atual do webinário do destinatário (Convidado, Registrado, Participou, Não Compareceu ou Participou sob Demanda). Consulte [status do webinário](#webinar-status).
-&#x200B;- **Ingressando na URL** - O link [!DNL Adobe Connect] pessoal do destinatário. Isso é resolvido somente depois que o estado do webinário do recipient é Registrado ou posterior. Resolve vazio para qualquer um em um estágio anterior.
-&#x200B;- **URL de Gravação** - Resolve depois que a gravação é publicada após a sessão ao vivo e permanece vazia até lá. Use-o condicionalmente nos emails pós-webinário para que um link não apareça antes que haja uma gravação para mostrar.
+- **Status** - O status atual do webinário do destinatário (Convidado, Registrado, Participou, Não Compareceu ou Participou sob Demanda). Consulte [status do webinário](#webinar-status).
+- **Ingressando na URL** - O link [!DNL Adobe Connect] pessoal do destinatário. Isso é resolvido somente depois que o estado do webinário do recipient é Registrado ou posterior. Resolve vazio para qualquer um em um estágio anterior.
+- **URL de Gravação** - Resolve depois que a gravação é publicada após a sessão ao vivo e permanece vazia até lá. Use-o condicionalmente nos emails pós-webinário para que um link não apareça antes que haja uma gravação para mostrar.
 
 >[!NOTE]
 >

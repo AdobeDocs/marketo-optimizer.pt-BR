@@ -1,9 +1,12 @@
 ---
 title: Páginas de destino
 description: 'Criar, projetar e publicar páginas de aterrissagem para jornadas de pessoas: crie do zero, importe o HTML, adicione formulários, personalize o conteúdo e crie links de emails no Marketo Otimizer.'
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/2eRB0eqgUbOrzaRTnWWy--Fjb4e5-qopiOMZWmr-sa4'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1id: 8881ff95-1653-5fea-82af-ce1549c0d99d
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '1589'
+source-wordcount: 1589
 ht-degree: 2%
 
 ---

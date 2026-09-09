@@ -1,9 +1,12 @@
 ---
 title: Nós de Jornada de pessoa
 description: 'Saiba mais sobre os nós de jornada de pessoas no Marketo Otimizer: público-alvo, ações, eventos, esperas, divisões de caminho e o próximo melhor roteamento de caminho orientado por IA.'
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/DXva-JytBjj7MHwYeeYfsR2GYomHdj5NZWZk0kgdv1M'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: 317
 ht-degree: 0%
 
 ---
@@ -17,7 +20,7 @@ O nó _[!UICONTROL Audiência da pessoa]_ é automaticamente o primeiro nó na j
 :::: landing-cards-container
 
 :::
-<!-- ![Person audience node](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=pt-BR) -->
+<!-- ![Person audience node](https://cdn.experienceleague.adobe.com/icons/users.svg) -->
 
 Nó de público-alvo de pessoa
 
@@ -27,7 +30,7 @@ A jornada sempre começa com um nó de público-alvo de pessoa. Defina o públic
 :::
 
 :::
-<!-- ![Action nodes](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=pt-BR) -->
+<!-- ![Action nodes](https://cdn.experienceleague.adobe.com/icons/circle-play.svg) -->
 
 Nós de ação
 
@@ -37,7 +40,7 @@ Aplique as alterações a cada pessoa em um caminho, como enviar um email ou atu
 :::
 
 :::
-<!-- ![Event nodes](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=pt-BR) -->
+<!-- ![Event nodes](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg) -->
 
 Nós de evento
 
@@ -47,7 +50,7 @@ Avance as pessoas para a próxima etapa da jornada quando ocorrer uma atividade 
 :::
 
 :::
-<!-- ![Wait nodes](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=pt-BR) -->
+<!-- ![Wait nodes](https://cdn.experienceleague.adobe.com/icons/clock.svg) -->
 
 Esperar nós
 
@@ -57,7 +60,7 @@ Pausar a progressão da jornada por uma duração definida ou até uma data e ho
 :::
 
 :::
-<!-- ![Split and merge paths nodes](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=pt-BR) -->
+<!-- ![Split and merge paths nodes](https://cdn.experienceleague.adobe.com/icons/code-branch.svg) -->
 
 Dividir e mesclar nós de caminhos
 
@@ -67,7 +70,7 @@ Segmente pessoas em caminhos separados com base em condições, aplique ações 
 :::
 
 :::
-<!-- ![Next best path node](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=pt-BR) -->
+<!-- ![Next best path node](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg) -->
 
 Próximo nó de melhor caminho
 

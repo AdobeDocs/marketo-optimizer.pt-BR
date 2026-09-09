@@ -3,9 +3,12 @@ title: Editor Personalization
 description: Saiba como usar o editor de personalização no Marketo Otimizer para selecionar, organizar, personalizar e validar tokens de atributos de perfil em emails, mensagens de WhatsApp, páginas de aterrissagem e campos de URL.
 feature: Content Design Tools
 role: User
-source-git-commit: 75b481faf0d66210329f95c8afabdfa59e7bcb79
+TQID: 'https://experienceleague.adobe.com/5aPDp4kMpQo7LtE6CEUQWf2IbyeSMoW6iN5ZR-f-kLI'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: 1002
 ht-degree: 12%
 
 ---

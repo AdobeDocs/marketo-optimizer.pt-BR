@@ -3,9 +3,13 @@ title: Ativos
 description: Gerencie ativos de imagem do Marketo Otimizer para emails, modelos e fragmentos visuais.
 feature: Assets, Content
 role: User
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/4Nggkg68RA3TQTYwhOG-2dOvmyXVvBqunBGC3fWRV-k'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1id: 8881ff95-1653-5fea-82af-ce1549c0d99d
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: 734
 ht-degree: 19%
 
 ---
@@ -38,7 +42,7 @@ Na navegação à esquerda, expanda **[!UICONTROL Gerenciamento de conteúdo]** 
 
 >[!BEGINSHADEBOX]
 
-Na primeira vez que você acessar a biblioteca do _[!UICONTROL Assets]_, verifique os [_[!UICONTROL Termos de Uso da IA Gerativa &#x200B;]_](https://www.adobe.com/br/legal/licenses-terms/adobe-gen-ai-user-guidelines.html) e confirme seu contrato.
+Na primeira vez que você acessar a biblioteca do _[!UICONTROL Assets]_, verifique os [_[!UICONTROL Termos de Uso da IA Gerativa ]_](https://www.adobe.com/br/legal/licenses-terms/adobe-gen-ai-user-guidelines.html) e confirme seu contrato.
 
 ![Caixa de diálogo do contrato de Termos de Uso da IA de Geração na biblioteca da Assets](./assets/dam-asset-library-gen-ai-agree.png){width="500"}
 

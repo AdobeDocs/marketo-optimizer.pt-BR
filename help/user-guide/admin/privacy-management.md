@@ -3,9 +3,11 @@ title: Gerenciamento de privacidade
 description: Saiba como cumprir com o GDPR, CCPA e outras regulamentações de privacidade no Marketo Otimizer e enviar solicitações usando o Adobe Privacy Service.
 feature: Setup
 role: Admin
-topic_v2:
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 75b481faf0d66210329f95c8afabdfa59e7bcb79
+TQID: 'https://experienceleague.adobe.com/VgnMCjm6l4pWG2-gqMuOmZUqU7E2Wrc-eVxn4kL5rKc'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: 18a33a66-85a1-58e4-8e50-418b832ade8bid: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 630
 ht-degree: 2%
@@ -28,7 +30,7 @@ Você pode enviar solicitações individuais para acessar e excluir dados do con
 
 As ferramentas de privacidade do [!DNL Marketo Optimizer] ajudam você a cumprir os regulamentos até o [!DNL Privacy Service]. Cada regulamento se aplica se você mantiver dados de pessoas que residem na região associada.
 
-Para obter uma lista atualizada das regulamentações compatíveis, consulte [_Visão geral das regulamentações de privacidade_](https://experienceleague.adobe.com/pt-br/docs/experience-platform/privacy/regulations/overview){target="_blank"} na documentação do Privacy Service.
+Para obter uma lista atualizada das regulamentações compatíveis, consulte [_Visão geral das regulamentações de privacidade_](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/regulations/overview){target="_blank"} na documentação do Privacy Service.
 
 ## Tipos de solicitação {#access-and-delete-requests}
 
@@ -46,7 +48,7 @@ Para obter uma lista atualizada das regulamentações compatíveis, consulte [_V
 * **[!UICONTROL Permissões do Privacy Service]** - `Privacy Read Permission` e `Privacy Write Permission`
 * **[!UICONTROL Governança de dados]** - `View Privacy Console`
 
-Consulte [_Gerenciar permissões do Privacy Service_](https://experienceleague.adobe.com/pt-br/docs/experience-platform/privacy/permissions){target="_blank"} no Guia do [!DNL Privacy Service] para obter informações mais detalhadas.
+Consulte [_Gerenciar permissões do Privacy Service_](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/permissions){target="_blank"} no Guia do [!DNL Privacy Service] para obter informações mais detalhadas.
 
 >[!ENDSHADEBOX]
 
@@ -109,7 +111,7 @@ Use os seguintes valores de campo em sua solicitação:
 | `users.action` | `access` ou `delete` |
 | `users.userIDs.namespace` | `Email` |
 | `include` | `marketo` para incluir dados de [!DNL Marketo Optimizer] e [!DNL Marketo Engage] |
-| `regulation` | Exemplo: `ccpa` <br/>Alguns valores de regulamentos estão sendo alterados para incluir uma abreviação de estado (por exemplo, `ucpa_ut_usa`). Os valores mais antigos permanecem válidos por um período de transição. Consulte a [Visão geral das regras de privacidade](https://experienceleague.adobe.com/pt-br/docs/experience-platform/privacy/regulations/overview){target="_blank"} para obter a lista atual antes de criar integrações com esses valores. |
+| `regulation` | Exemplo: `ccpa` <br/>Alguns valores de regulamentos estão sendo alterados para incluir uma abreviação de estado (por exemplo, `ucpa_ut_usa`). Os valores mais antigos permanecem válidos por um período de transição. Consulte a [Visão geral das regras de privacidade](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/regulations/overview){target="_blank"} para obter a lista atual antes de criar integrações com esses valores. |
 
 O exemplo a seguir envia uma solicitação de exclusão de GDPR que inclui dados [!DNL Marketo Optimizer].
 
