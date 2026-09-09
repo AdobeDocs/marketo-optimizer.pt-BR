@@ -3,10 +3,10 @@ user-guide-title: Documentação do Marketo Otimizer
 user-guide-description: Saiba mais sobre o Adobe Marketo Otimizer e como você pode usá-lo para executar o marketing coordenado e o envolvimento de vendas com conteúdo personalizado alimentado por IA para clientes potenciais e contas B2B.
 hide: true
 nudge: red
-source-git-commit: 9db94582512d95f6c07d4e978a0a27291b471900
+source-git-commit: 8b3ea5f52fc50ea6c995ace44dece90247deff8b
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 44%
+source-wordcount: '231'
+ht-degree: 43%
 
 ---
 
@@ -29,6 +29,7 @@ ht-degree: 44%
   + [Criar modelos de pontuação personalizados](./agents/lead-scoring-model.md)
   + [Criar e promover webinars](./agents/webinar-creation.md)
   + [Monitorar e depurar a progressão da jornada](./agents/journey-observability.md)
+  + [Configurar e analisar a intenção](./agents/intent.md)
 + Decisão sobre IA {#ai-decisioning}
   + [Visão geral](./agents/ai-decisioning.md)
   + [Integridade da decisão sobre IA](./agents/ai-decisioning-health.md)
@@ -62,6 +63,7 @@ ht-degree: 44%
   + [Dados da pessoa](./audiences/person-details.md)
   + [Públicos-alvo baseados em eventos](./audiences/event-based-audiences.md)
   + [Pontuações de engajamento da pessoa](./audiences/engagement-scores.md)
+  + [Configuração do modelo de intenção](./audiences/intent-configuration.md)
   + [Personas derivadas](./audiences/personas.md)
   + [Destinos](./audiences/destinations.md)
 + Conteúdo {#content}
