@@ -2,8 +2,10 @@
 title: Design de formulário
 description: Crie formulários com tipos de campo, validação, estilo e atributos de esquema XDM para a coleta de dados de negócios no Marketo Otimizer.
 TQID: 'https://experienceleague.adobe.com/NyFwttqh2J9hkgS4tE9B-R2GCsZnsJXwoIX27yV-epA'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 2177
@@ -17,7 +19,7 @@ Depois que você [cria um formulário](./forms.md#create-forms), o espaço de de
 
 ![Espaço para design do formulário](assets/form-new-design-space.png){width="700" zoomable="yes"}
 
-O botão _**Enviar**_ (campo de rodapé) faz parte do formulário por padrão e não pode ser removido. Você pode selecionar o componente de botão/rodapé no formulário para [alterar o texto e o estilo do botão](#submit-button).
+O botão _&#x200B;**Enviar**&#x200B;_ (campo de rodapé) faz parte do formulário por padrão e não pode ser removido. Você pode selecionar o componente de botão/rodapé no formulário para [alterar o texto e o estilo do botão](#submit-button).
 
 ## Campos {#fields}
 

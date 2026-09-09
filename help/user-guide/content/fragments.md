@@ -2,8 +2,10 @@
 title: Fragmentos
 description: Crie, gerencie e reutilize fragmentos de conteúdo visual para emails e modelos - crie blocos reutilizáveis, publique versões e rastreie o uso no Marketo Otimizer.
 TQID: 'https://experienceleague.adobe.com/dxPI12xu0thTB3eYJiyCY3OtLIxX-8IKKeXitH4C0Ws'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-feature_v2: id: 8881ff95-1653-5fea-82af-ce1549c0d99d
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 8881ff95-1653-5fea-82af-ce1549c0d99d
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 2634

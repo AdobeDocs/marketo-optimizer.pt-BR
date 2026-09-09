@@ -5,9 +5,12 @@ keywords:
 role: User
 feature: Person Journeys
 TQID: 'https://experienceleague.adobe.com/9NJrT-Y66XXF1-mWDO80WpymCB6ujrkjkR87MhKuiB8'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-feature_v2: id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 823
@@ -75,7 +78,7 @@ Os tokens do webinário são renderizados no conteúdo do email: assunto, corpo,
 
 >[!IMPORTANT]
 >
->O token da **_URL de Ingresso_** resolve somente para pessoas cujo status do webinário é _Registrado_ ou posterior. O token da URL _**de**_ Gravação só é resolvido depois que a gravação é publicada. Ambos resolvem com antecedência um valor vazio em vez de um erro, portanto, verifique se seus emails são renderizados de forma aceitável antes da publicação.
+>O token da **_URL de Ingresso_** resolve somente para pessoas cujo status do webinário é _Registrado_ ou posterior. O token da URL _&#x200B;**de**&#x200B;_ Gravação só é resolvido depois que a gravação é publicada. Ambos resolvem com antecedência um valor vazio em vez de um erro, portanto, verifique se seus emails são renderizados de forma aceitável antes da publicação.
 
 ## Realizar o webinário {#deliver-webinar}
 
