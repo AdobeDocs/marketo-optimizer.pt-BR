@@ -1,10 +1,21 @@
 ---
 title: Regras de negócios
 description: Crie e gerencie conjuntos de regras para aplicar regras de limite de frequência e horas de silêncio que controlam com que frequência e quando os clientes recebem mensagens de marketing.
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/uLuI4cGbmaY4O0AEtf5tCT-czPl0AsY-44t2lU2xbrQ'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+  - id: a659ad61-de21-559d-a901-02e2fb329ff5
+  - id: d4203578-d294-5145-b397-f26f4488a904
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '2965'
-ht-degree: 10%
+source-wordcount: 2965
+ht-degree: 13%
 
 ---
 
@@ -186,7 +197,7 @@ O uso de conjuntos de regras de canal permite definir o limite de frequência po
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_rule_sets_channel"
->title="Definir os canais aos quais a regra se aplica"
+>title="Defina os canais aos quais a regra se aplica"
 >abstract="Selecione pelo menos um canal. O limite se aplica em canais como uma contagem total."
 
 1. Selecione o conjunto de regras de canal ao qual deseja adicionar a regra de limitação ou crie um novo conjunto de regras de canal.
@@ -279,7 +290,7 @@ Ao testar as regras de frequência, é recomendável usar um perfil de teste rec
 
 ## Definir horário de silêncio {#quiet-hours}
 
-O **_Período de silêncio_** permite definir exclusões com base no tempo para canais de email, SMS, Push e WhatsApp. Elas garantem que nenhuma mensagem seja enviada durante períodos específicos, ajudando a respeitar as preferências do cliente e os requisitos de conformidade.
+O **_Período de silêncio_** permite definir exclusões com base no tempo para canais de email, SMS, Push e WhatsApp. Eles garantem que nenhuma mensagem seja enviada durante períodos específicos, ajudando a respeitar as preferências do cliente e os requisitos de conformidade.
 
 >[!NOTE]
 >

@@ -1,9 +1,14 @@
 ---
 title: Criação de fragmentos
 description: Crie fragmentos de conteúdo reutilizáveis com ferramentas de design visual - adicione estrutura, ativos, personalização, conteúdo condicional e rastreamento de URL vinculado para emails e modelos no Marketo Otimizer.
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/KbnYkUMVfjBv5ST55WwAqYiMDkynwSw4BKIP0bsE-DI'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: 203
 ht-degree: 3%
 
 ---
