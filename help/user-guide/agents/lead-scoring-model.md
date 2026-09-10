@@ -2,11 +2,9 @@
 title: Criar modelos de pontuação personalizados
 description: Crie, visualize e publique modelos de pontuação de lead personalizados no Marketo Otimizer usando a habilidade do Scoring Studio na interface de bate-papo do Colaborador.
 TQID: 'https://experienceleague.adobe.com/OAY0CzFPTyUi7NCPbRnxGkG6nnndPygbwGlbv9u2oeA'
-product_v2:
-  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-feature_v2:
-  - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+source-git-commit: 96a923c923a6290b9d90e4ffc8e161d78f029c47
 workflow-type: tm+mt
 source-wordcount: 468
 ht-degree: 1%
@@ -60,7 +58,7 @@ Você pode construir e configurar modelos inteiramente por meio do Co-worker usa
 Quando seu modelo estiver finalizado, instrua o Colaborador a publicá-lo. O processo de publicação trata automaticamente do seguinte:
 
 | Etapa | O que acontece |
-|---|---|
+| --- | --- |
 | **Compilação de regras** | Todas as regras de pontuação são compiladas e validadas |
 | **Criação da tarefa de pontuação** | Uma tarefa de pontuação programada é criada e configurada para ser executada diariamente |
 
