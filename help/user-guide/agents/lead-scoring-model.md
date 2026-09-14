@@ -4,21 +4,21 @@ description: Crie, visualize e publique modelos de pontuação de lead personali
 TQID: 'https://experienceleague.adobe.com/OAY0CzFPTyUi7NCPbRnxGkG6nnndPygbwGlbv9u2oeA'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+    internal-label: Chat Interface
 source-git-commit: 96a923c923a6290b9d90e4ffc8e161d78f029c47
 workflow-type: tm+mt
-source-wordcount: 468
-ht-degree: 1%
-
+source-wordcount: '468'
+ht-degree: 5%
 ---
-
 # Criar modelos de pontuação personalizados
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_scoring_studio"
 >title="Scoring Studio"
->abstract="Use a habilidade Scoring Studio para criar, configurar e publicar modelos de pontuação de lead personalizados por meio da interface de bate-papo do Colaborador."
+>abstract="Use a habilidade Scoring Studio para criar, configurar e publicar modelos de pontuação de leads personalizados por meio da interface de chat do Coworker."
 
 A habilidade [_Scoring Studio_](./skills.md#scoring-signals) em [!DNL Adobe Marketo Optimizer] fornece uma solução de pontuação de cliente potencial nativa de IA que permite criar, configurar e publicar modelos de pontuação de cliente potencial. O estúdio combina um fluxo de trabalho orientado por agentes com uma interface visual — é possível criar modelos de pontuação por meio de prompts de linguagem natural na [interface de chat do Coworker](./chat-interface.md) ou interagindo diretamente com os controles da interface.
 
