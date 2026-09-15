@@ -3,13 +3,11 @@ user-guide-title: Documentação do Marketo Otimizer
 user-guide-description: Saiba mais sobre o Adobe Marketo Otimizer e como você pode usá-lo para executar o marketing coordenado e o envolvimento de vendas com conteúdo personalizado alimentado por IA para clientes potenciais e contas B2B.
 hide: true
 nudge: red
-source-git-commit: 96a923c923a6290b9d90e4ffc8e161d78f029c47
+source-git-commit: b25a376b80aa6ee821f372398b77e5b6dd542e3c
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 43%
-
+source-wordcount: '243'
+ht-degree: 44%
 ---
-
 
 # Guia do usuário do Marketo Otimizer {#user}
 
@@ -58,6 +56,12 @@ ht-degree: 43%
     + [Criar um webinário](./marketing/create-webinar.md)
     + [Jornadas do webinário](./marketing/webinar-journeys.md)
 + [Jornada controle de tráfego](./marketing/journey-traffic-control.md)
++ Relatórios {#reports}
+  + [Visão geral](./reports/reports-overview.md)
+  + [Visão geral da jornada de pessoa](./reports/person-journey-overview-report.md)
+  + [Engajamento](./reports/engagement-report.md)
+  + {hide-from-toc}[Engajamento no email](./reports/email-engagement-report.md)
+  + [Envolvimento com a Web](./reports/web-engagement-report.md)
 + Públicos-alvo {#audiences}
   + [Listas de pessoas](./audiences/people-lists.md)
   + [Dados da pessoa](./audiences/person-details.md)
