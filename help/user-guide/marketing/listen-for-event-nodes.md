@@ -4,35 +4,92 @@ description: Configurar o Listen para nós de evento no Marketo Otimizer - defin
 TQID: 'https://experienceleague.adobe.com/6v3i6M-Hhr2RAWrS68WaEVb8VJEzJZbD7vXOJOsjgc8'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Marketo Optimizer
+source-git-commit: cc98b02f4273c5df2e27b52acd1239f0f0bf8aa0
 workflow-type: tm+mt
-source-wordcount: 354
-ht-degree: 5%
-
+source-wordcount: '1139'
+ht-degree: 6%
 ---
-
 # Ouvir um nó de evento
 
-Adicione o nó _Ouvir um evento_ para mover o público-alvo para a próxima etapa da jornada quando ocorrer um evento.
+Para avançar seu público-alvo para a próxima etapa da jornada quando ocorrer um evento, adicione o nó _Ouvir um evento_.
 
 ## Acionadores de eventos {#event-triggers}
 
-Você pode criar acionadores para [!DNL Marketo Engage] atividades, como:
+Defina os critérios do evento que acionam o nó de jornada e fazem o membro do público-alvo avançar.
 
-* Preenche o formulário - Acionado quando uma pessoa envia um formulário do [!DNL Marketo Engage] na sua página de aterrissagem.
-* Visitas à página da Web - acionado quando um cliente potencial exibe uma página da Web rastreada (você pode especificar URLs exatos ou usar curingas).
-* Link de cliques - acionado quando um link rastreado em um email de marketing é clicado.
-* Alterações no valor de dados - Acionado quando um campo específico (como Status do lead, Pontuação ou Setor) é atualizado no registro de uma pessoa.
-* Campanha solicitada - geralmente usado para integrações de API ou webhook, esse acionador inicia uma campanha quando outro programa ou serviço da Web a chama.
-* Pontuação alterada - Acionado quando a pontuação de um lead individual aumenta ou diminui após um determinado limite.
-* Com toque por push em dispositivo móvel - Acionado em campanhas inteligentes de marketing móvel quando uma notificação por push recebe interação em um dispositivo.
+| Acionadores | Descrição |
+| -------- | ----------- |
+| Brand Concierge | Atividades para clientes potenciais envolvidos com [!DNL Brand Concierge]. |
+| Email | Atividades de email para clientes potenciais, incluindo envios, entrega e envolvimento. |
+| Evento | Atividades de webinar interativo para clientes potenciais, incluindo registro, participação e interações. |
+| Oportunidades | Atividades relacionadas a registros de oportunidade associados a clientes potenciais ou contas. |
+| Aplicativos de vendas | Atividades de cliente potencial relacionadas a [!DNL Sales Qualifier] ou [!DNL Marketo Sales Insights]. |
+| Outro | Atividades que não se enquadram nas categorias predefinidas, fornecendo flexibilidade para acionadores de eventos personalizados ou diversos. |
+
+>[!BEGINSHADEBOX]
+
+**Atividades do Marketo Engage com suporte para acionadores**
+
+Ao disparar em eventos, o [!DNL Marketo Optimizer] dá suporte a atividades da instância [!DNL Marketo Engage] que está conectada como fonte de dados.
+
+>[!NOTE]
+>
+>Pode haver apenas uma instância [!DNL Marketo Engage] como fonte de dados e ela é pré-configurada no momento do provisionamento da instância [!DNL Marketo Optimizer].
+
+Você pode criar disparadores de eventos em torno das [!DNL Marketo Engage] seguintes atividades:
+
+* [!UICONTROL Preenche o formulário do Marketo Engage] - Acionado quando um cliente potencial envia um formulário [!DNL Marketo Engage] especificado.
+* [!UICONTROL Visita a página da Web do Marketo Engage] - Acionado quando um cliente potencial com um cookie de rastreamento do Munchkin visita uma página da Web especificada.
+* [!UICONTROL Link de cliques na página da Web do Marketo Engage] - Acionado quando um cliente potencial clica em um hiperlink rastreado em uma página da Web que tem o código de rastreamento do Munchkin [!DNL Marketo Engage] instalado.
+* [!UICONTROL Email do Marketo Engage entregue] - Acionado quando o servidor de email (MX) de um cliente potencial retorna uma resposta bem-sucedida (uma mensagem de 250 OK) ao servidor de envio [!DNL Marketo Engage].
+* [!UICONTROL Rejeições de email do Marketo Engage] - Acionado quando um servidor de email de destino rejeita uma mensagem de email enviada [!DNL Marketo Engage] como um erro permanente, como um usuário inválido ou domínio desconhecido.
+* [!UICONTROL O email do Marketo Engage é rejeitado temporariamente] - Acionado quando um servidor de email de destino rejeita uma mensagem de email [!DNL Marketo Engage] enviada como um problema temporário (como servidor ocupado ou caixa de correio cheia). O [!DNL Marketo Engage] tenta automaticamente rejeições temporárias até três vezes por meio de servidores MX antes de sinalizar problemas.
+* [!UICONTROL Cancelamentos de assinatura de email do Marketo Engage] - Acionado quando um cliente potencial recusa emails de marketing não operacionais. Quando acionado, o [!DNL Marketo Engage] atualiza automaticamente o valor do campo `Unsubscribed` do cliente potencial para `true`, eliminando-o de futuros envios de emails padrão.
+* [!UICONTROL Abre o email do Marketo Engage] - Acionado quando um cliente potencial abre um email [!DNL Marketo Engage] rastreado.
+* [!UICONTROL Link de cliques no email do Marketo Engage] - Acionado quando um cliente potencial clica em qualquer link (ou em um link restrito específico) dentro de um email [!DNL Marketo Engage].
+
+>[!ENDSHADEBOX]
 
 ## Filtros de evento {#event-filters}
 
+Você pode incluir a filtragem para limitar acionadores de eventos correspondentes com base em vários critérios:
+
 | Filtros | Descrição |
 | ------- | ----------- |
-| Histórico de atividades > Email | Atividades de email com base nas condições avaliadas usando uma ou mais mensagens de email selecionadas: <li>Clicou em um link no email <li>Email aberto |
-| Histórico de atividades > Valor de dados alterado | Para um atributo de pessoa selecionado, ocorreu uma alteração de valor. Esses tipos de alterações incluem: <li>Novo valor <li>Valor anterior <li>Motivo <li>Fonte <li>Data da atividade <li> Número número de vezes |
+| Histórico de atividades | Atividades com base em condições que são avaliadas usando um ou mais itens selecionados |
+| Brand Concierge | Atividades para clientes potenciais envolvidos com [!DNL Brand Concierge]. |
+| Atributos da empresa | Atributos do perfil da empresa/conta, incluindo: <li>Receita anual <li>Nome da empresa <li>País de cobrança <li>Setor <li>Número de funcionários <li>Código SIC <li>Estado |
+| Dados de intenção | Atributos com base nos dados de intenção associados ao perfil da pessoa. |
+| Oportunidades | Atributos com base nas oportunidades associadas ao perfil da pessoa. |
+| Atributos da pessoa | Atributos do perfil de pessoa B2B, incluindo: <li>Cidade <li>País <li>Data de nascimento <li>Endereço de e-mail <li>Email inválido <li>Email suspenso <li>Nome <li>Região inferida<li>Nome do cargo <li>Sobrenome <li>Número do celular <li>Pontuação de engajamento de pessoa <li>Número de telefone <li>Código postal <li>Estado <li>Inscrição cancelada <li>Motivo do cancelamento de inscrição |
+| Aplicativos de vendas | Atividades de cliente potencial relacionadas a [!DNL Sales Qualifier] ou [!DNL Marketo Sales Insights]. |
+| Filtros especiais | Filtrar atributos que não se enquadram nas categorias predefinidas, fornecendo flexibilidade para critérios de filtro personalizados ou diversos. |
+
+>[!BEGINSHADEBOX]
+
+**Atividades do Marketo Engage com suporte para filtros**
+
+Ao filtrar eventos disparados, o [!DNL Marketo Optimizer] dá suporte a atividades da instância [!DNL Marketo Engage] que está conectada como fonte de dados.
+
+>[!NOTE]
+>
+>Pode haver apenas uma instância [!DNL Marketo Engage] como fonte de dados e ela é pré-configurada no momento do provisionamento da instância [!DNL Marketo Optimizer].
+
+Você pode criar filtros de eventos em torno das [!DNL Marketo Engage] seguintes atividades:
+
+* [!UICONTROL Formulário Marketo Engage preenchido] - Corresponde a clientes potenciais que preencheram um formulário [!DNL Marketo Engage] específico em qualquer ponto de seu log de atividades não expirado.
+* [!UICONTROL Visitou a página da Web do Marketo Engage] - Corresponde a clientes potenciais que visualizaram uma URL específica no seu site ou [!DNL Marketo Engage] páginas de aterrissagem. Ele depende diretamente do código de rastreamento do Munchkin instalado no site.
+* [!UICONTROL Link clicado na página da Web do Marketo Engage] - Corresponde a clientes potenciais que clicaram em um link ou ativo específico em uma página rastreada.
+* [!UICONTROL Email do Marketo Engage enviado] - Corresponde aos clientes potenciais para os quais [!DNL Marketo Engage] tentou enviar um email específico, considerando as ações de implantação anteriores às rejeições permanentes ou aceitações do servidor.
+* [!UICONTROL Email Marketo Engage entregue] - Corresponde a clientes potenciais cujo servidor de email (MX) retornou uma resposta bem-sucedida (uma mensagem de 250 OK) para o servidor de envio [!DNL Marketo Engage].
+* [!UICONTROL Email do Marketo Engage rejeitado] - Corresponde aos clientes potenciais que tiveram uma rejeição permanente (falha permanente de entrega) em um envio de email específico ou dentro de um período.
+* [!UICONTROL Email do Marketo Engage rejeitado suave] - Corresponde a clientes potenciais cujos emails tiveram uma falha de entrega temporária (como uma caixa de entrada cheia ou um servidor offline) em vez de uma rejeição permanente.
+* [!UICONTROL Cancelar assinatura do email do Marketo Engage] - Corresponde aos clientes potenciais que optaram por não participar de emails de marketing não operacionais. Quando isso ocorre, o [!DNL Marketo Engage] atualiza automaticamente o valor do campo `Unsubscribed` do cliente potencial para `true`, eliminando-o dos futuros envios de email padrão.
+* [!UICONTROL Email do Marketo Engage aberto] - Corresponde aos clientes potenciais que abriram um email [!DNL Marketo Engage] rastreado.
+* [!UICONTROL Link clicado no email do Marketo Engage] - Corresponde aos clientes potenciais que clicaram em qualquer link (ou em um link específico) dentro de um email [!DNL Marketo Engage].
+
+>[!ENDSHADEBOX]
 
 ## Adicionar um nó de evento {#add-event-node}
 
@@ -44,33 +101,32 @@ Você pode criar acionadores para [!DNL Marketo Engage] atividades, como:
 
 1. Nas propriedades do nó à direita, clique em **[!UICONTROL Adicionar critério de evento]**.
 
-1. Na caixa de diálogo _[!UICONTROL Editar evento]_, adicione os eventos a serem acionados.
+1. Na caixa de diálogo _[!UICONTROL Editar evento]_, adicione um evento e defina as restrições que deseja corresponder ao acionador.
 
-   ![Editar evento - acionadores de evento](./assets/edit-event-triggers.png){width="600" zoomable="yes"}
+   Arraste e solte o acionador de evento no espaço do construtor e defina a definição. Clique em **[!UICONTROL Adicionar restrição]** para cada restrição que você deseja usar para refinar a correspondência de eventos.
 
-1. (Opcional) Selecione a guia **[!UICONTROL Filtros]** na caixa de diálogo e adicione critérios de filtragem para os acionadores.
+   ![Editar evento - acionadores de evento](./assets/edit-event-triggers.png){width="700" zoomable="yes"}
 
-1. Clique em **[!UICONTROL Editar evento]** e defina os detalhes do evento.
+   É possível adicionar vários eventos para corresponder. O primeiro evento de qualificação avança o perfil da pessoa na jornada.
 
-   ![Editar evento - filtragem de eventos](./assets/edit-event-filters.png){width="600" zoomable="yes"}
+1. (Opcional) Selecione a guia **[!UICONTROL Filtros]** e adicione critérios de filtragem para os acionadores.
+
+   Arraste e solte o filtro no espaço do construtor e defina a definição. Clique em **[!UICONTROL Adicionar restrição]** para cada restrição que você deseja usar para refinar a correspondência de filtro.
+
+   ![Editar evento - filtragem de eventos](./assets/edit-event-filters.png){width="700" zoomable="yes"}
 
 1. Clique em **[!UICONTROL Salvar]**.
 
-<!--
-1. If needed, set the **[!UICONTROL Timeout]** option to limit the time period to listen for the event.
+   A qualquer momento, você pode clicar em **[!UICONTROL Editar evento]** para alterar os critérios de evento do nó.
+
+1. Se necessário, defina a opção **[!UICONTROL Tempo limite]** para limitar o período de tempo para ouvir o evento.
 
    >[!NOTE]
    >
-   >The journey ends after a timeout unless you define a timeout path, where you can add other nodes.
+   >A jornada termina após um tempo limite, a menos que você defina um caminho de tempo limite, em que é possível adicionar outros nós.
 
-   Enable the **[!UICONTROL Timeout]** option and select the duration for which the journey waits for an event to occur before it times out.
+   Habilite a opção **[!UICONTROL Tempo limite]** e selecione a duração pela qual a jornada aguarda a ocorrência de um evento antes de atingir o tempo limite.
 
-   You can choose to end the path here or take a different course of action by setting another path. To create a new path in the journey where you can add actions and events applicable to accounts when the event does not occur, select the **[!UICONTROL Set timeout path]** check box.
+   ![Opções de tempo limite habilitadas para o nó Escutar jornada de eventos](./assets/person-journey-event-node-timeout.png){width="550" zoomable="yes"}
 
-   ![Journey event node - set timeout path](assets/node-event-timeout-set-path.png){width="700" zoomable="yes"}
--->
-
->[!NOTE]
->
->No momento, a funcionalidade de tempo limite do Listen para um nó de evento não funciona. Está planejado para uma versão posterior.
-
+   Você pode optar por finalizar o caminho aqui ou executar uma ação diferente definindo outro caminho. Para criar um novo caminho na jornada, onde você pode adicionar ações e eventos aplicáveis a perfis quando o evento não ocorrer, marque a caixa de seleção **[!UICONTROL Definir caminho de tempo limite]**.
