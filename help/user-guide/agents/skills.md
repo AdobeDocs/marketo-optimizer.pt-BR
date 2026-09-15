@@ -4,25 +4,34 @@ description: Revise as habilidades do CX Enterprise Co-worker no Marketo Otimize
 TQID: 'https://experienceleague.adobe.com/nNFB9UEghfqVvnBrNtTDnpnLUKKKMAU2nY1Pqt0KkUQ'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
   - id: 46e599c6-e20f-5f67-9824-93415016f66b
+    internal-label: Audiences
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
   - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
 topic_v2:
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+    internal-label: Data quality
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Personalization
+source-git-commit: 6e03e2dc6abb00d288f5684e9ea9b6489c6517e4
 workflow-type: tm+mt
-source-wordcount: 581
+source-wordcount: '568'
 ht-degree: 7%
-
 ---
-
 # Habilidades de colega de trabalho
 
 Uma _habilidade_ é um fluxo de trabalho empacotado que o Coworker sabe como executar — os blocos fundamentais por trás das solicitações de menu `/` e em linguagem natural. Cada habilidade contém instruções passo a passo e as ferramentas específicas necessárias para um trabalho (por exemplo, &quot;publicar uma jornada&quot;, &quot;comparar duas listas de pessoas&quot;, &quot;criar um modelo de pontuação&quot;).
@@ -35,10 +44,9 @@ Uma _habilidade_ é um fluxo de trabalho empacotado que o Coworker sabe como exe
 
 | Habilidade | O que faz | Acesso | Superfície do produto | Impacto / fluxo de dados |
 |---|---|---|---|---|
-| `falco-program-creation` | Criação completa do programa [!DNL Marketo Optimizer] — programa, subpastas, tokens, listas, jornadas. <p>Consulte _[Criar um programa a partir de um resumo](./program-from-brief.md)_. | Gravar | [!DNL Marketo Optimizer] | Leituras + gravações [!DNL Marketo Optimizer]. |
 | `adapt-program` | Gerar histórias de migração dos programas [!DNL Marketo Engage] para a adaptação [!DNL Marketo Optimizer]. | Ler | [!DNL Marketo Optimizer] | Lê [!DNL Marketo Engage], escreve [!DNL Marketo Optimizer] |
 | `folder-creation` | Criar pastas organizacionais na árvore de ativos. | Gravar | [!DNL Marketo Optimizer] | Leituras + gravações [!DNL Marketo Optimizer] |
-| `program-creation` *(Programas de Compilação)* | Criar programas do Marketo a partir de um resumo da campanha. | Gravar | [!DNL Marketo Engage] | Leituras + gravações [!DNL Marketo Engage] |
+| `program-creation` *(Programas de Compilação)* | Criar programas do Marketo a partir de um resumo da campanha.  <p>Consulte _[Criar um programa a partir de um resumo](./program-from-brief.md)_. | Gravar | [!DNL Marketo Engage] | Leituras + gravações [!DNL Marketo Engage] |
 | `program-planning` *(Campanhas de Plano)* | Transforme os resumos em documentos de configuração/implementação. | Ler | [!DNL Marketo Engage] | Lê [!DNL Marketo Engage] |
 | `program-qa` *(Validar Programas)* | Validar/auditar programas (somente regras, plano de teste ou resumo). | Ler | [!DNL Marketo Engage] | Lê [!DNL Marketo Engage] |
 

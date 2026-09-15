@@ -3,15 +3,15 @@ title: Scoring Studio
 description: Saiba mais sobre o Scoring Studio no Adobe Marketo Otimizer, incluindo a lista de modelos, a tela, as colunas de dimensão, os cartões de sinal, os segmentos de clientes potenciais e a publicação.
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
-source-git-commit: 96a923c923a6290b9d90e4ffc8e161d78f029c47
+    internal-label: Chat Interface
+source-git-commit: cc6a908809cfb91bf03157935737f4869761a7db
 workflow-type: tm+mt
-source-wordcount: 897
+source-wordcount: '897'
 ht-degree: 2%
-
 ---
-
 
 # Scoring Studio
 
@@ -20,6 +20,8 @@ O Scoring Studio inclui uma lista de modelos, uma tela editável para cada model
 ## Lista de modelos {#model-list}
 
 A lista de modelos é a exibição de aterrissagem do Scoring Studio. Ele mostra cada modelo de pontuação na sua instância do [!DNL Marketo Optimizer] como linhas em uma tabela ou como cartões, se você alternar para a exibição de grade.
+
+![A lista de modelos do Scoring Studio mostra os modelos de pontuação ativos com suas dimensões, sinais e detalhes da última modificação.](./assets/scoring-studio-ui.png){width="800" zoomable="yes"}
 
 | Coluna | Descrição |
 | --- | --- |
@@ -31,8 +33,6 @@ A lista de modelos é a exibição de aterrissagem do Scoring Studio. Ele mostra
 | Última modificação feita por | A pessoa que alterou o modelo pela última vez. |
 | Criado em | A data de criação do modelo. |
 | Criado por | A pessoa que criou o modelo. |
-
-![A lista de modelos do Scoring Studio mostra os modelos de pontuação ativos com suas dimensões, sinais e detalhes da última modificação.](./assets/scoring-studio-ui.png){width="800" zoomable="yes"}
 
 Use o campo de pesquisa para localizar um modelo por nome ou filtrar a lista por status. Selecione o **[!UICONTROL Mais menu]** de uma linha para **[!UICONTROL Editar]**, **[!UICONTROL Duplicar]**, **[!UICONTROL Arquivar]** ou **[!UICONTROL Excluir]** um modelo.
 
