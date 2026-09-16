@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
     internal-label: Reporting
-source-git-commit: 56f39b3c77bd13984cf72761621ac3b228f13abd
+source-git-commit: 32017a2577b7f31632080215ba91b9454c51b9ef
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '488'
 ht-degree: 2%
 ---
 
@@ -57,7 +57,7 @@ Selecione **[!UICONTROL Compartilhar]** na parte superior da página do relatór
 >
 >Sua organização pode ter no máximo 10 exportações programadas em todos os relatórios, em uma frequência semanal ou mensal. Se você não for um administrador, poderá gerenciar apenas suas próprias exportações programadas. Os administradores podem visualizar e gerenciar cada exportação agendada na organização.
 
-## Analisar um relatório no CJA {#analyze-a-report-in-cja}
+## Analisar um relatório em [!DNL Customer Journey Analytics] {#analyze-a-report-in-cja}
 
 >[!AVAILABILITY]
 >
