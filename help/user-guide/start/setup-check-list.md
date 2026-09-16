@@ -4,16 +4,17 @@ description: Conclua as tarefas de configuração iniciais para sua instância d
 TQID: 'https://experienceleague.adobe.com/XEPKIa88-L7mdPz1opKegY1pdEF4Qyls0nLVJBQSaJk'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Journeys
+source-git-commit: cf3d8c71c9301ee038cc1b31968d30aba34d1fc7
 workflow-type: tm+mt
-source-wordcount: 249
+source-wordcount: '265'
 ht-degree: 10%
-
 ---
-
 # Lista de verificação de configuração
 
 Conclua essas tarefas para habilitar a funcionalidade na instância [!DNL Marketo Optimizer] provisionada.
@@ -102,5 +103,10 @@ Antes que os profissionais de marketing possam enviar emails do jornada, configu
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Caixa de seleção para tarefa"/></td>
 <td>Criar uma configuração de canal de email</td>
 <td><a href="../admin/email-channel-configuration.md#create-email-channel-configuration">Configurar canal de email</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Caixa de seleção para tarefa"/></td>
+<td>Solicite ao departamento de TI que inclua na lista de permissões os endereços IP de envio</td>
+<td><a href="./email-deliverability.md#allowlist-ip-addresses">Incluir na lista de permissões endereços IP</a></td>
 </tr>
 </tbody>

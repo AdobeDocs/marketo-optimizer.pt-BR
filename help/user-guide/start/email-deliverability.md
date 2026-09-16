@@ -4,24 +4,32 @@ description: Configure pools de delegação de subdomínio, DMARC, SPF, DKIM e I
 TQID: 'https://experienceleague.adobe.com/-7yEXTaOrGIfCFw-UzanMqA9VJ1Nk-BmdmE2JJJSoB4'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
+    internal-label: Reporting
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a659ad61-de21-559d-a901-02e2fb329ff5
+    internal-label: Administration
   - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Administration
+source-git-commit: cf3d8c71c9301ee038cc1b31968d30aba34d1fc7
 workflow-type: tm+mt
-source-wordcount: 2502
+source-wordcount: '2590'
 ht-degree: 0%
-
 ---
-
 # Capacidade de entrega de email
 
 As informações a seguir são para administradores que configuram a infraestrutura de envio para suportar profissionais de marketing e criadores de conteúdo de email. Ele descreve recursos de entrega e como configurar subdomínios, autenticação e pools de IP.
@@ -34,6 +42,7 @@ Ele usa os seguintes blocos fundamentais, configurados por um administrador, nor
 1. [Configurar registros do DMARC, SPF e DKIM](#dmarc-spf-dkim) em cada subdomínio.
 1. [Confirme o pool de IPs](#ip-pools) usado para enviar emails para o subdomínio.
 1. [Crie uma ou mais configurações de canal de email](../admin/email-channel-configuration.md#create-email-channel-configuration) que associam um subdomínio, um pool de IPs e uma identidade de remetente.
+1. [Inclua na lista de permissões os endereços IP de envio](#allowlist-ip-addresses) ao departamento de TI para que os emails de teste cheguem à sua caixa de entrada.
 
 ![Configuração da capacidade de entrega de emails do Marketo Otimizer](./assets/email-deliverability-diagram.svg){width="600"}
 
@@ -361,6 +370,20 @@ Nesta versão, os pools de IP são pré-provisionados para sua organização. At
 >[!IMPORTANT]
 >
 >Não misture tráfego de marketing e transacional no mesmo pool de IPs, mesmo quando o pool compartilhado estiver disponível. A configuração Tipo de email na configuração do canal (Marketing versus Transacional) controla o comportamento de supressão, mas as configurações de canal ainda devem usar pools distintos, quando possível.
+
+## Incluir na lista de permissões endereços IP {#allowlist-ip-addresses}
+
+Os sistemas antisspam corporativos às vezes bloqueiam emails de teste enviados pelo [!DNL Marketo Optimizer]. Esses sistemas dependem dos endereços IP do remetente para verificar se um email é válido. Para garantir que os emails de teste cheguem, adicione [!DNL Marketo Optimizer] ao incluo na lista de permissões corporativo.
+
+Peça ao departamento de TI para adicionar esses endereços IP ao incluo na lista de permissões corporativo:
+
+* 54.212.167.17
+* 35.165.244.220
+* 44.235.171.179
+
+>[!TIP]
+>
+>O departamento de TI geralmente gerencia o incluo na lista de permissões de e-mail corporativo. Compartilhar esta lista de endereços IP com eles durante a configuração inicial.
 
 <!--
 
