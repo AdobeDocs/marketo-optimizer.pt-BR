@@ -8,10 +8,10 @@ product_v2:
 feature_v2:
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
     internal-label: Journeys
-source-git-commit: 9d9f2ae1aafc5ffdc2bcc6546c7eb2ddcbaa4ab2
+source-git-commit: bc370a501d3f8ff80ad846576b62504aca77f530
 workflow-type: tm+mt
-source-wordcount: '1064'
-ht-degree: 6%
+source-wordcount: '1083'
+ht-degree: 2%
 ---
 # Dividir e mesclar nós de caminhos
 
@@ -38,10 +38,10 @@ Para cada caminho definido para o nó, use os seguintes tipos de filtro para cor
 | ------- | ----------- |
 | Histórico de atividades | Atividades com base em condições que são avaliadas usando um ou mais itens selecionados |
 | Brand Concierge | Atividades para clientes potenciais envolvidos com [!DNL Brand Concierge]. |
-| Atributos da empresa | Atributos do perfil da empresa/conta, incluindo: <li>Receita anual <li>Nome da empresa <li>País de cobrança <li>Setor <li>Número de funcionários <li>Código SIC <li>Estado |
+| Atributos da empresa | Atributos do perfil da empresa/conta, incluindo: <li>[!UICONTROL Receita anual] <li>[!UICONTROL Nome da empresa] <li>[!UICONTROL País de cobrança] <li>[!UICONTROL Setor] <li>[!UICONTROL Número de funcionários] <li>[!UICONTROL Código SIC] <li>[!UICONTROL Estado] |
 | Dados de intenção | Atributos com base nos dados de intenção associados ao perfil da pessoa. |
-| Oportunidades | Atributos com base nas oportunidades associadas ao perfil da pessoa. |
-| Atributos da pessoa | Atributos do perfil de pessoa B2B, incluindo: <li>Cidade <li>País <li>Data de nascimento <li>Endereço de e-mail <li>Email inválido <li>Email suspenso <li>Nome <li>Região inferida<li>Nome do cargo <li>Sobrenome <li>Número do celular <li>Pontuação de engajamento de pessoa <li>Número de telefone <li>Código postal <li>Estado <li>Inscrição cancelada <li>Motivo do cancelamento de inscrição |
+| Oportunidades | Status e atributos com base nas oportunidades associadas ao perfil da pessoa, incluindo: <li>[!UICONTROL Tem oportunidade] <li>[!UICONTROL Número de oportunidades] <li>[!UICONTROL Valor total da oportunidade] <li>[!UICONTROL Foi adicionado à oportunidade] <li>[!UICONTROL Foi removido da oportunidade] |
+| Atributos da pessoa | Atributos do perfil de pessoa B2B, incluindo: <li>[!UICONTROL Cidade] <li>[!UICONTROL País] <li>[!UICONTROL Data de nascimento] <li>[!UICONTROL Endereço de email] <li>[!UICONTROL Email inválido] <li>[!UICONTROL Email suspenso] <li>[!UICONTROL Nome] <li>[!UICONTROL Região do estado inferido] <li>[!UICONTROL Cargo] <li>[!UICONTROL Sobrenome] <li>[!UICONTROL Número do celular] <li>[!UICONTROL Pontuação de engajamento de pessoa] <li>[!UICONTROL Número de telefone] <li>[!UICONTROL CEP] <li>[!UICONTROL Estado] <li>[!UICONTROL Cancelamento de assinatura] <li>[!UICONTROL Motivo do cancelamento da assinatura] |
 | Aplicativos de vendas | Atividades de cliente potencial relacionadas a [!DNL Sales Qualifier] ou [!DNL Marketo Sales Insights]. |
 | Filtros especiais | Filtrar atributos que não se enquadram nas categorias predefinidas, fornecendo flexibilidade para critérios de filtro personalizados ou diversos. |
 
@@ -57,16 +57,16 @@ Para condições de caminho, o [!DNL Marketo Optimizer] dá suporte a atividades
 
 Você pode criar condições em torno das [!DNL Marketo Engage] seguintes atividades:
 
-* [!UICONTROL Formulário Marketo Engage preenchido] - Corresponde a clientes potenciais que preencheram um formulário [!DNL Marketo Engage] específico em qualquer ponto de seu log de atividades não expirado.
-* [!UICONTROL Visitou a página da Web do Marketo Engage] - Corresponde a clientes potenciais que visualizaram uma URL específica no seu site ou [!DNL Marketo Engage] páginas de aterrissagem. Ele funciona diretamente usando o código de rastreamento do Munchkin instalado no site.
-* [!UICONTROL Link clicado na página da Web do Marketo Engage] - Corresponde a clientes potenciais que clicaram em um link ou ativo específico em uma página rastreada.
-* [!UICONTROL Email do Marketo Engage enviado] - Corresponde aos clientes potenciais para os quais [!DNL Marketo Engage] tentou enviar um email específico, considerando as ações de implantação anteriores às rejeições permanentes ou aceitações do servidor.
-* [!UICONTROL Email Marketo Engage entregue] - Corresponde a um cliente potencial cujo servidor de email (MX) retornou uma resposta bem-sucedida (uma mensagem de 250 OK) para o servidor de envio [!DNL Marketo Engage].
-* [!UICONTROL Email de Marketo Engage rejeitado] - Corresponde a clientes potenciais que tiveram uma rejeição permanente (falha permanente de entrega) em um envio de email específico ou dentro de um período.
-* [!UICONTROL Email do Marketo Engage rejeitado suave] - Corresponde a clientes potenciais cujos emails tiveram uma falha de entrega temporária (como uma caixa de entrada cheia ou um servidor offline) em vez de uma rejeição permanente.
-* [!UICONTROL Cancelar assinatura do email do Marketo Engage] - Corresponde aos clientes potenciais que optaram por não participar de emails de marketing não operacionais. Quando isso ocorre, o [!DNL Marketo Engage] atualiza automaticamente o valor do campo `Unsubscribed` do cliente potencial para `true`, eliminando-o dos futuros envios de email padrão.
-* [!UICONTROL Email do Marketo Engage aberto] - Corresponde aos clientes potenciais que abriram um email [!DNL Marketo Engage] rastreado.
-* [!UICONTROL Link clicado no email do Marketo Engage] - Corresponde aos clientes potenciais que clicaram em qualquer link (ou em um link específico) dentro de um email [!DNL Marketo Engage].
+* **[!UICONTROL Formulário Marketo Engage preenchido]** - Corresponde a clientes potenciais que preencheram um formulário [!DNL Marketo Engage] específico em qualquer ponto de seu log de atividades não expirado.
+* **[!UICONTROL Visitou a página da Web do Marketo Engage]** - Corresponde a clientes potenciais que visualizaram uma URL específica no seu site ou [!DNL Marketo Engage] páginas de aterrissagem. Ele funciona diretamente usando o código de rastreamento do Munchkin instalado no site.
+* **[!UICONTROL Link clicado na página da Web do Marketo Engage]** - Corresponde a clientes potenciais que clicaram em um link ou ativo específico em uma página rastreada.
+* **[!UICONTROL Email do Marketo Engage enviado]** - Corresponde aos clientes potenciais para os quais [!DNL Marketo Engage] tentou enviar um email específico, considerando as ações de implantação anteriores às rejeições permanentes ou aceitações do servidor.
+* **[!UICONTROL Email Marketo Engage entregue]** - Corresponde a um cliente potencial cujo servidor de email (MX) retornou uma resposta bem-sucedida (uma mensagem de 250 OK) para o servidor de envio [!DNL Marketo Engage].
+* **[!UICONTROL Email de Marketo Engage rejeitado]** - Corresponde a clientes potenciais que tiveram uma rejeição permanente (falha permanente de entrega) em um envio de email específico ou dentro de um período.
+* **[!UICONTROL Email do Marketo Engage rejeitado suave]** - Corresponde a clientes potenciais cujos emails tiveram uma falha de entrega temporária (como uma caixa de entrada cheia ou um servidor offline) em vez de uma rejeição permanente.
+* **[!UICONTROL Cancelar assinatura do email do Marketo Engage]** - Corresponde aos clientes potenciais que optaram por não participar de emails de marketing não operacionais. Quando isso ocorre, o [!DNL Marketo Engage] atualiza automaticamente o valor do campo `Unsubscribed` do cliente potencial para `true`, eliminando-o dos futuros envios de email padrão.
+* **[!UICONTROL Email do Marketo Engage aberto]** - Corresponde aos clientes potenciais que abriram um email [!DNL Marketo Engage] rastreado.
+* **[!UICONTROL Link clicado no email do Marketo Engage]** - Corresponde aos clientes potenciais que clicaram em qualquer link (ou em um link específico) dentro de um email [!DNL Marketo Engage].
 
 >[!ENDSHADEBOX]
 
