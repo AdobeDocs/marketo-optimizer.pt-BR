@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
     internal-label: Reporting
-source-git-commit: 32017a2577b7f31632080215ba91b9454c51b9ef
+source-git-commit: 6e919a66af259ea1f5facf7f5c3e811d76101e85
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '491'
 ht-degree: 2%
 ---
 
@@ -37,7 +37,7 @@ A guia [!UICONTROL Relatórios] organiza relatórios pré-criados em quatro seç
 Alguns relatórios se concentram em um único registro, em vez de uma visualização em toda a seção, e são acessados de uma área diferente no aplicativo.
 
 * Para obter o desempenho da otimização de tempo de envio de email, abra o relatório na interface de chat do [!UICONTROL Colaborador]. Para ver as etapas, consulte [Otimização do tempo de envio de email](../marketing/email-send-time-optimization.md#reporting).
-* Para o progresso de uma pessoa em uma única jornada, abra o relatório nessa jornada.
+* Para o progresso de uma pessoa por meio de uma única jornada, abra o [Relatório individual de Jornada de pessoa](./person-journey-individual-report.md) dentro dessa jornada.
 
 ## Exportar um relatório {#export-a-report}
 

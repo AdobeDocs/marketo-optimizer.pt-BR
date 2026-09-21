@@ -3,10 +3,10 @@ user-guide-title: Documentação do Marketo Otimizer
 user-guide-description: Saiba mais sobre o Adobe Marketo Otimizer e como você pode usá-lo para executar o marketing coordenado e o envolvimento de vendas com conteúdo personalizado alimentado por IA para clientes potenciais e contas B2B.
 hide: true
 nudge: red
-source-git-commit: 32017a2577b7f31632080215ba91b9454c51b9ef
+source-git-commit: 24ee4148c4e755fe0f4f1231f342890c22e6b781
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 43%
+source-wordcount: '252'
+ht-degree: 42%
 ---
 
 # Guia do usuário do Marketo Otimizer {#user}
@@ -28,6 +28,7 @@ ht-degree: 43%
   + [Criar e promover webinars](./agents/webinar-creation.md)
   + [Monitorar e depurar a progressão da jornada](./agents/journey-observability.md)
   + [Configurar e analisar a intenção](./agents/intent.md)
+  + [Gerar relatórios de análise](./agents/surface-analytics.md)
 + Decisão sobre IA {#ai-decisioning}
   + [Visão geral](./agents/ai-decisioning.md)
   + [Integridade da decisão sobre IA](./agents/ai-decisioning-health.md)
@@ -59,6 +60,7 @@ ht-degree: 43%
 + Relatórios {#reports}
   + [Visão geral](./reports/reports-overview.md)
   + [Visão geral da jornada de pessoa](./reports/person-journey-overview-report.md)
+  + [Jornada de pessoa individual](./reports/person-journey-individual-report.md)
   + [Engajamento](./reports/engagement-report.md)
   + [Engajamento no email](./reports/email-engagement-report.md)
   + [Envolvimento com a Web](./reports/web-engagement-report.md)
