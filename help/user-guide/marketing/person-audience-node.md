@@ -4,16 +4,17 @@ description: Configure o nó de público-alvo pessoa no Journey Optimizer B2B pa
 TQID: 'https://experienceleague.adobe.com/WqM-yLPadt6lBFtqJOGUxDtk0fm6n6S29wQTRSWB8fY'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 46e599c6-e20f-5f67-9824-93415016f66b
+    internal-label: Audiences
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Journeys
+source-git-commit: 759b4b769b9a1534e9b750f053991e9be50b953a
 workflow-type: tm+mt
-source-wordcount: 215
+source-wordcount: '215'
 ht-degree: 0%
-
 ---
-
 # Nó de público-alvo de pessoa
 
 O nó _person audience_ especifica quais perfis de pessoa entram na jornada. Quando você [cria uma jornada de pessoa](./person-journeys.md), a jornada sempre começa com um nó de público-alvo de pessoa que define sua entrada. O nó de público-alvo pessoa pode ter um dos dois tipos de entrada de público-alvo: uma lista dinâmica de pessoas ou um acionador de evento.
