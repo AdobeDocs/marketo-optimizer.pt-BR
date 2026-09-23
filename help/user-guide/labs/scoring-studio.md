@@ -7,10 +7,10 @@ product_v2:
 feature_v2:
   - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
     internal-label: Chat Interface
-source-git-commit: cc6a908809cfb91bf03157935737f4869761a7db
+source-git-commit: 7e3080b688415ef623cdbd57aa08ed43eb6fcd17
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 2%
+source-wordcount: '1410'
+ht-degree: 1%
 ---
 
 # Scoring Studio
@@ -105,6 +105,84 @@ Abaixo do segmento de lead, o cartão **[!UICONTROL Nome do campo de pontuação
 
 ## Publicar e agendar {#publish-schedule}
 
-Quando o modelo estiver pronto, selecione **[!UICONTROL Publicar]**. Escolha a frequência com que o modelo classifica seu público-alvo: diariamente, semanalmente ou mensalmente.
+Quando o modelo estiver pronto, clique em **[!UICONTROL Publicar]**.
 
-Para obter o processo de publicação completo, incluindo como [!DNL Marketo Optimizer] provisiona um campo de pontuação automaticamente, consulte [_Publicar um modelo de pontuação_](../agents/lead-scoring-model.md#publish-model).
+![O botão Publicar é exibido para um modelo de pontuação de rascunho.](./assets/scoring-model-publish.png){width="700" zoomable="yes"}
+
+Escolha a frequência com que o modelo classifica seu público-alvo: diariamente, semanalmente ou mensalmente. Você também pode escolher uma opção manual para executar o modelo.
+
+![As opções de agendamento mostram as opções de recorrência diária, semanal, mensal e manual para executar o modelo de pontuação.](./assets/scoring-model-publish-schedule-options.png){width="420" zoomable="no"}
+
+Para obter o processo de publicação completo usando a [Interface de chat do colega](../agents/chat-interface.md), incluindo como [!DNL Marketo Optimizer] provisiona um campo de pontuação automaticamente, consulte [_Publicar um modelo de pontuação_](../agents/lead-scoring-model.md#publish-model).
+
+As pontuações mais recentes são armazenadas em um campo provisionado que é sincronizado com sua instância [!DNL Marketo Engage].
+
+![O campo de pontuação provisionado exibido no gerenciamento de campos do Marketo Engage](./assets/scoring-model-score-field-ame.png){width="800" zoomable="yes"}
+
+## Usar pontuações em filtros {#filter-score}
+
+Depois de [publicar um modelo](#publish-schedule), você poderá usar sua pontuação resultante como filtro ao criar públicos-alvo baseados em eventos e _Ouvir nós de um evento_, como uma condição de caminho dividido ou para associação à lista de pessoas.
+
+A pontuação aparece no painel de filtro na categoria **[!UICONTROL Atributos da pessoa]**, rotulada com o nome do modelo ou com o [_Nome do campo de pontuação_](#lead-segment) personalizado que você atribuiu a ela. Insira esse nome no campo de pesquisa do painel de filtro para localizar a pontuação, arraste-o para a tela e defina seus critérios.
+
+### Públicos-alvo e nós baseados em eventos {#scoring-model-event-audience}
+
+Para usar um resultado de modelo de pontuação para filtrar um [público-alvo baseado em eventos](../audiences/event-based-audiences.md) ou [_Ouvir um nó_ de evento](../marketing/listen-for-event-nodes.md):
+
+1. Clique em **[!UICONTROL Adicionar critérios de evento]**.
+
+1. Na caixa de diálogo _[!UICONTROL Editar critérios do evento]_, selecione a guia **[!UICONTROL Filtros]**.
+
+1. Insira o nome do modelo no campo de pesquisa e arraste a pontuação até a tela.
+
+   ![A guia Filtros mostra um nome de modelo inserido no campo de pesquisa e a pontuação correspondente arrastada para a tela.](./assets/scoring-model-event-filter.png){width="700" zoomable="yes"}
+
+1. Defina o operador e o valor para corresponder às pontuações que deseja direcionar.
+
+1. Clique em **[!UICONTROL Salvar]**.
+
+### Condições de caminho dividido {#split-path-conditions}
+
+Para usar um resultado de modelo de pontuação para definir condições de caminho para um [_nó](../marketing/split-merge-paths-nodes.md) de caminhos divididos_:
+
+1. Clique em **[!UICONTROL Editar condição]** para o caminho do nó.
+
+1. Na caixa de diálogo _[!UICONTROL Condições]_, digite o nome do modelo no campo de pesquisa e arraste a pontuação correspondente para a tela.
+
+   ![A caixa de diálogo Condições mostra um nome de modelo inserido no campo de pesquisa e a pontuação correspondente arrastada para a tela.](./assets/scoring-model-split-path-condition.png){width="700" zoomable="yes"}
+
+1. Defina o operador e o valor para corresponder às pontuações que deseja direcionar.
+
+1. Clique em **[!UICONTROL Concluído]** para salvar a condição do caminho.
+
+### Associação à lista de pessoas {#scoring-model-people-lists}
+
+Para gerenciar a associação de [lista de pessoas](../audiences/people-lists.md) usando um resultado de modelo de pontuação:
+
+**Lista estática — Adicionar membros**
+
+1. Abra a lista estática e clique em **[!UICONTROL Adicionar pessoas]**.
+
+1. Na caixa de diálogo _[!UICONTROL Adicionar pessoas]_, digite o nome do modelo no campo de pesquisa e arraste a pontuação correspondente para a tela.
+
+   ![A caixa de diálogo Adicionar pessoas mostra um nome de modelo inserido no campo de pesquisa e a pontuação correspondente arrastada para a tela.](./assets/scoring-model-static-list-add-people.png){width="700" zoomable="yes"}
+
+1. Defina o operador e o valor para corresponder às pontuações que deseja direcionar.
+
+1. Clique em **[!UICONTROL Concluído]** para aplicar o filtro e qualificar as pessoas correspondentes na lista.
+
+**Lista dinâmica — Definir regras de associação**
+
+1. Abra a lista dinâmica e selecione a guia **[!UICONTROL Regras]**.
+
+1. Clique em **[!UICONTROL Editar regras]**.
+
+1. Na caixa de diálogo _[!UICONTROL Editar regras]_, digite o nome do modelo no campo de pesquisa e arraste o item de pontuação para a tela.
+
+   ![A caixa de diálogo Editar regras mostra um nome de modelo inserido no campo de pesquisa e a pontuação correspondente arrastada para a tela.](./assets/scoring-model-dynamic-list-rules.png){width="700" zoomable="yes"}
+
+1. Defina o operador e o valor para corresponder às pontuações que deseja direcionar.
+
+1. Clique em **[!UICONTROL Concluído]** para salvar a regra.
+
+   A associação é atualizada automaticamente à medida que os registros de pessoa são avaliados em relação à regra.
