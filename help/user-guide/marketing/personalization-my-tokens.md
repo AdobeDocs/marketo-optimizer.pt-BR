@@ -4,37 +4,41 @@ description: Crie e gerencie Meus tokens personalizados para a personalização 
 TQID: 'https://experienceleague.adobe.com/utVM69g7aQSuF-V3XQIdVBqvBXyiDz1ZWr0WtE67UCg'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Personalization
+source-git-commit: 177e7c3d0806febd730104b19787ba3cbea2914a
 workflow-type: tm+mt
-source-wordcount: 629
+source-wordcount: '704'
 ht-degree: 3%
-
 ---
-
 # Tokens personalizados para personalização
 
-A personalização de conteúdo usa tokens como espaços reservados ou variáveis que são preenchidas quando o artefato de conteúdo é gerado. Os tokens de personalização padrão estão disponíveis para emails, landing pages, fragmentos e templates. Você também pode definir um conjunto de tokens personalizados com valores específicos para o programa ou pasta. Este conjunto de tokens personalizados é chamado de _Meus tokens_ e qualquer um desses tokens personalizados serve para personalização.
+A personalização de conteúdo usa tokens como espaços reservados ou variáveis que são preenchidas quando o artefato de conteúdo é gerado. Os tokens de personalização padrão estão disponíveis para emails, landing pages, fragmentos e templates. Você também pode definir um conjunto de tokens personalizados com valores específicos para o programa ou pasta. Este conjunto de tokens personalizados é chamado de _Meus tokens_ e qualquer um desses tokens personalizados está disponível para personalização.
 
-Ao adicionar um token personalizado a um email, ele é exibido como `{{my.TokenName}}`. Por exemplo, você pode ter `{{my.EventDate}}` ou `{{my.WebinarSpeaker}}` tokens criados para gerenciar conteúdo de email relacionado a webinários futuros.
+<!-- 
+When you add a custom token to an email, it is displayed as `{{my.TokenName}}`. For example, you might have `{{my.EventDate}}` or `{{my.WebinarSpeaker}}` tokens created to manage email content related to upcoming webinars in your program.
+-->
 
 Além de _Meus tokens_, que são específicos do programa ou pasta, você pode usar qualquer um dos tokens padrão (integrados) para personalização.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->No momento, _Meus tokens_ não estão habilitados no Editor do Personalization para esta versão do Beta.
+>Para a versão inicial do Marketo Optimizer, _Meus tokens_ são compatíveis com os nós de ação de jornada Alterar valor de dados e estão limitados ao uso em atributos de texto e sequência. _Meus Tokens_ estão **não** habilitados no editor do Personalization.
 
-## Tokens de acesso
+## Tokens de acesso {#access-tokens}
 
 1. Na navegação à esquerda, expanda **[!UICONTROL Gerenciamento de marketing]**.
 
 1. À direita da lista de recursos de **[!UICONTROL Marketing]**, selecione **[!UICONTROL Programas]**.
 
-1. Na estrutura de árvore, selecione o programa ou pasta para abrir os detalhes no espaço de trabalho central.
+1. Na estrutura de árvore, selecione o programa ou a pasta para abrir os detalhes no espaço de trabalho central.
 
 1. Clique na guia **[!UICONTROL Tokens]**.
 
@@ -57,17 +61,17 @@ Os _Meus tokens_ são variáveis personalizadas que você cria ou modifica para 
 | Booleano | Este tipo contém um valor booleano padrão, verdadeiro ou falso. |
 | Rich text | Esse tipo contém texto formatado. |
 
-### Aninhamento de token
+### Aninhamento de token {#nesting}
 
-Quando você cria um token em um programa ou pasta, ele fica disponível para referência por outros objetos secundários.
+Quando você cria um token em um programa ou pasta, ele fica disponível para referência por objetos na hierarquia.
 
-* Token local - O token é definido no mesmo programa ou pasta.
-* Token herdado - O token é definido em um programa ou pasta pai, um ou mais níveis acima do programa ou da pasta atual.
-* Token substituído - o token é definido em um programa ou pasta pai, mas um valor diferente é definido no programa ou pasta atual. O status do token é alterado para _Substituído_, e todas as pastas derivadas, programas e artefatos de marketing herdam o novo valor.
+* **Token local** - O token está definido no mesmo programa ou pasta.
+* **Token herdado** - O token é definido em um programa ou pasta pai, um ou mais níveis acima do programa ou pasta atual.
+* **Token substituído** - O token está definido em um programa ou pasta pai, mas um valor diferente está definido no programa ou pasta atual. O status do token é alterado para _Substituído_, e todas as pastas derivadas, programas e artefatos de marketing herdam o novo valor.
 
 ![Tipos de token e herança](./assets/program-tokens-inherited-overridden.png){width="600" zoomable="yes"}
 
-### Criar um token
+### Criar um token {#create}
 
 1. Na guia _[!UICONTROL Tokens]_, clique em **[!UICONTROL Criar]**.
 
@@ -83,9 +87,9 @@ Quando você cria um token em um programa ou pasta, ele fica disponível para re
 
 1. Clique em **[!UICONTROL Criar]**.
 
-### Editar um token
+### Editar um token {#edit}
 
-É possível editar o valor de qualquer um dos Meus tokens definidos. Faça isso para substituir o valor de um token herdado.
+É possível editar o valor de qualquer um dos Meus tokens definidos, que substitui o valor de um token herdado.
 
 <!-- (How does this affect live person journeys? ) -->
 
@@ -97,13 +101,21 @@ Quando você cria um token em um programa ou pasta, ele fica disponível para re
 
 1. Clique no ícone _Salvar_.
 
-### Excluir um token
+### Excluir um token {#delete}
 
 Você pode excluir um token personalizado da lista se ele não estiver sendo usado no momento no conteúdo de email da jornada.
 
 1. Em _[!UICONTROL Tokens]_, clique no ícone _Excluir_ ao lado do nome do token.
 
 1. Na caixa de diálogo de confirmação, clique em **[!UICONTROL Excluir]**.
+
+## Sugestão automática e visualização {#autosuggest}
+
+Ao incluir um _Alterar valor de dados_ [nó de ação](./action-nodes.md) na jornada, você pode inserir `{{` no campo **[!UICONTROL Novo valor]** para revelar os tokens do menu _Sugestão Automática_. A lista exibida mostra namespaces e tokens individuais compatíveis. Somente os tokens de um tipo de dados compatível são listados.
+
+Para _Meus tokens_, uma visualização do valor do token é exibida com o nome do token para facilitar a seleção do valor correto.
+
+![Sintaxe no campo Novo valor para exibir o menu de autoutilização para tokens](./assets/program-tokens-change-data-value-autosuggest.png){width="500" zoomable="yes"}
 
 <!--
 
