@@ -1,120 +1,129 @@
 ---
 title: Habilidades dos colegas de trabalho
-description: Revise as habilidades do CX Enterprise Co-worker no Marketo Otimizer — pacotes de fluxos de trabalho para programas, jornadas, públicos, pontuação, conteúdo e otimização de hora de envio.
+description: Revise as habilidades do colaborador no Marketo Optimizer para jornadas, públicos, programas, conteúdo, análises e decisões de IA. Saiba o que cada habilidade pode fazer por você.
+autotag-review: '2026-09-22T14:02:17.516Z'
 TQID: 'https://experienceleague.adobe.com/nNFB9UEghfqVvnBrNtTDnpnLUKKKMAU2nY1Pqt0KkUQ'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
     internal-label: Marketo Optimizer
 feature_v2:
-  - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
-    internal-label: Setup
-  - id: 46e599c6-e20f-5f67-9824-93415016f66b
-    internal-label: Audiences
-  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
-    internal-label: Journeys
-  - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
-    internal-label: Programs
-  - id: d4203578-d294-5145-b397-f26f4488a904
-    internal-label: Channels
+  - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+    internal-label: Chat Interface
+subfeature_v2:
+  - id: b9e5c7f3-be30-563c-9e41-cc8ea76e2fee
+    internal-label: Skills
 topic_v2:
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-    internal-label: Data quality
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-    internal-label: Implementation
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-    internal-label: Customer experience
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-    internal-label: Optimization
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-    internal-label: Personalization
-source-git-commit: 1dcc3bcdc59114c7fc1e16178db8921ae173b955
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
+source-git-commit: 5334f0f5d9d958ea47b055b067a7308950352e9c
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 7%
+source-wordcount: '988'
+ht-degree: 4%
 ---
+
 # Habilidades de colega de trabalho
 
-Uma _habilidade_ é um fluxo de trabalho empacotado que o Coworker sabe como executar — os blocos fundamentais por trás das solicitações de menu `/` e em linguagem natural. Cada habilidade contém instruções passo a passo e as ferramentas específicas necessárias para um trabalho (por exemplo, &quot;publicar uma jornada&quot;, &quot;comparar duas listas de pessoas&quot;, &quot;criar um modelo de pontuação&quot;).
+Uma _habilidade_ é um fluxo de trabalho empacotado que o Co-worker pode executar. As habilidades são os componentes por trás das solicitações do menu `/` e de linguagem natural. Cada habilidade contém instruções passo a passo e as ferramentas específicas necessárias para uma tarefa, como publicar uma jornada, comparar duas listas de pessoas ou criar um modelo de pontuação.
 
->[!NOTE]
->
->Cada habilidade é classificada de acordo com a habilidade sofrer mutação no estado [!DNL Marketo Optimizer] ou [!DNL Marketo Engage] (**Gravação**), somente consultas/análises/gerações (**Leitura**) ou com funções de consulta + mutação iguais (**Leitura+Gravação**).
+A classificação de cada habilidade reflete o tipo de ação que ela executa:
 
-## Programas e planejamento {#programs-planning}
-
-| Habilidade | O que faz | Acesso | Superfície do produto | Impacto / fluxo de dados |
-|---|---|---|---|---|
-| `adapt-program` | Gerar histórias de migração dos programas [!DNL Marketo Engage] para a adaptação [!DNL Marketo Optimizer]. | Ler | [!DNL Marketo Optimizer] | Lê [!DNL Marketo Engage], escreve [!DNL Marketo Optimizer] |
-| `folder-creation` | Criar pastas organizacionais na árvore de ativos. | Gravar | [!DNL Marketo Optimizer] | Leituras + gravações [!DNL Marketo Optimizer] |
-| `program-creation` *(Programas de Compilação)* | Criar programas do Marketo a partir de um resumo da campanha.  <p>Consulte _[Criar um programa a partir de um resumo](./program-from-brief.md)_. | Gravar | [!DNL Marketo Engage] | Leituras + gravações [!DNL Marketo Engage] |
-| `program-planning` *(Campanhas de Plano)* | Transforme os resumos em documentos de configuração/implementação. | Ler | [!DNL Marketo Engage] | Lê [!DNL Marketo Engage] |
-| `program-qa` *(Validar Programas)* | Validar/auditar programas (somente regras, plano de teste ou resumo). | Ler | [!DNL Marketo Engage] | Lê [!DNL Marketo Engage] |
+* _Pesquisar_ habilidades para pesquisar ou listar registros existentes.
+* _Analisar_ habilidades para revisar, comparar ou relatar dados sem alterá-los.
+* _Exibir_ habilidades exibem um relatório ou métrica somente leitura.
+* _Editar_ habilidades altera as configurações ou o conteúdo de um objeto existente.
+* _Criar_ habilidades cria um novo objeto.
 
 ## Jornadas {#journeys}
 
-| Habilidade | O que faz | Acesso | Produto | Infraestrutura (fluxo de dados) |
-|---|---|---|---|---|
-| `journey-creation` | Crie e edite jornadas de pessoas a partir do idioma natural. | Gravar | [!DNL Marketo Optimizer] | Leituras + gravações [!DNL Marketo Optimizer] |
-| `journey-edit-dates` | Alterar a data de início/término de uma jornada sem publicar. | Gravar | [!DNL Marketo Optimizer] | Leituras + gravações [!DNL Marketo Optimizer] |
-| `journey-publish` | Publicar/iniciar/agendar jornadas de pessoas. | Gravar | [!DNL Marketo Optimizer] | Leituras + gravações [!DNL Marketo Optimizer] |
-| `journey-stop` | Interromper, fechar, parar, parar ou matar jornadas. | Gravar | [!DNL Marketo Optimizer] | Leituras + gravações [!DNL Marketo Optimizer] |
-| `journey-reentry` | Configurar reentrada: permitir/não permitir, lista suspensa, máximo de entradas. | Gravar | [!DNL Marketo Optimizer] | Leituras + gravações [!DNL Marketo Optimizer] |
-| `journey-trafficcontrol` | Execute uma simulação de controle de tráfego mostrando o roteamento de perfis. | Ler | [!DNL Marketo Optimizer] | Leituras [!DNL Marketo Optimizer] (simulação) |
-| `journey-observability` | Progressão de depuração/monitor — caminhos, sincronização, divisões, paralisações e ressonância. <p>Consulte _[Depurar e monitorar a progressão da jornada](./journey-observability.md)_. | Ler | [!DNL Marketo Optimizer] | Lê [!DNL Marketo Optimizer] + [!DNL Marketo Engage] (verificação da lista estática) |
+Essas habilidades criam, publicam, depuram e gerenciam jornadas de pessoas.
 
-## Públicos e pessoas {#audiences-people}
+| Habilidade | O que faz | Tipo |
+| --- | --- | --- |
+| **Observabilidade da Jornada** | Depurar e monitorar o movimento da pessoa por meio de uma jornada, incluindo caminhos, sincronização, divisões, paralisações e tempo de permanência. Consulte _[Depurar e monitorar a progressão da jornada](./journey-observability.md)_. | Analisar |
+| **Controle de tráfego de Jornada** | Simular como os perfis são distribuídos em todas as jornadas ativas. | Analisar |
+| **Publicar Jornada** | Publicar, iniciar ou agendar uma jornada, incluindo modo de início, datas e confirmação. | Editar |
+| **Parada da Jornada** | Interrompa uma jornada em execução para pará-la imediatamente ou feche-a para reduzi-la normalmente. | Editar |
+| **Jornada datas de edição** | Altere a data de início ou término em um rascunho, agendado ou jornada em tempo real sem publicá-la novamente. | Editar |
+| **Reentrada de Jornada** | Defina as configurações de reentrada para uma jornada, incluindo se a reentrada é permitida, o atraso de resfriamento e a contagem máxima de entradas. | Editar |
+| **Criação de Jornada** | Crie e edite jornadas de pessoas usando solicitações em linguagem natural. | Criar |
+| **Webinar para o Jornada** | Configure uma jornada promocional antes de um webinário e uma jornada de acompanhamento depois dele. | Criar |
 
-| Habilidade | O que faz | Acesso | Produto | Infraestrutura (fluxo de dados) |
-|---|---|---|---|---|
-| `audience-creation` | Adapte uma lista inteligente [!DNL Marketo Engage], crie uma lista de pessoas ou adicione/atualize regras. <p>Consulte _[Criar públicos-alvo para programas](./audience-creation.md)_. | Gravar | [!DNL Marketo Optimizer] | Lê [!DNL Marketo Engage] + lê/grava [!DNL Marketo Optimizer]. |
-| `people-list-comparison` | Comparar duas listas de pessoas e mostrar membros sobrepostos. | Ler | [!DNL Marketo Optimizer] | Lê [!DNL Marketo Optimizer] |
-| `import-leads` | Inspecione a qualidade dos dados de CSV e confirme as importações para [!DNL Marketo Engage]. | Leitura+Gravação | Ambos | Leituras + gravações [!DNL Marketo Engage] |
-| `lead-investigation` *(Investigar Clientes Potenciais)* | Investigar a atividade, a pontuação, a qualificação e o ciclo de vida de um lead. | Ler | [!DNL Marketo Engage] | Lê [!DNL Marketo Engage] |
+## Listas de público-alvo e pessoas {#audience-people-lists}
 
-## Conteúdo e canais {#content-channels}
+Essas habilidades criam e gerenciam listas de pessoas e definições de público-alvo.
 
-| Habilidade | O que faz | Acesso | Produto | Infraestrutura (fluxo de dados) |
-|---|---|---|---|---|
-| `content-personalization` | Procurar/visualizar modelos e editar conteúdo/gerar variantes. | Leitura+Gravação | [!DNL Marketo Optimizer] | Leituras + gravações [!DNL Marketo Optimizer]. Consulte _[Personalizar conteúdo de email por persona](./personalize-content.md)_. |
-| `asset-tokens` | CRUD de token completo em programas/pastas/jornadas. | Leitura+Gravação | [!DNL Marketo Optimizer] | Leituras + gravações [!DNL Marketo Optimizer] |
-| `fcs-channels` | Pesquisas de canal e CRUD + publicar/parar/excluir. | Leitura+Gravação | [!DNL Marketo Optimizer] | Leituras + gravações [!DNL Marketo Optimizer] |
+| Habilidade | O que faz | Tipo |
+| --- | --- | --- |
+| **Procurar Membros da Lista Dinâmica** | Procurar e filtrar os membros de uma lista dinâmica ou estática de pessoas. | Pesquisar |
+| **Comparação da Lista de Pessoas** | Comparar duas listas de pessoas e mostrar membros sobrepostos. | Analisar |
+| **Remover da Lista Estática** | Remova membros que correspondem a critérios de linguagem natural de uma lista estática. | Editar |
+| **Criação de público-alvo** | Adapte uma lista inteligente [!DNL Marketo Engage], crie uma lista de pessoas, ou adicione ou atualize suas regras. Consulte _[Criar públicos-alvo para programas](./audience-creation.md)_. | Criar |
 
-## Pontuação e sinais {#scoring-signals}
+## Programas, pastas e canais {#programs-folders-channels}
 
-| Habilidade | O que faz | Acesso | Produto | Infraestrutura (fluxo de dados) |
-|---|---|---|---|---|
-| `scoring-studio` | Liste/obtenha modelos de pontuação e crie/publique-os. <p>Consulte _[Criar modelos de pontuação personalizados](./lead-scoring-model.md)_. | Leitura+Gravação | [!DNL Marketo Optimizer] | Lê + grava [!DNL Marketo Optimizer] (serviço de pontuação); lê [!DNL Marketo Engage] campos de cliente potencial/tipos de atividade. |
-| `engagementconfiguration` | Mostrar configuração de envolvimento e editar/atualizar pesos. | Leitura+Gravação | [!DNL Marketo Optimizer] | Leituras + gravações [!DNL Marketo Optimizer] |
-| `intentconfiguration` | Mostrar configuração de intenção e definir/atualizar pesos. | Leitura+Gravação | [!DNL Marketo Optimizer] | Leituras + gravações [!DNL Marketo Optimizer] |
-| `intent-query` | Pontuações de intenção de consulta e explicação por pessoa/segmento/lista. | Ler | [!DNL Marketo Optimizer] | Lê [!DNL Marketo Optimizer] |
+Essas habilidades gerenciam a estrutura do programa, os tokens e a configuração do canal.
 
-## Otimização do horário de envio {#sto}
+| Habilidade | O que faz | Tipo |
+| --- | --- | --- |
+| **Criar programa** | Criar programas a partir de um resumo da campanha. Consulte _[Criar um programa a partir de um resumo](./program-from-brief.md)_. | Analisar |
+| **Adaptar Programa** | Gerar histórias de migração dos programas [!DNL Marketo Engage] para a adaptação [!DNL Marketo Optimizer]. | Analisar |
+| **Tokens de ativos** | Crie e gerencie valores de `{{my.token}}` em programas, pastas e jornadas. | Editar |
+| **Canais FCS** | Criar, publicar, interromper e clonar canais no Serviço de canais, incluindo esquemas XDM e provisionamento. | Editar |
+| **Criação de pasta** | Criar pastas organizacionais na árvore de ativos. | Criar |
+| **Campanha integrada do WhatsApp** | Crie e publique uma campanha embutida do [!DNL WhatsApp] em um nó do jornada. | Criar |
+| **Criação de programa de marketing** | Crie um programa completo, incluindo subpastas, tokens, listas de pessoas e jornadas. | Criar |
+| **Criação de programa e lote de Jornadas** | Crie vários pares de programas e jornadas em uma única solicitação em lote. | Criar |
 
-| Habilidade | O que faz | Acesso | Produto | Infraestrutura (fluxo de dados) |
-|---|---|---|---|---|
-| `send-time-optimization` | Verifique o status STO e ative/desative em um nó de email. | Leitura+Gravação | [!DNL Marketo Optimizer] | Leituras + gravações [!DNL Marketo Optimizer] |
-| `send-time-report` | Buscar/exibir o relatório de desempenho STO. | Ler | [!DNL Marketo Optimizer] | Lê [!DNL Marketo Optimizer] |
+## Email e páginas de destino {#email-landing-pages}
 
-## Analytics e relatórios {#analytics-reporting}
+Essas habilidades criam e gerenciam emails, formulários e landing pages.
 
-| Habilidade | O que faz | Acesso | Produto | Infraestrutura (fluxo de dados) |
-|---|---|---|---|---|
-| `surface-analytics` | Gerar relatórios de análise em linguagem natural entre as tendências de atividades, o desempenho do email, os dados de clientes potenciais e de contas, a associação de segmentos e listas e as métricas de jornada, retornadas como gráficos e tabelas. Os dados do relatório são atualizados a cada duas horas. <p>Consulte _[Gerar relatórios de análise](./surface-analytics.md)_.</p> | Ler | [!DNL Marketo Optimizer] | Leituras [!DNL Marketo Optimizer] + [!DNL Marketo Engage] |
+| Habilidade | O que faz | Tipo |
+| --- | --- | --- |
+| **Listar Forms** | Listar formulários e exibir seus detalhes e campos. | Pesquisar |
+| **Listar páginas de aterrissagem** | Listar páginas de aterrissagem, exibir seus detalhes e gerenciar seu estado de rascunho ou publicado. | Pesquisar |
+| **Auditoria de email** | Auditoria de um email em relação ao grupo de destino, incluindo inferência pessoal e uma breve análise de seção por seção. | Analisar |
+| **Criação de email** | Criar ou atualizar um nó de email do jornada, incluindo composição de um resumo ou PDF, vinculação a um nó e gravação de conteúdo. | Editar |
+| **Criação de formulário** | Crie ou atualize um formulário de captura de cliente potencial independente, publique-o e, opcionalmente, incorpore-o em uma página de aterrissagem. | Criar |
+| **Criação da página de aterrissagem** | Crie ou atualize uma landing page a partir de um resumo, incluindo planejamento de conteúdo, seleção de modelo, preenchimento de slots e adição de um formulário, depois publique-o. Anexe também uma landing page publicada como um link do call-to-action em um email. | Criar |
+| **Verificação de Renderização de Email** | Verifique se há problemas de renderização no email [!DNL Microsoft Outlook] e corrija automaticamente o que for possível. | Editar |
 
-## Conhecimento {#knowledge}
+## Personalização de conteúdo {#content-personalization}
 
-| Habilidade | O que faz | Acesso | Produto | Infraestrutura (fluxo de dados) |
-|---|---|---|---|---|
-| `product-knowledge` | Responda às perguntas de instrução/conceito da documentação do [!DNL Marketo Optimizer] publicada no Experience League. | Ler | Ambos | Lê documentos externos — nenhum dado do produto |
+Essa habilidade navega em modelos e personaliza o conteúdo de email para diferentes personalidades.
 
-## Cross-backend {#cross-backend}
+| Habilidade | O que faz | Tipo |
+| --- | --- | --- |
+| **Personalization de conteúdo** | Procure e visualize modelos, em seguida edite o conteúdo ou gere variantes. Consulte _[Personalizar conteúdo de email por persona](./personalize-content.md)_. | Criar |
 
-Essas habilidades abrangem mais de um back-end:
+## Analytics e otimização {#analytics-optimization}
 
-- **`adapt-program`** — `gather_program_assets` lê [!DNL Marketo Engage] (`get_program`, `get_smart_campaign`, `list_emails`) e grava via `falcomcp_create_journey` — back-end clássico.
-- **`audience-creation`** — lê [!DNL Marketo Engage] listas inteligentes (`get_smart_list` / `get_smart_campaign`) e grava [!DNL Marketo Optimizer] listas de pessoas.
-- **`journey-observability`** — [!DNL Marketo Optimizer] leituras mais `check_lead_in_marketo_static_list` [!DNL Marketo Engage] leituras.
-- **`scoring-studio`** — lê [!DNL Marketo Engage] campos de cliente potencial/tipos de atividade junto com o serviço de pontuação [!DNL Marketo Optimizer].
-- **`surface-analytics`** — pode responder a perguntas de relatório que abrangem os dados de [!DNL Marketo Engage] e [!DNL Marketo Optimizer] em uma única consulta.
+Essas habilidades relatam o desempenho e configuram modelos de otimização e pontuação de tempo de envio.
 
-Todas as ferramentas `falco-mcp_*` e jornada/token/scoring/STO/FCS atingem [!DNL Marketo Optimizer] serviços; ferramentas CSV/programa/lead atingem [!DNL Marketo Engage].
+| Habilidade | O que faz | Tipo |
+| --- | --- | --- |
+| **Análise de Superfície** | Gerar relatórios de análise a partir de solicitações em linguagem natural, abordando tendências de atividades, desempenho de email, dados de clientes potenciais e de contas, segmento e associação de listas, além de métricas de jornada. Os dados do relatório são atualizados a cada duas horas. Consulte _[Gerar relatórios de análise](./surface-analytics.md)_. | Analisar |
+| **Enviar Relatório de Hora** | Exiba o relatório de desempenho de otimização de tempo de envio (STO) no nível da jornada ou para um nó de email individual. | Analisar |
+| **Simulação de STO de email** | Pré-visualize o tempo de envio previsto, a qualidade do público-alvo e o mapa de calor de engajamento de um nó de email antes de habilitar o STO. | Analisar |
+| **Otimização de Tempo de Envio** | Ative ou desative o STO em um nó de email do jornada. | Editar |
+| **Configuração do compromisso** | Mostrar e editar os pesos da atividade para o modelo de pontuação de engajamento da pessoa. | Editar |
+| **Estúdio de Pontuação** | Liste e visualize modelos de pontuação e, em seguida, crie e publique novos. Consulte _[Criar modelos de pontuação personalizados](./lead-scoring-model.md)_. | Criar |
+
+## Decisão e intenção de IA {#ai-decisioning-intent}
+
+Essas habilidades avaliam a prontidão dos dados para a decisão de IA e configuram a pontuação de intenção.
+
+| Habilidade | O que faz | Tipo |
+| --- | --- | --- |
+| **Integridade da Decisão de IA** | Relate se os dados de uma organização estão prontos para a tomada de decisões sobre IA, incluindo disponibilidade de clientes potenciais, distribuição pessoal, riqueza da história e intenção. | Analisar |
+| **Analisar intenção** | Consulte e valide a classificação de intenção no nível do lead, as tendências e a taxonomia de produtos e palavras-chave. | Analisar |
+| **Configuração de intenção** | Mostrar e editar os pesos da atividade para o modelo de pontuação de intenção de pessoa. | Editar |
+
+## Gerenciamento de conhecimentos e habilidades {#knowledge-skill-management}
+
+Essas habilidades respondem a perguntas sobre produtos e permitem que você crie novas habilidades personalizadas.
+
+| Habilidade | O que faz | Tipo |
+| --- | --- | --- |
+| **Conhecimento do Produto** | Responda as perguntas de instrução e conceituais usando a documentação do [!DNL Marketo Optimizer] publicada no Experience League. | Pesquisar |
+| **Criação de habilidades** | Crie, teste e refine novas habilidades personalizadas. | Criar |
