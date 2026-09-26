@@ -1,31 +1,34 @@
 ---
 title: Mapeamento de persona
-description: Saiba como configurar o mapeamento de persona no Marketo Otimizer. Mapeie atributos de pessoa para definir personas e use a Filtragem de persona derivada em listas de pessoas e jornadas de pessoas.
+description: Saiba como configurar o mapeamento personalizado no Marketo Optimizer. Mapeie atributos de pessoa para definir personas e use a Filtragem de persona derivada em listas de pessoas e jornadas de pessoas.
 TQID: 'https://experienceleague.adobe.com/JCBtJN4DgQZROVDamM4eKuCiGTwJQPQY3wMxmBPFj74'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 46e599c6-e20f-5f67-9824-93415016f66b
+    internal-label: Audiences
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a659ad61-de21-559d-a901-02e2fb329ff5
+    internal-label: Administration
   - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Administration
+source-git-commit: fd79d458ef033e4485ba5e8a8c8fbe56b7cd559b
 workflow-type: tm+mt
-source-wordcount: 1216
+source-wordcount: '1287'
 ht-degree: 1%
-
 ---
-
 # Mapeamento de personas
 
-<!-- not available until GA -->
+As personas são um aspecto principal em uma abordagem de marketing baseado em conta (ABM) porque ajudam os profissionais de marketing a ajustar suas estratégias às necessidades, preferências e pontos problemáticos específicos dos indivíduos nas contas de destino. Os profissionais de marketing podem criar perfis detalhados para cada persona, incluindo o histórico, as responsabilidades, os pontos problemáticos e os canais de comunicação preferidos. Com essas definições, os administradores podem configurar personas de acordo com os atributos de pessoa no [!DNL Adobe Marketo Optimizer], de modo que as listas de pessoas e as jornadas de pessoas possam usar uma filtragem simplificada e consistente que capture essas personas.
 
-As personas são um aspecto principal em uma abordagem de marketing baseado em conta (ABM) porque ajudam os profissionais de marketing a ajustar suas estratégias às necessidades, preferências e pontos problemáticos específicos dos indivíduos nas contas de destino. Os profissionais de marketing podem criar perfis detalhados para cada persona, incluindo o histórico, as responsabilidades, os pontos problemáticos e os canais de comunicação preferidos. Com essas definições, os administradores podem configurar personas de acordo com os atributos de pessoa no Marketo Otimizer, para que as listas de pessoas e as jornadas de pessoas possam usar uma filtragem simplificada e consistente que capture essas personas.
-
-No Marketo Otimizer, o mapeamento de persona fornece um recurso adicional além das condições do modelo de função: você pode filtrar [listas de pessoas](../audiences/people-lists.md) e [jornadas de pessoas](../marketing/person-journeys.md) usando **[!UICONTROL Persona derivada]** como critério de filtro. Um _perfil derivado_ é o perfil que o sistema infere para um registro de pessoa avaliando seus atributos em relação a todas as definições de perfil configuradas.
+Em [!DNL Marketo Optimizer], o mapeamento de persona fornece um recurso adicional além das condições do modelo de função: você pode filtrar [listas de pessoas](../audiences/people-lists.md) e [jornadas de pessoas](../marketing/person-journeys.md) usando **[!UICONTROL Persona Derivada]** como critério de filtro. Um _perfil derivado_ é o perfil que o sistema infere para um registro de pessoa avaliando seus atributos em relação a todas as definições de perfil configuradas.
 
 Definição pessoal e limitações de uso:
 
@@ -37,64 +40,64 @@ Definição pessoal e limitações de uso:
 
 **Caso de uso: variações de cargo**
 
-Muitas equipes de marketing e vendas usam cargos como uma maneira de identificar diferentes perfis em uma conta. Mas os títulos dos contatos podem ser inconsistentes e usar várias variações para funções semelhantes. Ao criar filtros de lista de pessoas ou condições de público-alvo de jornada de pessoas, pode ser necessário definir cada título de trabalho relacionado possível para uma determinada função. É possível simplificar essas definições e trazer pessoas com títulos de trabalho semelhantes para uma persona inferida, que você pode direcionar filtrando por _A Persona derivada é o Gerenciamento de produto_ em vez de corresponder a valores de título de trabalho individuais.
+Muitas equipes de marketing e vendas usam cargos como uma maneira de identificar diferentes perfis em uma conta. Mas os títulos dos contatos podem ser inconsistentes e usar várias variações para funções semelhantes. Ao criar filtros de lista de pessoas ou condições de público-alvo de jornada de pessoa, talvez seja necessário definir cada título de trabalho relacionado possível para uma determinada função. É possível simplificar essas definições e agrupar pessoas com títulos de trabalho semelhantes em uma persona inferida, que você pode direcionar filtrando por _A Persona derivada é Liderança_ em vez de corresponder a valores de cargo individuais.
 
 >[!ENDSHADEBOX]
 
 ## Acessar os perfis configurados {#access}
 
-1. Na navegação à esquerda, escolha **[!UICONTROL Administração]** > **[!UICONTROL Configurações]**.
+Abra o painel _Mapeamento de persona_ na [interface de chat](../agents/chat-interface.md) do Coworker.
 
-1. Clique em **[!UICONTROL Mapeamento de persona]** no painel intermediário para exibir a lista de personas.
+1. No painel de chat, digite `/persona-mapping` e pressione **Enter**.
 
-   ![Acessar as personalidades configuradas](assets/configuration-persona-mapping.png){width="800" zoomable="yes"}
+   Este comando é um atalho de navegação, listado em **[!UICONTROL Abrir uma página]** no menu de barra.
 
-   Nesta página, você pode [criar](#create-a-persona), [editar](#edit-a-persona) ou [excluir](#delete-a-persona) personas.
+   ![Captura de tela do menu de barras da interface do chat mostrando o comando /persona-mapping em Abrir uma página.](assets/persona-mapping-open-chat.png){width="800" zoomable="yes"}
 
-   A lista Mapeamento de pessoas está organizada como uma tabela e exibe os perfis atualizados mais recentemente na parte superior (classificado por _[!UICONTROL Última atualização]_). Você pode personalizar a tabela exibida ao clicar no ícone _Configurações de coluna_ ( ![Configurações de coluna](../assets/do-not-localize/icon-column-settings.svg) ) no canto superior direito e marcar ou desmarcar as caixas de seleção da coluna.
+1. O colaborador abre o painel **[!UICONTROL Mapeamento de persona]** como uma guia do espaço de trabalho, mostrando a lista de personas.
 
-   ![Colunas a serem exibidas na lista de mapeamento de persona](assets/configuration-persona-mapping-list-columns.png){width="300"}
+   Neste painel, você pode [criar](#create-a-persona), [editar](#edit-a-persona) ou [excluir](#delete-a-persona) personas.
+
+   A lista de persona é organizada como uma tabela que mostra cada nome de persona, data de criação e data da última modificação. <!-- You can customize the displayed table by clicking the _Column settings_ ( ![Column settings](../assets/do-not-localize/icon-column-settings.svg) ) icon in the top-right corner and selecting or clearing the column checkboxes. --> Você pode minimizar o painel de chat para aumentar o tamanho do painel _Mapeamento pessoal_.
+
+   ![O painel Mapeamento de persona mostrando uma tabela de personas padrão e um botão Criar persona.](assets/persona-mapping-list.png){width="700" zoomable="yes"}
 
 1. Para acessar os detalhes de uma persona, clique no nome.
 
 ### Personas padrão
 
-A lista _Mapeamento de persona_ inclui cinco personas padrão definidas de acordo com o atributo de cargo. Você pode editar qualquer um desses perfis padrão de acordo com as necessidades de sua organização:
+A lista _Mapeamento de persona_ inclui dez personas padrão definidas de acordo com o atributo de título do trabalho. Você pode editar qualquer um desses perfis padrão de acordo com as necessidades de sua organização:
 
 | Persona | Cargos |
 | ------- | ---------- |
-| CXO / EVP - CXO / Vice-presidente executivo | CEO, CIO, CTO, CMO, CFO, vice-presidente executivo de estratégia |
-| Vice-presidente/Vice-presidente sênior | Vice-presidente de marketing, vice-presidente de vendas, vice-presidente de operações, vice-presidente de produtos, vice-presidente de TI |
-| Diretor sênior / Diretor - Diretor sênior / Diretor | Diretor de engenharia, Diretor sênior de produto, Diretor financeiro, Diretor de sucesso do cliente |
-| Gerente sênior / Gerente - Gerente sênior / Gerente | Gerente de marketing sênior, gerente de TI, gerente de operações, gerente de vendas, gerente de RH |
-| Contribuinte Individual - Contribuinte Individual | Executivo de contas, engenheiro de software, especialista em marketing, representante de sucesso do cliente |
-| Analista - Analista | Analista de negócios, Analista de dados, Analista de pesquisa de mercado, Analista financeiro, Analista de operações |
-| Desenvolvedor - Desenvolvedor | Desenvolvedor front-end, desenvolvedor back-end, desenvolvedor de pilha completa, desenvolvedor de aplicativos móveis, engenheiro de DevOps |
-| Equipe profissional - Equipe profissional | Especialista de RH, consultor jurídico, analista de conformidade, gerente de projeto, especialista em aquisição |
-| Consultor - Consultor | Consultor de gerenciamento, consultor de TI, consultor de processos de negócios, consultor de marketing |
-| Outro - Outro | Especialista do setor, consultor independente, consultor independente, especialista no assunto |
+| CXO/EVP | CEO, CIO, CTO, CMO, CFO, vice-presidente executivo de estratégia |
+| Vice-presidente/Vice-presidente | Vice-presidente de marketing, vice-presidente de vendas, vice-presidente de operações, vice-presidente de produtos, vice-presidente de TI |
+| Diretor sênior / Diretor | Diretor de engenharia, Diretor sênior de produto, Diretor financeiro, Diretor de sucesso do cliente |
+| Gerente sênior / Gerente | Gerente de marketing sênior, gerente de TI, gerente de operações, gerente de vendas, gerente de RH |
+| Colaborador Individual | Executivo de contas, engenheiro de software, especialista em marketing, representante de sucesso do cliente |
+| Analista | Analista de negócios, Analista de dados, Analista de pesquisa de mercado, Analista financeiro, Analista de operações |
+| Desenvolvedor | Desenvolvedor front-end, desenvolvedor back-end, desenvolvedor de pilha completa, desenvolvedor de aplicativos móveis, engenheiro de DevOps |
+| Equipe profissional | Especialista de RH, consultor jurídico, analista de conformidade, gerente de projeto, especialista em aquisição |
+| Consultor | Consultor de gerenciamento, consultor de TI, consultor de processos de negócios, consultor de marketing |
+| Outro | Especialista do setor, consultor independente, consultor independente, especialista no assunto |
 
 ### Filtragem de lista
 
 Para localizar o perfil desejado, insira uma cadeia de texto na barra de pesquisa para corresponder perfis por nome.
 
-![Filtrar os mapeamentos de persona exibidos](assets/configuration-persona-mapping-search.png){width="700" zoomable="yes"}
+![Campo de pesquisa que filtra a lista de personalidades por nome, mostrando dois resultados correspondentes.](assets/configuration-persona-mapping-search.png){width="680" zoomable="yes"}
 
 ## Criar uma persona {#create-a-persona}
-
-1. Na navegação à esquerda, escolha **[!UICONTROL Administração]** > **[!UICONTROL Configuração]**.
-
-1. Clique em **[!UICONTROL Mapeamento de persona]** no painel intermediário.
 
 1. Clique em **[!UICONTROL Criar persona]**.
 
 1. Insira um **[!UICONTROL Nome]** e uma **[!UICONTROL Descrição]** exclusivos (opcional) para a persona.
 
-   ![Criar um mapeamento personalizado](assets/configuration-persona-mapping-new.png){width="700" zoomable="yes"}
+   ![Crie um painel de persona com campos Nome e Descrição e uma seção Regras para selecionar atributos.](assets/configuration-persona-mapping-new.png){width="680" zoomable="yes"}
 
-1. Selecione os atributos a serem usados para corresponder à persona.
+1. Para **[!UICONTROL Regras]**, selecione os atributos a serem usados para corresponder à persona.
 
-   * Clique em **[!UICONTROL Selecionar atributos de pessoa]**.
+   * Clique em **[!UICONTROL Editar regras]**.
 
    * Na caixa de diálogo, marque a caixa de seleção de cada atributo que você deseja mapear (no máximo cinco).
 
@@ -102,15 +105,15 @@ Para localizar o perfil desejado, insira uma cadeia de texto na barra de pesquis
 
      Para filtrar a lista de atributos por nome, digite uma string de texto na barra de pesquisa. Você também pode clicar no ícone _Filtro_ ( ![Ícone Filtro](../assets/do-not-localize/icon-filter.svg) ) na parte superior esquerda para filtrar a lista exibida por tipo, _Padrão_ ou _Personalizado_.
 
-     ![Caixa de diálogo Selecionar atributos pessoais](assets/configuration-persona-mapping-select-attributes.png){width="700" zoomable="yes"}
+     ![Caixa de diálogo listando atributos de pessoa com caixas de seleção, status de uso e colunas de tipo de atributo.](assets/configuration-persona-mapping-select-attributes.png){width="450" zoomable="yes"}
 
-   * Clique em **[!UICONTROL Salvar]**.
+   * Clique em **[!UICONTROL Concluído]**.
 
      Os atributos selecionados são preenchidos na seção _[!UICONTROL Atributos pessoais]_.
 
-1. Para cada atributo, insira os valores separados por vírgula que você deseja corresponder ao atributo.
+   * Para cada atributo, insira os valores separados por vírgula que você deseja corresponder ao atributo.
 
-1. Clique em **[!UICONTROL Enviar]**.
+1. Clique em **[!UICONTROL Criar persona]**.
 
 ## Editar uma persona {#edit-a-persona}
 
@@ -130,19 +133,23 @@ Excluir uma pessoa a remove da lista _Mapeamento de pessoas_ e ela não está ma
 
 ## Filtrar por persona derivada {#derived-persona-filter}
 
-Depois que as personas são configuradas, o Marketo Otimizer deriva uma persona para cada registro de pessoa avaliando os atributos do registro em relação aos mapeamentos de persona definidos. Você pode usar o resultado inferido — a _Pessoa derivada_ — como filtro ao definir o público-alvo para uma lista de pessoas ou uma jornada de pessoa.
+Depois que as personas são configuradas, [!DNL Marketo Optimizer] deriva uma persona para cada registro de pessoa avaliando os atributos do registro em relação aos mapeamentos de persona definidos. Você pode usar o resultado inferido — a _Pessoa derivada_ — como filtro ao definir o público-alvo para uma lista de pessoas ou uma jornada de pessoa.
 
-O filtro Persona derivado aparece no painel de filtros na categoria **[!UICONTROL Filtros especiais]** junto com outros atributos inferidos, como associação de jornada.
+O filtro Persona derivado aparece no painel de filtros na categoria **[!UICONTROL Atributos da pessoa]** junto com outros atributos inferidos, como associação de jornada.
 
 ### Listas de pessoas
 
-Ao adicionar ou remover membros de uma lista estática de pessoas, ou ao definir as regras de associação para uma lista dinâmica de pessoas, você pode filtrar por Persona derivada para direcionar todas as pessoas cujos atributos correspondam a uma persona configurada específica.
+Para direcionar as pessoas que correspondem a uma persona configurada específica ao gerenciar listas de pessoas, você pode filtrar por Persona derivada.
 
 **Lista estática — Adicionar membros**
 
 1. Abra a lista estática e clique em **[!UICONTROL Adicionar pessoas]** na parte superior direita.
 
-1. Na caixa de diálogo de filtro, expanda **[!UICONTROL Filtros especiais]** e arraste **[!UICONTROL Persona derivada]** para a tela.
+1. Na caixa de diálogo de filtro, expanda **[!UICONTROL Atributos de pessoa]** e arraste **[!UICONTROL Persona derivada]** para a tela.
+
+   Você também pode inserir o nome do filtro no campo de pesquisa para localizá-lo rapidamente.
+
+   ![Filtro Persona derivado adicionado à tela de filtro da lista de pessoas com opções de persona a serem selecionadas.](assets/persona-mapping-derived-persona-filter.png){width="680" zoomable="yes"}
 
 1. Na condição de filtro, escolha **[!UICONTROL é]** e selecione uma ou mais personalidades na lista.
 
@@ -154,7 +161,9 @@ Ao adicionar ou remover membros de uma lista estática de pessoas, ou ao definir
 
 1. Clique em **[!UICONTROL Editar regras]**.
 
-1. Na caixa de diálogo de filtro, expanda **[!UICONTROL Filtros especiais]** e arraste **[!UICONTROL Persona derivada]** para a tela.
+1. Na caixa de diálogo de filtro, expanda **[!UICONTROL Atributos de pessoa]** e arraste **[!UICONTROL Persona derivada]** para a tela.
+
+   Você também pode inserir o nome do filtro no campo de pesquisa para localizá-lo rapidamente.
 
 1. Na condição de filtro, escolha **[!UICONTROL é]** e selecione uma ou mais personalidades na lista.
 
@@ -172,8 +181,14 @@ Ao configurar o público-alvo de uma jornada de pessoa usando um público-alvo d
 
 1. Em **[!UICONTROL Filtros de perfil de pessoa]**, clique em **[!UICONTROL Adicionar filtro]**.
 
-1. Expanda **[!UICONTROL Filtros especiais]** e arraste **[!UICONTROL Persona Derivada]** para a tela de filtro.
+1. Expanda **[!UICONTROL Atributos da pessoa]** e arraste **[!UICONTROL Pessoa Derivada]** para a tela de filtro.
+
+   Você também pode inserir o nome do filtro no campo de pesquisa para localizá-lo rapidamente.
+
+   ![Filtro Persona derivado adicionado a uma tela de filtro de público-alvo de evento de jornada de pessoa.](assets/persona-mapping-derived-persona-event-filter.png){width="680" zoomable="yes"}
 
 1. Na condição de filtro, escolha **[!UICONTROL é]** e selecione uma ou mais personalidades na lista.
 
    Somente as pessoas cujo perfil derivado corresponda aos valores selecionados podem inserir a jornada.
+
+1. Clique em **[!UICONTROL Salvar]** para salvar os critérios do evento.
