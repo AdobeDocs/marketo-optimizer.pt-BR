@@ -1,16 +1,18 @@
 ---
-user-guide-title: Documentação do Marketo Otimizer
-user-guide-description: Saiba mais sobre o Adobe Marketo Otimizer e como você pode usá-lo para executar o marketing coordenado e o envolvimento de vendas com conteúdo personalizado alimentado por IA para clientes potenciais e contas B2B.
-source-git-commit: 7053281563adbce7b5eb6fd1669974bad15677cb
+user-guide-title: Documentação do Marketo Optimizer
+user-guide-description: Saiba mais sobre o Adobe Marketo Optimizer e como você pode usá-lo para executar o envolvimento coordenado de marketing e vendas com conteúdo personalizado baseado em IA para clientes potenciais e contas B2B.
+source-git-commit: ef45be43f6fc08805ebb5b2824340c45d60996e8
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 44%
+source-wordcount: '260'
+ht-degree: 43%
 ---
 
-# Guia do usuário do Marketo Otimizer {#user}
+# Guia do usuário do Marketo Optimizer {#user}
 
-+ [Documentação do Adobe Marketo Otimizer](guide-overview.md)
-+ [Arquitetura de dados](data-architecture.md)
++ [Documentação do Adobe Marketo Optimizer](guide-overview.md)
++ Base de dados {#data-foundation}
+  + [Arquitetura de dados](./data-architecture.md)
+  + [Interoperabilidade com o Marketo Engage](./marketo-interoperability.md)
 + Introdução {#start}
   + [Configurar lista de verificação](./start/setup-check-list.md)
   + [Gerenciamento de usuários](./start/user-management.md)
