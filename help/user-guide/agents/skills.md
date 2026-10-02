@@ -15,9 +15,9 @@ subfeature_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
     internal-label: Artificial intelligence
-source-git-commit: 5334f0f5d9d958ea47b055b067a7308950352e9c
+source-git-commit: abbd342b8191ddebd7e155ad2c5944e4695a05b3
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '967'
 ht-degree: 4%
 ---
 
@@ -82,7 +82,6 @@ Essas habilidades criam e gerenciam emails, formulários e landing pages.
 | --- | --- | --- |
 | **Listar Forms** | Listar formulários e exibir seus detalhes e campos. | Pesquisar |
 | **Listar páginas de aterrissagem** | Listar páginas de aterrissagem, exibir seus detalhes e gerenciar seu estado de rascunho ou publicado. | Pesquisar |
-| **Auditoria de email** | Auditoria de um email em relação ao grupo de destino, incluindo inferência pessoal e uma breve análise de seção por seção. | Analisar |
 | **Criação de email** | Criar ou atualizar um nó de email do jornada, incluindo composição de um resumo ou PDF, vinculação a um nó e gravação de conteúdo. | Editar |
 | **Criação de formulário** | Crie ou atualize um formulário de captura de cliente potencial independente, publique-o e, opcionalmente, incorpore-o em uma página de aterrissagem. | Criar |
 | **Criação da página de aterrissagem** | Crie ou atualize uma landing page a partir de um resumo, incluindo planejamento de conteúdo, seleção de modelo, preenchimento de slots e adição de um formulário, depois publique-o. Anexe também uma landing page publicada como um link do call-to-action em um email. | Criar |
