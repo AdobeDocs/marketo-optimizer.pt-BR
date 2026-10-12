@@ -1,23 +1,27 @@
 ---
 title: Jornadas de promoção e acompanhamento de webinários
-description: Crie jornadas de promoção, de dia de entrega e de nutrição pós-webinário em torno de um webinário no Marketo Otimizer e personalize o conteúdo com tokens de webinário.
-keywords: 
+description: Crie jornadas de promoção, de dia de entrega e de nutrição pós-webinário em torno de um webinário no Marketo Optimizer e personalize o conteúdo com tokens de webinário.
+keywords:
 role: User
 feature: Person Journeys
 TQID: 'https://experienceleague.adobe.com/9NJrT-Y66XXF1-mWDO80WpymCB6ujrkjkR87MhKuiB8'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Personalization
+source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
 workflow-type: tm+mt
-source-wordcount: 823
+source-wordcount: '823'
 ht-degree: 0%
-
 ---
-
 
 # Promoção do webinário e jornadas de acompanhamento
 
@@ -78,7 +82,7 @@ Os tokens do webinário são renderizados no conteúdo do email: assunto, corpo,
 
 >[!IMPORTANT]
 >
->O token da **_URL de Ingresso_** resolve somente para pessoas cujo status do webinário é _Registrado_ ou posterior. O token da URL _&#x200B;**de**&#x200B;_ Gravação só é resolvido depois que a gravação é publicada. Ambos resolvem com antecedência um valor vazio em vez de um erro, portanto, verifique se seus emails são renderizados de forma aceitável antes da publicação.
+>O token da **_URL de Ingresso_** resolve somente para pessoas cujo status do webinário é _Registrado_ ou posterior. O token da URL _**de**_ Gravação só é resolvido depois que a gravação é publicada. Ambos resolvem com antecedência um valor vazio em vez de um erro, portanto, verifique se seus emails são renderizados de forma aceitável antes da publicação.
 
 ## Realizar o webinário {#deliver-webinar}
 
