@@ -1,25 +1,32 @@
 ---
 title: Configuração de canal de email
-description: Crie e gerencie configurações de canal de email que vinculam a identidade do remetente, o subdomínio, o pool de IPs, o tipo de email e o rastreamento de URL do Marketo Otimizer.
+description: Crie e gerencie configurações de canal de email que vinculam a identidade do remetente, o subdomínio, o pool de IPs, o tipo de email e o rastreamento de URL do Marketo Optimizer.
 feature: Administration
 role: Admin
 TQID: 'https://experienceleague.adobe.com/VDqL3u2vPJ8YGJgZCx5lE0Xt1-WvAEBBwFiMZGj7w90'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a659ad61-de21-559d-a901-02e2fb329ff5
+    internal-label: Administration
   - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Administration
+source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
 workflow-type: tm+mt
-source-wordcount: 624
+source-wordcount: '624'
 ht-degree: 0%
-
 ---
-
 # Configuração do canal de email
 
 Uma configuração de canal é o objeto central que une a identidade do remetente, o subdomínio, o pool de IPs e as configurações de rastreamento. As ações de email no jornada fazem referência a uma configuração de canal para saber como enviar a mensagem. Antes de criar uma configuração, conclua a [delegação de subdomínio e a configuração do pool de IP](../start/email-deliverability.md).

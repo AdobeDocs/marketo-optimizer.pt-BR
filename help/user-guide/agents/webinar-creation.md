@@ -1,27 +1,36 @@
 ---
 title: Webinars de criação e promoção
-description: Use a interface de chat no Marketo Otimizer para agendar um webinário, adicionar coanfitriões e apresentadores, criar jornadas de promoção e promoção e verificar os relatórios, tudo em linguagem natural.
-keywords: 
+description: Use a interface de chat no Marketo Optimizer para agendar um webinário, adicionar coanfitriões e apresentadores, criar jornadas de promoção e promoção e verificar relatórios, tudo em linguagem natural.
+keywords:
 role: User
 TQID: 'https://experienceleague.adobe.com/OKsYvVIcNN-GEMiMPW2mWomstM2MabYcK0jTColgxIQ'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+    internal-label: Chat Interface
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
+    internal-label: Reporting
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Security
+source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
 workflow-type: tm+mt
-source-wordcount: 958
+source-wordcount: '958'
 ht-degree: 0%
-
 ---
-
 
 # Criar e promover webinars
 
@@ -127,4 +136,4 @@ Selecione **[!UICONTROL Criar seu webinário]** para abrir a página de configur
 
 Na interface do chat, você pode fazer perguntas de relatório, como *&quot;Mostrar todos os meus próximos webinários&quot;* ou *&quot;Fornecer detalhes do webinário [nome]&quot;*. Ele exibe o link do painel de envolvimento junto com as próximas melhores ações, como **Design**, **Adicionar co-host** ou **Publicar na data do webinário**.
 
-Para análises mais detalhadas — desempenho de pesquisa, pesquisa e participação e dados por membro — a interface do chat é vinculada às guias **Analytics** e **Members** do webinário, e ao roll-up entre programas em **Gerenciamento de webinários**. <!-- See [Webinar reporting](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/prime/marketing-management/webinars/webinar-reporting). -->
+Para análises mais detalhadas — desempenho de pesquisa, pesquisa e participação e dados por membro — a interface do chat é vinculada às guias **Analytics** e **Members** do webinário, e ao roll-up entre programas em **Gerenciamento de webinários**. <!-- See [Webinar reporting](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/prime/marketing-management/webinars/webinar-reporting). -->

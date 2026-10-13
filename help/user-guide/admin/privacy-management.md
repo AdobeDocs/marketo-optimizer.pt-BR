@@ -1,29 +1,36 @@
 ---
 title: Gerenciamento de privacidade
-description: Saiba como cumprir com o GDPR, CCPA e outras regulamentações de privacidade no Marketo Otimizer e enviar solicitações usando o Adobe Privacy Service.
+description: Saiba como cumprir com o GDPR, CCPA e outras regulamentações de privacidade no Marketo Optimizer e enviar solicitações usando o Adobe Privacy Service.
 feature: Setup
 role: Admin
 TQID: 'https://experienceleague.adobe.com/VgnMCjm6l4pWG2-gqMuOmZUqU7E2Wrc-eVxn4kL5rKc'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 18a33a66-85a1-58e4-8e50-418b832ade8b
+    internal-label: Privacy
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Privacy
+source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
 workflow-type: tm+mt
-source-wordcount: 630
+source-wordcount: '630'
 ht-degree: 2%
-
 ---
-
 
 # Gerenciamento de privacidade {#privacy-management}
 
-O [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/pt-br/docs/experience-platform/privacy/home){target="_blank"} fornece uma API RESTful e uma interface para ajudar você a gerenciar solicitações de dados do cliente. Com o [!DNL Adobe Privacy Service], você pode enviar solicitações para acessar e excluir dados pessoais dos clientes por meio dos aplicativos corporativos do Adobe CX, facilitando a conformidade automatizada com as regulamentações legais e organizacionais de privacidade.
+O [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/pt-br/docs/experience-platform/privacy/home){target="_blank"} fornece uma API RESTful e uma interface para ajudar você a gerenciar solicitações de dados do cliente. Com o [!DNL Adobe Privacy Service], você pode enviar solicitações para acessar e excluir dados pessoais dos clientes por meio de aplicativos da Adobe CX Enterprise, facilitando a conformidade automatizada com as regulamentações legais e organizacionais de privacidade.
 
 O [!DNL Adobe Marketo Optimizer] fornece essas ferramentas de privacidade para que você possa atender aos requisitos globais de proteção de dados. Use [!DNL Privacy Service] para enviar e gerenciar solicitações de acesso e exclusão para dados que [!DNL Marketo Optimizer] coleta e armazena.
 
@@ -87,7 +94,7 @@ Use a opção **[!UICONTROL Tipo de Regulamentação]** na parte superior direit
 
 1. Para **[!UICONTROL Produtos]**, selecione **[!UICONTROL Marketo]**.
 
-   ![Criar solicitação de privacidade de acesso ao GDPR para o Marketo Engage e o Marketo Otimizer](./assets/privacy-request-create-gdpr.png){width="450" zoomable="yes"}
+   ![Criar solicitação de privacidade de acesso ao GDPR para o Marketo Engage e o Marketo Optimizer](./assets/privacy-request-create-gdpr.png){width="450" zoomable="yes"}
 
    Esta seleção inclui dados de [!DNL Marketo Optimizer] e da instância [!DNL Marketo Engage].
 

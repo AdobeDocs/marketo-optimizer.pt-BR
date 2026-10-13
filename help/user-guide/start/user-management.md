@@ -1,6 +1,6 @@
 ---
 title: Acesso e permissões do usuário
-description: 'Gerenciar o acesso do usuário no Adobe Admin Console: crie grupos de usuários, atribua perfis de produtos e defina permissões com base em funções para o Marketo Otimizer.'
+description: 'Gerenciar o acesso de usuários no Adobe Admin Console: crie grupos de usuários, atribua perfis de produtos e defina permissões com base em funções para o Marketo Optimizer.'
 TQID: 'https://experienceleague.adobe.com/IY7Fvbk8GG2Xudh6vC4N9Bwk-sejvh-MMRIHHxvS-nc'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
@@ -9,7 +9,7 @@ feature_v2:
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
     internal-label: Setup
   - id: 46e599c6-e20f-5f67-9824-93415016f66b
-    internal-label: Administration
+    internal-label: Audiences
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
     internal-label: Governance
@@ -17,7 +17,7 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 98214f502bba0efea89c7f36ac46e634e65cd0c9
+source-git-commit: c825d93cdf9754a516b2d930bbe8c1e2e8aeaea1
 workflow-type: tm+mt
 source-wordcount: '2474'
 ht-degree: 36%
@@ -111,7 +111,7 @@ Para obter mais informações sobre como os grupos de usuários são usados para
 
 1. Clique em **+** e adicione cada instância dos seguintes produtos:
 
-   * [!UICONTROL Adobe Marketo Otimizer - Acesso]
+   * [!UICONTROL Adobe Marketo Optimizer - Access]
    * [!UICONTROL Adobe Experience Platform - AEP-Padrão-Todos-Usuários]
    * [!UICONTROL Coleta de Dados do Adobe Experience Platform - Acesso Total à Coleta de Dados Padrão]
    * [!UICONTROL Adobe Experience Platform - Todo o Acesso à Produção Padrão]
@@ -258,7 +258,7 @@ _Para alterar as permissões de uma função :_
 
 1. Selecione a sandbox provisionada para [!DNL Marketo Optimizer] acesso (`Mktoaep<Marketo subscription prefix>`).
 
-   ![Lista de seleção de sandbox no editor de funções mostrando a sandbox do Marketo Otimizer disponível para adição.](./assets/aep-permissions-optimizer-sandbox.png){width="500" zoomable="yes"}
+   ![Lista de seleção de sandbox no editor de funções mostrando a sandbox do Marketo Optimizer disponível para adição.](./assets/aep-permissions-optimizer-sandbox.png){width="500" zoomable="yes"}
 
 1. Clique no ícone _Adicionar_ (**+**) para cada um dos recursos funcionais.
 
@@ -330,7 +330,7 @@ Para obter informações sobre o gerenciamento de usuários, consulte [_usuário
 
 1. Selecione a sandbox provisionada para [!DNL Marketo Optimizer] acesso (`Mktoaep<Marketo subscription prefix>`).
 
-   ![Lista de seleção de sandbox no editor de funções com a sandbox do Marketo Otimizer selecionada.](./assets/aep-permissions-optimizer-sandbox.png){width="500" zoomable="yes"}
+   ![Lista de seleção de sandbox no editor de funções com a sandbox do Marketo Optimizer selecionada.](./assets/aep-permissions-optimizer-sandbox.png){width="500" zoomable="yes"}
 
 1. Adicionar permissões do produto:
 
