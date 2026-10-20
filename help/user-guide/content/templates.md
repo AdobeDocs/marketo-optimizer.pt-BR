@@ -1,19 +1,20 @@
 ---
 title: Modelos de e-mail
-description: Saiba como acessar e gerenciar modelos de email no Marketo Otimizer, incluindo como organizar modelos usando pastas.
+description: Saiba como acessar e gerenciar modelos de email no Marketo Optimizer, incluindo como organizar modelos usando pastas.
 TQID: 'https://experienceleague.adobe.com/PS1sj99Udmajg2M4JadFQCGYF7DL9JkkdU9-7FG-OzY'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: 8881ff95-1653-5fea-82af-ce1549c0d99d
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Content Management
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 483
+source-wordcount: '511'
 ht-degree: 1%
-
 ---
-
 
 # Modelos de email
 
@@ -24,6 +25,13 @@ Os modelos de email no [!DNL Adobe Marketo Optimizer] permitem que os especialis
 >Nesta versão do Beta, somente os modelos de email são compatíveis.
 
 Quando um modelo é aplicado a um novo email, o conteúdo é copiado nesse momento. As edições no modelo não afetam os emails criados anteriormente a partir dele.
+
+>[!PREREQUISITES]
+>
+>O trabalho com modelos requer as seguintes [permissões](../start/permissions-reference.md):
+>
+>* **[!UICONTROL Exibir Modelos B2B]** - Necessário para exibir a lista e os detalhes dos modelos.
+>* **[!UICONTROL Gerenciar modelos B2B]** - Necessário para criar, editar e excluir modelos.
 
 ## Acessar modelos de email {#access}
 

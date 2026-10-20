@@ -1,24 +1,29 @@
 ---
 title: Conteúdo do email
-description: Saiba como compor e projetar conteúdo de email no Adobe Marketo Otimizer usando a tela visual, as ferramentas de arrastar e soltar, a importação do HTML e os modelos reutilizáveis.
+description: Saiba como compor e projetar conteúdo de email no Adobe Marketo Optimizer usando a tela visual, as ferramentas de arrastar e soltar, a importação do HTML e os modelos reutilizáveis.
 TQID: 'https://experienceleague.adobe.com/uNzBQk1fXPZchQna577-bUQtqRRRiqEVPI3jzZKgGKw'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Personalization
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 2287
+source-wordcount: '2325'
 ht-degree: 2%
-
 ---
-
 # Criação de conteúdo de email
 
 No [!DNL Adobe Marketo Optimizer], o espaço de design de email fornece uma tela visual onde os profissionais de marketing compõem emails. As ferramentas de design de email nos painéis à esquerda e na parte superior (estruturas, componentes de conteúdo, modelos, fragmentos e muito mais) oferecem suporte à criação do zero com arrastar e soltar. Você também pode optar por iniciar com base em um modelo, colar HTML bruto ou reunir mensagens de fragmentos visuais reutilizáveis.
@@ -26,6 +31,14 @@ No [!DNL Adobe Marketo Optimizer], o espaço de design de email fornece uma tela
 >[!IMPORTANT]
 >
 >Para obter a configuração do administrador de subdomínios, autenticação, pools de IP e configurações de canal de email, consulte [Entregabilidade de email](../start/email-deliverability.md) e [Configuração de canal de email](../admin/email-channel-configuration.md).
+
+>[!PREREQUISITES]
+>
+>A criação de email requer as [permissões](../start/permissions-reference.md) a seguir:
+>
+>* **[!UICONTROL Exibir Emails B2B]** - Obrigatório para exibir mensagens de email.
+>* **[!UICONTROL Gerenciar Emails B2B]** - Necessário para criar, editar e excluir mensagens de email.
+>* **[!UICONTROL Gerenciar Jornadas de Pessoa B2B]** - Necessário para adicionar o email a uma jornada de pessoa.
 
 No [!DNL Marketo Optimizer], cada email está associado a uma ação _[!UICONTROL Enviar Email]_ na jornada de uma pessoa. O fluxo de trabalho completo, desde o design da jornada até a definição de email, acontece em uma experiência contínua. Quando você [adicionar um nó _Enviar Email_](../marketing/action-nodes.md#add-an-action-node) a uma jornada de pessoa, clique em **[!UICONTROL Criar email]** para iniciar o processo. Primeiro, defina as Ações e as configurações de conteúdo para o email. Clique em **[!UICONTROL Editar corpo do email]** para iniciar o espaço de design de conteúdo de email, no qual você pode escolher como deseja criar seu email a partir das seguintes opções:
 

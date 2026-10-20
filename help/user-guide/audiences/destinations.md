@@ -1,20 +1,21 @@
 ---
 title: Destinos
-description: Saiba mais sobre as permissões necessárias, os destinos compatíveis e como conectar um destino no Marketo Otimizer para ativar listas de pessoas estáticas para plataformas sociais e de publicidade.
+description: Saiba mais sobre as permissões necessárias, os destinos compatíveis e como conectar um destino no Marketo Optimizer para ativar listas de pessoas estáticas para plataformas sociais e de publicidade.
 TQID: 'https://experienceleague.adobe.com/u5sWVDR0JaiX-YvlQ23l7mqoI9G95xS-uiKcqANwsnc'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Governance
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 643
+source-wordcount: '680'
 ht-degree: 7%
-
 ---
-
 # Destinos
 
 Os destinos são integrações pré-criadas que permitem enviar [listas de pessoas estáticas](./people-lists.md#static-lists) de [!DNL Marketo Optimizer] para anúncios externos ou plataformas sociais, como um público de campanha do LinkedIn, um público de Correspondência de Cliente do Google ou um Público-alvo personalizado do Facebook. Ativar uma lista estática para um destino mantém a associação em sincronia: à medida que as pessoas são adicionadas ou removidas da lista, elas são correspondentemente adicionadas ou removidas do público-alvo de destino e, por extensão, de qualquer campanha que o público-alvo alimente.
@@ -28,11 +29,14 @@ Há duas maneiras de ativar pessoas para um destino conectado:
 
 ## Permissões necessárias {#required-permissions}
 
-O recurso de destino completo requer que as seguintes [!DNL Adobe Experience Platform] permissões sejam habilitadas.
+O recurso de destino completo requer que as seguintes [!DNL Adobe Experience Platform] permissões sejam habilitadas. Para obter descrições e permissões recomendadas para cada tipo de usuário, consulte a página [Permissões do produto](../start/permissions-reference.md) e [Permissões de destinos externos](../start/permissions-reference.md#external-destinations-permissions).
 
 | Categoria | Permissão | Obrigatório |
 |--- |--- |--- |
 | Sandboxes | Acesso à sandbox _(habilitado por padrão)_ | Sim |
+| Destinos B2B | Exibir destinos B2B | Sim |
+| Destinos B2B | Gerenciar destinos B2B | Sim |
+| Destinos B2B | Ativar destinos B2B | Sim |
 | Painéis | Ver Painéis de Controle Padrão | Sim |
 | Painéis | Gerenciar painéis padrão | Sim |
 | Destinos | Exibir destinos | Sim |
@@ -86,7 +90,7 @@ Cada cartão de destino suportado mostra **[!UICONTROL Configurar novo destino]*
 
 1. Revise as configurações de governança de dados e ação de marketing e clique em **[!UICONTROL Salvar]**.
 
-Para obter as etapas de instalação completas, consulte [Criar uma nova conexão de destino](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} na documentação de [!DNL Experience Platform].
+Para obter as etapas de instalação completas, consulte [Criar uma nova conexão de destino](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} na documentação de [!DNL Experience Platform].
 
 Quando configurado, o destino estará disponível para ativação em todos os locais que você puder selecionar um destino em [!DNL Marketo Optimizer].
 

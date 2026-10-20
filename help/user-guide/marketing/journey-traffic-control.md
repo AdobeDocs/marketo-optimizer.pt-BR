@@ -1,23 +1,27 @@
 ---
 title: Jornada controle de tráfego
-description: Saiba como o controle de tráfego do Jornada no Marketo Otimizer usa a pontuação de IA em sete dimensões ponderadas para inscrever cada pessoa em apenas sua única jornada de melhor ajuste quando os públicos-alvo se sobrepõem.
+description: Saiba como o controle de tráfego do Jornada no Marketo Optimizer usa a pontuação de IA em sete dimensões ponderadas para inscrever cada pessoa em sua única jornada de melhor ajuste quando os públicos-alvo se sobrepõem.
 TQID: 'https://experienceleague.adobe.com/MRPRSUHGHV9CZdp4ZIqxsIsIaB6U86DDiau7RE2r0ak'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
+    internal-label: Reporting
   - id: 46e599c6-e20f-5f67-9824-93415016f66b
+    internal-label: Audiences
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Reporting
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 1543
+source-wordcount: '1582'
 ht-degree: 0%
-
 ---
-
 # Jornada controle de tráfego
 
 O controle de tráfego de jornada (JTC) prioriza a melhor jornada para uma pessoa quando os públicos-alvo se sobrepõem. Quando uma pessoa se qualifica para várias jornadas habilitadas para JTC, um modelo de IA as avalia em relação a cada candidato e as adiciona à jornada mais adequada, mantendo-as fora das outras.
@@ -56,6 +60,7 @@ As dimensões para as quais uma pessoa não tem dados são ignoradas automaticam
 
 Antes que o controle de tráfego do jornada possa produzir resultados, lembre-se do seguinte:
 
+* **Permissões.** Você precisa da permissão **[!UICONTROL Exibir Controle de Tráfego de Jornada B2B]** para exibir as configurações de controle de tráfego de jornada e da permissão **[!UICONTROL Gerenciar Controle de Tráfego de Jornada B2B]** para configurar o controle de tráfego de jornada, incluindo a simulação de seu efeito. Para obter mais informações, consulte [Recursos de permissão](../start/permissions-reference.md).
 * **Os relatórios exigem uma jornada publicada habilitada para JTC.** A guia _[!UICONTROL Relatórios]_ não mostra dados até que pelo menos uma jornada seja publicada com o controle de tráfego de jornada habilitado.
 * **A simulação requer pelo menos uma jornada publicada na instância.** A simulação avalia [perfis](../audiences/people-lists.md) que já estão em jornadas ativas, portanto, ela requer pelo menos uma jornada publicada na instância da qual desenhar perfis. A simulação em si não requer que o JTC esteja habilitado (consulte [_Simular pontuação_](#simulate-scoring)).
 

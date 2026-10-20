@@ -1,19 +1,20 @@
 ---
 title: Páginas de destino
-description: 'Criar, projetar e publicar páginas de aterrissagem para jornadas de pessoas: crie do zero, importe o HTML, adicione formulários, personalize o conteúdo e crie links de emails no Marketo Otimizer.'
+description: 'Criar, projetar e publicar páginas de aterrissagem para jornadas de pessoas: crie do zero, importe o HTML, adicione formulários, personalize o conteúdo e crie links de emails no Marketo Optimizer.'
 TQID: 'https://experienceleague.adobe.com/2eRB0eqgUbOrzaRTnWWy--Fjb4e5-qopiOMZWmr-sa4'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: 8881ff95-1653-5fea-82af-ce1549c0d99d
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Content Management
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 1589
+source-wordcount: '1627'
 ht-degree: 2%
-
 ---
-
 # Páginas de destino
 
 Uma landing page é uma página da Web independente onde você pode direcionar contatos e clientes depois que eles clicarem em um item vinculado em um email, mensagem SMS ou qualquer local digital. É possível incorporar essas páginas em suas jornadas para que seus clientes potenciais e de terceiros visualizem suas mensagens na Web e avancem com suas jornadas.
@@ -25,6 +26,14 @@ Casos de uso comuns para landing pages:
 * Capture ou atualize os dados de perfil (criação de perfil progressiva, preferências, registros e cenários semelhantes) usando formulários nas páginas de aterrissagem.
 * Direcione pessoas para informações específicas de campanha criadas para a orquestração de jornadas.
 * Redirecionar pessoas para um formulário web dedicado sem criar uma página externa fora de [!DNL Marketo Optimizer].
+
+>[!PREREQUISITES]
+>
+>Trabalhar com páginas de aterrissagem requer as [permissões](../start/permissions-reference.md) a seguir:
+>
+>* **[!UICONTROL Exibir página de aterrissagem B2B]** - Necessário para exibir páginas de aterrissagem.
+>* **[!UICONTROL Gerenciar página de aterrissagem B2B]** - Necessário para criar, editar e excluir páginas de aterrissagem.
+>* **[!UICONTROL Publicar página de aterrissagem B2B]** - Obrigatório para publicar páginas de aterrissagem.
 
 ## Fluxo de trabalho da página de aterrissagem {#workflow}
 
@@ -200,7 +209,7 @@ Como profissional de marketing ou criador que produz conteúdo de email, fragmen
 
 1. Na opção **[!UICONTROL Página de aterrissagem]**, clique no ícone _Selecionar página_ ( ![Ícone Mostrar links](../assets/do-not-localize/icon-landing-page-select.svg) ).
 
-1. Na caixa de diálogo Selecionar página de aterrissagem, defina a **[!UICONTROL Origem da página de aterrissagem]** como **[!UICONTROL Journey Optimizer B2B edition]**, marque a caixa de seleção da página de aterrissagem na lista de páginas publicadas e clique em **[!UICONTROL Selecionar]**.
+1. Na caixa de diálogo Selecionar página de aterrissagem, defina a **[!UICONTROL Origem da página de aterrissagem]** como **[!UICONTROL Journey Optimizer B2B Edition]**, marque a caixa de seleção da página de aterrissagem na lista de páginas publicadas e clique em **[!UICONTROL Selecionar]**.
 
    ![Opções de link para uma página de aterrissagem](assets/content-design-link-landing-page-select.png){width="600" zoomable="yes"}
 

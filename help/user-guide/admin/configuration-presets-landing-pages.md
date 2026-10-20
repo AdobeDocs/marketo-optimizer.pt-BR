@@ -4,19 +4,22 @@ description: Espaço reservado
 TQID: 'https://experienceleague.adobe.com/wowFSf32UsmDemN6Iy5-IgGOPmuocHHLRb4vvTUDt0U'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
   - id: a659ad61-de21-559d-a901-02e2fb329ff5
+    internal-label: Administration
   - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Administration
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 971
-ht-degree: 21%
-
+source-wordcount: '996'
+ht-degree: 20%
 ---
-
 
 # Configuração da landing page
 
@@ -59,7 +62,7 @@ A coluna **Status** fornece informações sobre o processo de criação e delega
 
 Uma configuração de subdomínio de página de aterrissagem é **comum a todos os ambientes**. Portanto:
 
-* Para acessar e editar subdomínios de páginas de aterrissagem, você deve ter a permissão **[!UICONTROL Gerenciar subdomínios de páginas de aterrissagem]** na sandbox de produção.
+* Para acessar e editar subdomínios de página de aterrissagem, você deve ter a permissão **[!UICONTROL Gerenciar configurações de página de aterrissagem B2B]** na sandbox de produção. Para acessar os _[!UICONTROL Canais]_ na navegação à esquerda, você também deve ter a permissão **[!UICONTROL Gerenciar configurações de canais B2B]**. Para obter mais informações, consulte [Recursos de permissão](../start/permissions-reference.md).
 
 * Qualquer modificação em um subdomínio de página de aterrissagem também afeta as sandboxes de produção.
 

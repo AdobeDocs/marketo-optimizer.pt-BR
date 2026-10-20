@@ -1,21 +1,28 @@
 ---
 title: Scoring Studio
-description: Saiba mais sobre o Scoring Studio no Adobe Marketo Otimizer, incluindo a lista de modelos, a tela, as colunas de dimensão, os cartões de sinal, os segmentos de clientes potenciais e a publicação.
+description: Saiba mais sobre o Scoring Studio no Adobe Marketo Optimizer, incluindo lista de modelos, tela, colunas de dimensão, cartões de sinal, segmentos de clientes potenciais e publicação.
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
     internal-label: Marketo Optimizer
 feature_v2:
   - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
     internal-label: Chat Interface
-source-git-commit: 7e3080b688415ef623cdbd57aa08ed43eb6fcd17
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: '1410'
+source-wordcount: '1445'
 ht-degree: 1%
 ---
 
 # Scoring Studio
 
 O Scoring Studio inclui uma lista de modelos, uma tela editável para cada modelo e a [Interface de chat do Colaborador](../agents/chat-interface.md). Use a tela para revisar ou ajustar dimensões e sinais diretamente, enquanto o Colaborador continua a propor alterações na linguagem natural ao seu lado. Para obter informações sobre como criar um modelo a partir de um prompt, consulte [_Criar modelos de pontuação personalizados_](../agents/lead-scoring-model.md).
+
+>[!PREREQUISITES]
+>
+>O Scoring Studio é um recurso do Labs e requer as [permissões](../start/permissions-reference.md) a seguir:
+>
+>* **[!UICONTROL Exibir laboratórios B2B]** - Necessário para exibir os recursos do Labs disponíveis e habilitados.
+>* **[!UICONTROL Gerenciar laboratórios B2B]** - Necessário para habilitar e configurar os recursos do Labs.
 
 ## Lista de modelos {#model-list}
 

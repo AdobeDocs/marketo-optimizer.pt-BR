@@ -1,18 +1,18 @@
 ---
 title: Fragmentos
-description: Crie, gerencie e reutilize fragmentos de conteúdo visual para emails e modelos - crie blocos reutilizáveis, publique versões e rastreie o uso no Marketo Otimizer.
+description: Crie, gerencie e reutilize fragmentos de conteúdo visual para emails e modelos - crie blocos reutilizáveis, publique versões e rastreie o uso no Marketo Optimizer.
 TQID: 'https://experienceleague.adobe.com/dxPI12xu0thTB3eYJiyCY3OtLIxX-8IKKeXitH4C0Ws'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 8881ff95-1653-5fea-82af-ce1549c0d99d
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Content Management
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 2634
+source-wordcount: '2677'
 ht-degree: 3%
-
 ---
-
 # Fragmentos
 
 Um fragmento é um componente reutilizável que pode ser referenciado em um ou mais emails e modelos de email no [!DNL Marketo Optimizer]. Geralmente, é um bloco de conteúdo (texto, imagem ou ambos) que pode ser pré-criado e inserido rapidamente em um email ou modelo de email. Com essa funcionalidade, você pode pré-criar vários blocos de conteúdo personalizados para serem usados pelos membros da equipe de marketing para montar conteúdo de email a fim de oferecer um processo de design aprimorado. Casos de uso comuns incluem blocos de conteúdo de cabeçalho/rodapé para email, banners para convites de eventos e saudações sazonais.
@@ -33,6 +33,14 @@ Para aproveitar ao máximo os fragmentos em seus workflows:
 
 * _Criar seus próprios fragmentos_ - Crie fragmentos visuais, do zero ou salvando o conteúdo como um fragmento do espaço de design de conteúdo visual.
 * _Reutilizar fragmentos_ - use-os quantas vezes forem necessárias no conteúdo do seu email ou modelo de email.
+
+>[!PREREQUISITES]
+>
+>Trabalhar com fragmentos requer as seguintes [permissões](../start/permissions-reference.md):
+>
+>* **[!UICONTROL Exibir fragmentos B2B]** - Necessário para exibir a lista de fragmentos e seus detalhes.
+>* **[!UICONTROL Gerenciar fragmentos B2B]** - Necessário para criar, editar e excluir fragmentos.
+>* **[!UICONTROL Publicar fragmentos B2B]** - Obrigatório para publicar fragmentos para uso em modelos, emails e páginas de aterrissagem.
 
 ## Acessar e gerenciar fragmentos {#access-manage-fragments}
 

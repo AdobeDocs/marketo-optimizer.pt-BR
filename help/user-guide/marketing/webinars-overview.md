@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1131'
 ht-degree: 2%
 ---
 
@@ -51,7 +51,7 @@ Você pode criar um webinário de duas maneiras:
 
 ## Webinário como um ativo
 
-Um webinário é um ativo que pertence a um [programa](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/prime/marketing-management/programs/programs), da mesma forma que um email ou uma página de aterrissagem. Adicionar um webinário a um programa o registra lá e disponibiliza seus tokens, atributos e atividades para cada jornada e ativo nesse programa.
+Um webinário é um ativo que pertence a um [programa](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/prime/marketing-management/programs/programs), da mesma forma que um email ou uma página de aterrissagem. Adicionar um webinário a um programa o registra lá e disponibiliza seus tokens, atributos e atividades para cada jornada e ativo nesse programa.
 
 >[!IMPORTANT]
 >
@@ -63,7 +63,7 @@ Para qualquer pessoa que seja membro de um programa que contenha um webinário, 
 
 | Estado | Proprietário | Valores |
 |---|---|---|
-| Status do membro do programa | Programa | Configurável por [tipo de programa](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/prime/admin/program-types) |
+| Status do membro do programa | Programa | Configurável por [tipo de programa](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/prime/admin/program-types) |
 | Estado do webinário | Ativo do webinário | Convidado, Inscrito, Participou, Não compareceu, Participou sob demanda |
 | Estado da jornada | Jornada | Estados atuais do nó, pausado, concluído e outros estados do tempo de execução do jornada |
 
@@ -143,14 +143,15 @@ Antes de começar a criar um webinário, verifique se os itens a seguir estão e
 
 ### Permissões
 
-O acesso aos recursos do webinário depende das permissões atribuídas para webinários.
+O acesso aos recursos do webinário depende das permissões atribuídas para webinários. Para obter a lista completa de permissões e funções recomendadas, consulte [Acesso e permissões do usuário](../start/permissions-reference.md).
 
-| Função | O que concede |
+| Permissão | O que concede |
 |---|---|
 | Exibir webinários B2B | Veja a lista de webinários e uma configuração, detalhes e relatórios do webinário. Os controles criar, projetar, editar e inserir não estão disponíveis por meio dessa permissão, e você não pode ser atribuído a um webinário como um co-host ou apresentador. |
+| Gerenciar webinários B2B | Acesso completo ao ciclo de vida: criar, projetar, configurar, agendar, editar, entregar, hospedar e excluir um webinário. Os controles Criar, Projetar, Editar e Gerenciar estão disponíveis apenas para usuários com essa permissão. |
 
 <!-- 
-| Manage B2B webinars | Full lifecycle access: create, design, configure, schedule, edit, deliver, host, and delete a webinar. The Create, Design, Edit, and Manage controls are available only for users with this role. |
+
 | Webinar co-host | After you are added as a co-host, this permission enables you to design and enter that webinar with co-host controls. |
 | Webinar presenter | After you are added as a presenter, this permission enables you to view and enter that webinar with presenter capabilities. It grants no authoring or design access on its own. |
 

@@ -19,14 +19,20 @@ topic_v2:
     internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: e2577dd31c38f55f4dc2ce32119315ad7f9fe6f6
+source-git-commit: be5df9d4e4482516a60b652d9ec2f977eb29b520
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '955'
 ht-degree: 0%
 ---
 # Interface de chat
 
 O painel de chat está incorporado em todo o [!DNL Adobe Marketo Optimizer]. É onde você interage com os agentes de IA usando linguagem simples para criar programas e jornadas, criar e comparar listas de pessoas, investigar leads, configurar pontuação e muito mais.
+
+>[!PREREQUISITES]
+>
+>Para usar o painel de chat do Colaborador em [!DNL Marketo Optimizer], você deve ter a **[!UICONTROL permissão Gerenciar Experiência de Conversação B2B]** [4}.](../start/permissions-reference.md)
+>
+>Essa permissão dá acesso ao painel de chat, mas não concede acesso a nenhum recurso. O sistema verifica todas as habilidades ou ações no chat em relação à mesma permissão que o recurso precisa fora do chat: _Gerenciar_ permissões para criar, editar ou publicar e _Exibir_ permissões para habilidades somente leitura. Se você não tiver a permissão do recurso, o assistente não poderá executar essa ação para você. Por exemplo, criar uma jornada requer **[!UICONTROL Gerenciar Jornadas de Pessoas B2B]**, e listar formulários requer **[!UICONTROL Exibir Forms B2B]**.
 
 Selecione o ícone de _Colaborador_ na navegação à esquerda para abrir o painel. O cabeçalho do painel tem quatro controles:
 

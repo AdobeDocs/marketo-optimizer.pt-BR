@@ -1,20 +1,22 @@
 ---
 title: Jornadas de pessoas
-description: Criar, publicar e gerenciar jornadas de pessoas no Marketo Otimizer - navegue pela lista de jornadas, crie fluxos de várias etapas e duplique ou exclua jornadas.
+description: Criar, publicar e gerenciar jornadas de pessoas no Marketo Optimizer - procure a lista de jornadas, crie fluxos de várias etapas e duplique ou exclua jornadas.
 TQID: 'https://experienceleague.adobe.com/RYzV8B9QTuGm1gGb2ZX6i3rc4TlACsM3LRwcnULgwV8'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
   - id: d4203578-d294-5145-b397-f26f4488a904
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Channels
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 1418
-ht-degree: 19%
-
+source-wordcount: '1480'
+ht-degree: 18%
 ---
-
 # Jornadas de pessoas
 
 No [!DNL Adobe Marketo Optimizer], as jornadas pessoais são planos de marketing automatizados, baseados em clientes potenciais em várias etapas, que orquestram experiências personalizadas entre canais. Essas jornadas usam dados do Marketo Engage para executar esses planos de marketing em resposta a engajamento, eventos comerciais ou campanhas programadas.
@@ -22,6 +24,15 @@ No [!DNL Adobe Marketo Optimizer], as jornadas pessoais são planos de marketing
 >[!NOTE]
 >
 >Cada jornada reside em um [programa](./programs.md) definido. Você deve ter pelo menos um programa para usar como pai antes de criar uma jornada.
+
+>[!PREREQUISITES]
+>
+>Trabalhar com jornadas de pessoas requer as seguintes [permissões](../start/permissions-reference.md):
+>
+>* **[!UICONTROL Exibir Jornadas de Pessoas B2B]** - Necessário para acesso somente leitura à lista _[!UICONTROL Jornadas de Pessoas]_ e detalhes da jornada.
+>* **[!UICONTROL Gerenciar Jornadas de Pessoas B2B]** - Necessário para acessar a lista _[!UICONTROL Jornadas de Pessoas]_ e executar todas as operações de jornada de pessoas.
+>* **[!UICONTROL Publicar Jornadas de pessoas B2B]** - Necessário para publicar jornadas de pessoas.
+>* **[!UICONTROL Exibir Relatórios de Jornada de Pessoa B2B]** - Obrigatório para exibir relatórios de jornada de pessoa.
 
 _Para criar uma nova jornada de pessoa :_
 
@@ -70,11 +81,11 @@ O status de uma jornada pode mudar com base nas ações que você aplica. Com ba
 
 | Status | Descrição | Ações disponíveis |
 | ------ | ----------- | ----------------- |
-| _&#x200B;**Rascunho**&#x200B;_ | Uma jornada não publicada que é editável. | [Publicar](#publish-a-journey), [Duplicar](#duplicate-a-journey), [Excluir](#delete-a-journey) |
-| _&#x200B;**Ativa**&#x200B;_ | O status da jornada muda de _Rascunho_ para _Ao vivo_ quando você publica uma jornada. Nesse estado, ela não é mais editável. | [Duplicar](#duplicate-a-journey), [Fechar para novas entradas](#close-to-new-entries), [Anular](#abort-a-journey) |
-| _&#x200B;**Fechada para novas entradas**&#x200B;_ | O status da jornada muda de _Ativo_ para _Fechado para novas entradas_ quando você clica em **[!UICONTROL Fechar para novas entradas]** no cabeçalho da jornada. | [Duplicar](#duplicate-a-journey), [Anular](#abort-a-journey) |
-| _&#x200B;**Abortada**&#x200B;_ | O status muda para _Ativa_ ou _Fechada para novas entradas_ quando você aborta uma jornada. Uma jornada cancelada não pode ser reiniciada. | [Duplicar](#duplicate-a-journey), [Excluir](#delete-a-journey) |
-| _&#x200B;**Concluída**&#x200B;_ | Quando todos os membros do público-alvo de uma jornada concluírem a jornada, o status mudará de _Ativo_ ou _Fechado para novas entradas_ para _Concluído_. | [Duplicar](#duplicate-a-journey), [Excluir](#delete-a-journey) |
+| _**Rascunho**_ | Uma jornada não publicada que é editável. | [Publicar](#publish-a-journey), [Duplicar](#duplicate-a-journey), [Excluir](#delete-a-journey) |
+| _**Ativa**_ | O status da jornada muda de _Rascunho_ para _Ao vivo_ quando você publica uma jornada. Nesse estado, ela não é mais editável. | [Duplicar](#duplicate-a-journey), [Fechar para novas entradas](#close-to-new-entries), [Anular](#abort-a-journey) |
+| _**Fechada para novas entradas**_ | O status da jornada muda de _Ativo_ para _Fechado para novas entradas_ quando você clica em **[!UICONTROL Fechar para novas entradas]** no cabeçalho da jornada. | [Duplicar](#duplicate-a-journey), [Anular](#abort-a-journey) |
+| _**Abortada**_ | O status muda para _Ativa_ ou _Fechada para novas entradas_ quando você aborta uma jornada. Uma jornada cancelada não pode ser reiniciada. | [Duplicar](#duplicate-a-journey), [Excluir](#delete-a-journey) |
+| _**Concluída**_ | Quando todos os membros do público-alvo de uma jornada concluírem a jornada, o status mudará de _Ativo_ ou _Fechado para novas entradas_ para _Concluído_. | [Duplicar](#duplicate-a-journey), [Excluir](#delete-a-journey) |
 
 ## Criar uma jornada de pessoa {#create-a-person-journey}
 
@@ -105,7 +116,7 @@ O cabeçalho de cada tela de jornada inclui o nome, o status e a programação d
 
 ### Design da jornada {#journey-design}
 
-A _tela de jornada_ é a zona central no espaço de trabalho de jornada. É aqui que você pode adicionar nós de jornada e configurá-los. Clique em um nó para abrir suas propriedades no painel à direita do layout e defina-as de acordo com seu design. Uma jornada de pessoa sempre começa com um nó [_[!UICONTROL Audiência de pessoa &#x200B;]_](./person-audience-node.md), onde é possível definir a entrada da jornada.
+A _tela de jornada_ é a zona central no espaço de trabalho de jornada. É aqui que você pode adicionar nós de jornada e configurá-los. Clique em um nó para abrir suas propriedades no painel à direita do layout e defina-as de acordo com seu design. Uma jornada de pessoa sempre começa com um nó [_[!UICONTROL Audiência de pessoa ]_](./person-audience-node.md), onde é possível definir a entrada da jornada.
 
 Depois de criar uma jornada de pessoa e definir o público-alvo de pessoa, crie a jornada usando nós. A tela de jornada fornece um espaço de design visual em que você pode criar seus casos de uso de marketing B2B em várias etapas usando os seguintes tipos de nó para criar a jornada:
 
@@ -122,7 +133,7 @@ Abra a lista jornadas para revisar o status da jornada, fazer alterações e rea
 
 ### Jornada ações {#journey-actions}
 
-A página Lista de jornadas inclui todas as jornadas de pessoas na instância do Marketo Otimizer. Na página da lista, é possível aplicar várias ações a uma jornada.
+A página Lista de jornadas inclui todas as jornadas de pessoas na instância do Marketo Optimizer. Na página da lista, é possível aplicar várias ações a uma jornada.
 
 #### Publicar uma jornada {#publish}
 

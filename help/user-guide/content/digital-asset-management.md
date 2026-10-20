@@ -18,10 +18,10 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: '734'
-ht-degree: 19%
+source-wordcount: '765'
+ht-degree: 18%
 ---
 # Ativos
 
@@ -51,7 +51,7 @@ Na navegação à esquerda, expanda **[!UICONTROL Gerenciamento de conteúdo]** 
 
 >[!BEGINSHADEBOX]
 
-Na primeira vez que você acessar a biblioteca do _[!UICONTROL Assets]_, verifique os [_[!UICONTROL Termos de Uso da IA Gerativa &#x200B;]_](https://www.adobe.com/br/legal/licenses-terms/adobe-gen-ai-user-guidelines.html) e confirme seu contrato.
+Na primeira vez que você acessar a biblioteca do _[!UICONTROL Assets]_, verifique os [_[!UICONTROL Termos de Uso da IA Gerativa ]_](https://www.adobe.com/br/legal/licenses-terms/adobe-gen-ai-user-guidelines.html) e confirme seu contrato.
 
 ![Caixa de diálogo do contrato de Termos de Uso da IA de Geração na biblioteca da Assets](./assets/dam-asset-library-gen-ai-agree.png){width="500"}
 
@@ -61,6 +61,13 @@ A biblioteca é compatível com duas opções de layout:
 
 * **[!UICONTROL Lista]** — Clique no ícone _Exibição de lista_ ( ![Ícone de exibição de lista](../assets/do-not-localize/icon-falco-list-view.svg) ) para exibir ativos em uma tabela classificável com colunas de metadados.
 * **[!UICONTROL Galeria]** — Clique no ícone _Modo de exibição de galeria_ ( ![Ícone de modo de exibição de galeria](../assets/do-not-localize/icon-falco-gallery-view.svg) ) para exibir ativos como uma grade de miniaturas visuais.
+
+>[!PREREQUISITES]
+>
+>Trabalhar com ativos requer as [permissões](../start/permissions-reference.md) a seguir:
+>
+>* **[!UICONTROL Exibir Assets B2B]** - Necessário para exibir a biblioteca _[!UICONTROL Assets]_ e os detalhes do arquivo de ativos.
+>* **[!UICONTROL Gerenciar Assets B2B]** - Necessário para criar, editar e excluir arquivos de ativos.
 
 ## Pesquisar por ativos {#find-assets}
 

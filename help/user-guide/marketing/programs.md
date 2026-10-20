@@ -4,23 +4,34 @@ description: Saiba como usar programas para organizar seus esforços de marketin
 TQID: 'https://experienceleague.adobe.com/RljL2N9P22AbWB6jSSaQ-iKlpTSz8d3cGNrIKatMH4o'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 46e599c6-e20f-5f67-9824-93415016f66b
+    internal-label: Audiences
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Audience segmentation
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 804
+source-wordcount: '830'
 ht-degree: 1%
-
 ---
-
 # Programas
 
 Os programas são projetados para fornecer contexto compartilhado para seu material de apoio e jornadas de marketing, para que você possa gerenciar todos os aspectos de um esforço de marketing em um único local. Use atributos de programa para descrever seu programa e use o filtro _Membro do Programa_ para segmentar os públicos com base na associação ao programa, no status dos membros e no sucesso. Na guia Tokens, é possível gerenciar _Meus Tokens_ locais e os tokens herdados na estrutura de pastas.
+
+>[!PREREQUISITES]
+>
+>Trabalhar com programas requer as [permissões](../start/permissions-reference.md) a seguir:
+>
+>* **[!UICONTROL Exibir Programas B2B]** - Necessário para exibir programas de marketing.
+>* **[!UICONTROL Gerenciar programas B2B]** - Necessário para criar, editar e excluir programas de marketing.
 
 ## Acessar programas {#access-programs}
 
