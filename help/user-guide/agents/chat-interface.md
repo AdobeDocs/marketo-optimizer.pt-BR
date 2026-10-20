@@ -30,7 +30,7 @@ O painel de chat está incorporado em todo o [!DNL Adobe Marketo Optimizer]. É 
 
 >[!PREREQUISITES]
 >
->Para usar o painel de chat do Colaborador em [!DNL Marketo Optimizer], você deve ter a **[!UICONTROL permissão Gerenciar Experiência de Conversação B2B]** [4}.](../start/permissions-reference.md)
+>Para usar o painel de chat do Colaborador em [!DNL Marketo Optimizer], você deve ter a **[!UICONTROL permissão Gerenciar Experiência de Conversação B2B]** [4&rbrace;.](../start/permissions-reference.md)
 >
 >Essa permissão dá acesso ao painel de chat, mas não concede acesso a nenhum recurso. O sistema verifica todas as habilidades ou ações no chat em relação à mesma permissão que o recurso precisa fora do chat: _Gerenciar_ permissões para criar, editar ou publicar e _Exibir_ permissões para habilidades somente leitura. Se você não tiver a permissão do recurso, o assistente não poderá executar essa ação para você. Por exemplo, criar uma jornada requer **[!UICONTROL Gerenciar Jornadas de Pessoas B2B]**, e listar formulários requer **[!UICONTROL Exibir Forms B2B]**.
 

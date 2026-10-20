@@ -308,7 +308,7 @@ Sua função personalizada está configurada e os usuários no grupo atribuído 
 
 ### Criar grupos de usuários e funções para os tipos de usuários sugeridos {#create-suggested-roles}
 
-Use os procedimentos a seguir para configurar os _Tipos de usuário sugeridos_, _Todos os Usuários de Acesso_ e _Usuários de Acesso Somente Leitura_ [7}. ](./permissions-reference.md#suggested-user-types)Para cada tipo de usuário, você cria um grupo de usuários no Admin Console e uma função no Experience Platform e, em seguida, adiciona o grupo à função. As permissões sugeridas para cada tipo de usuário estão listadas em [_Permissões do produto_](./permissions-reference.md).
+Use os procedimentos a seguir para configurar os _Tipos de usuário sugeridos_, _Todos os Usuários de Acesso_ e _Usuários de Acesso Somente Leitura_ [7&rbrace;. &#x200B;](./permissions-reference.md#suggested-user-types)Para cada tipo de usuário, você cria um grupo de usuários no Admin Console e uma função no Experience Platform e, em seguida, adiciona o grupo à função. As permissões sugeridas para cada tipo de usuário estão listadas em [_Permissões do produto_](./permissions-reference.md).
 
 #### Criar o grupo de usuários e a função de Administrador {#create-admin-group}
 

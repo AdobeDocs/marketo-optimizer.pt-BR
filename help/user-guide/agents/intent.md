@@ -62,7 +62,7 @@ Para obter detalhes sobre essas métricas, incluindo o peso sugerido pela IA, re
 
 >[!PREREQUISITES]
 >
->Os relatórios de intenção exigem a **[!UICONTROL Permissão Exibir relatórios de intenção B2B]** [](../start/permissions-reference.md).
+>Os relatórios de intenção exigem a **[!UICONTROL Permissão Exibir relatórios de intenção B2B]** [&#128279;](../start/permissions-reference.md).
 
 Para introduzir os quatro tipos de relatório que ele pode gerar, chame `/analyze-intent` para solicitar o Coworker. O colaborador aguarda uma solicitação de acompanhamento que nomeia um cliente potencial, produto ou comparação. Cada relatório é aberto como sua própria guia no painel do espaço de trabalho, e o Colaborador também adiciona um cartão de resumo no chat com um botão _[!UICONTROL Abrir relatório]_.
 

@@ -23,7 +23,7 @@ Cada relatório é compilado em [!DNL Adobe Customer Journey Analytics] e incorp
 
 >[!PREREQUISITES]
 >
->Para exibir os relatórios na guia _[!UICONTROL Relatórios]_, você deve ter a **[!UICONTROL permissão Exibir Relatórios Inseridos B2B]** [5}.](../start/permissions-reference.md)
+>Para exibir os relatórios na guia _[!UICONTROL Relatórios]_, você deve ter a **[!UICONTROL permissão Exibir Relatórios Inseridos B2B]** [5&rbrace;.](../start/permissions-reference.md)
 
 ## Seções do relatório {#report-sections}
 

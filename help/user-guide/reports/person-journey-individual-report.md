@@ -21,7 +21,7 @@ Clique em **[!UICONTROL Exibir relatório]** para que uma jornada de pessoa viva
 
 >[!PREREQUISITES]
 >
->Para exibir este relatório, você deve ter a **[!UICONTROL permissão [Exibir relatórios de Jornada de pessoas B2B]**](../start/permissions-reference.md).
+>Para exibir este relatório, você deve ter a **[[!UICONTROL permissão [Exibir relatórios de Jornada de pessoas B2B]**]](../start/permissions-reference.md).
 
 _Para exibir o relatório :_
 
