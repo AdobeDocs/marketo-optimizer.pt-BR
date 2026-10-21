@@ -4,18 +4,20 @@ description: Saiba como configurar os pesos da atividade para o modelo de pontua
 TQID: 'https://experienceleague.adobe.com/BNzbM6v6ADSKyPR6jQMj1QdWMnLQQX-j3PNk8gF6PxY'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 46e599c6-e20f-5f67-9824-93415016f66b
+    internal-label: Audiences
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Taxonomy
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 978
+source-wordcount: '987'
 ht-degree: 0%
-
 ---
-
 
 # Configurar e analisar a intenção
 
@@ -57,6 +59,10 @@ A pontuação de intenção de um lead considera três aspectos:
 Para obter detalhes sobre essas métricas, incluindo o peso sugerido pela IA, relevância do conteúdo e limitações, consulte [Configuração de intenção](../audiences/intent-configuration.md).
 
 ## Relatórios de intenção
+
+>[!PREREQUISITES]
+>
+>Os relatórios de intenção exigem a **[!UICONTROL Permissão Exibir relatórios de intenção B2B]** [&#128279;](../start/permissions-reference.md).
 
 Para introduzir os quatro tipos de relatório que ele pode gerar, chame `/analyze-intent` para solicitar o Coworker. O colaborador aguarda uma solicitação de acompanhamento que nomeia um cliente potencial, produto ou comparação. Cada relatório é aberto como sua própria guia no painel do espaço de trabalho, e o Colaborador também adiciona um cartão de resumo no chat com um botão _[!UICONTROL Abrir relatório]_.
 

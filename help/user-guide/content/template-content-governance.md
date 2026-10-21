@@ -1,18 +1,18 @@
 ---
 title: Controle de conteúdo para modelos
-description: Use as configurações de governança no Marketo Otimizer para bloquear conteúdo em modelos de email no nível da estrutura ou do componente, controlando quais autores de email podem editar.
+description: Use as configurações de governança no Marketo Optimizer para bloquear conteúdo em modelos de email no nível da estrutura ou do componente, controlando quais autores de email podem editar.
 TQID: 'https://experienceleague.adobe.com/0QZuUrqbF97W7c9yZzBYY39EC7DmbadKxXOJxjxDDy8'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Governance
+source-git-commit: b6253400e2c9fc5b7f277add102367743981ce8a
 workflow-type: tm+mt
-source-wordcount: 608
+source-wordcount: '608'
 ht-degree: 0%
-
 ---
-
 
 # Governança de conteúdo para modelos
 
@@ -22,7 +22,7 @@ O bloqueio de conteúdo permite que os autores de modelos definam regras de gove
 >
 >O bloqueio de conteúdo é um recurso de governança no nível do editor. Ele controla o que os autores podem editar no espaço de design de email, mas não impede alterações feitas por meio da API.
 
-Somente usuários com a permissão **[!UICONTROL Gerenciar modelos de conteúdo]** podem definir configurações de governança.
+Somente usuários com a permissão **[!UICONTROL Gerenciar Modelos B2B]** podem definir configurações de governança.
 
 ## Habilitar governança {#enable}
 

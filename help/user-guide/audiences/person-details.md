@@ -132,4 +132,4 @@ Clique em um prompt sugerido ou digite sua própria pergunta na caixa de entrada
 
 Selecionar um prompt executa uma [habilidade](../agents/skills.md) de várias etapas, mostrada como etapas de status sequenciais (por exemplo, _Pesquisar pessoa por ID_ e _Obter história de pessoa_) enquanto Colaborador compõe a resposta. A resposta é um resumo estruturado que pode incluir detalhes do perfil, histórico de engajamento e desempenho de email da pessoa.
 
-Use o controle para cima/baixo para classificar a resposta. Como em todas as saídas de colaborador, analise a resposta antes de usá-la. Para obter mais informações, consulte as [Diretrizes de usuário da IA gerativa da Adobe](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}.
+Use o controle para cima/baixo para classificar a resposta. Como em todas as saídas de colaborador, analise a resposta antes de usá-la. Para obter mais informações, consulte as [Diretrizes de usuário da IA gerativa da Adobe](https://www.adobe.com/br/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}.

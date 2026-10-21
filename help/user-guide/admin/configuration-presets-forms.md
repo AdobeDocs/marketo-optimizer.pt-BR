@@ -4,18 +4,20 @@ description: Espaço reservado
 TQID: 'https://experienceleague.adobe.com/7X5-67hfrjRjWbGjq9duLu7mVjgfCs7tpAQLV8u6YKE'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: a659ad61-de21-559d-a901-02e2fb329ff5
+    internal-label: Administration
   - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Administration
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 541
-ht-degree: 16%
-
+source-wordcount: '591'
+ht-degree: 15%
 ---
-
 # Configurações do Forms
 
 Para que os profissionais de marketing possam criar e publicar formulários para usar em suas páginas de aterrissagem, um administrador de produto deve criar uma ou mais predefinições dedicadas. Cada predefinição define o ponto de extremidade de conexão usado para enviar os dados de envio do formulário e o conjunto de dados usado para armazenar os dados capturados.
@@ -33,15 +35,11 @@ Para usar formulários web, você deve ter uma ou mais _&#x200B;**conexões de t
 
 Para obter informações detalhadas sobre como criar conexões de origem de transmissão, consulte a [_documentação do Experience Platform_](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/ui-tutorials/create/streaming/http).
 
-<!-- 
-permissions coming in GA
+A configuração do canal do Forms em [!DNL Marketo Optimizer] requer as [permissões](../start/permissions-reference.md) a seguir:
 
-Forms channel configuration in Journey Optimizer B2B Edition requires the following [permissions](../start/user-management.md#b2b-product-permissions):
-
-* _[!UICONTROL B2B Channel Configurations]_ > _[!UICONTROL View Forms Presets]_ - Required to view forms preset configurations.
-* _[!UICONTROL B2B Channel Configurations]_ > _[!UICONTROL Manage Forms Presets]_ - Required to create, update, and delete forms preset configurations.
-* _[!UICONTROL B2B Channel Configurations]_ > _[!UICONTROL Publish Forms Presets]_ - Required to publish forms preset configurations.
--->
+* _[!UICONTROL Configurações do Canal B2B]_ > _[!UICONTROL Exibir Predefinição de Forms B2B]_ - Necessário para exibir configurações de predefinição de formulário.
+* _[!UICONTROL Configurações do Canal B2B]_ > _[!UICONTROL Gerenciar Predefinição de Forms B2B]_ - Necessário para criar, editar e excluir configurações de predefinição de formulário.
+* _[!UICONTROL Configurações de Canal B2B]_ > _[!UICONTROL Publicar Predefinição de Forms B2B]_ - Necessário para publicar configurações de predefinição de formulário.
 
 >[!ENDSHADEBOX]
 

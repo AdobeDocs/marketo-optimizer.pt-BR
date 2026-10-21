@@ -1,6 +1,6 @@
 ---
 title: Formulários
-description: Crie e gerencie formulários reutilizáveis para a coleta de dados corporativos - crie campos, defina páginas de agradecimento, publique e rastreie o uso no Marketo Otimizer.
+description: Crie e gerencie formulários reutilizáveis para a coleta de dados corporativos - crie campos, defina páginas de agradecimento, publique e rastreie o uso no Marketo Optimizer.
 TQID: 'https://experienceleague.adobe.com/StexA1TJKaBYnAoIMcxnHIoUwzfMAnJrBO7FDLdLnMo'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
@@ -17,9 +17,9 @@ topic_v2:
     internal-label: Data collection
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: '2434'
+source-wordcount: '2473'
 ht-degree: 2%
 ---
 # Formulários
@@ -31,14 +31,12 @@ A quantidade de informações que o formulário deve capturar depende do valor d
 >[!PREREQUISITES]
 >
 >Para que as equipes de marketing possam criar e usar formulários para capturar informações, um administrador deve definir uma ou mais predefinições de formulário. Para obter mais informações, consulte [_configurações do Forms_](../admin/configuration-presets-forms.md).
-
-<!-- 
->Form creation in [!DNL Marketo Optimizer] requires the following [permissions](../start/user-management.md#b2b-product-permissions):
 >
->* _[!UICONTROL Journey Optimizer Library]_ > _[!UICONTROL Read B2C Forms]_ - Required to access and view forms.
->* _[!UICONTROL Journey Optimizer Library]_ > _[!UICONTROL Manage B2C Forms]_ - Required to create, update, and delete forms.
->* _[!UICONTROL Journey Optimizer Library]_ > _[!UICONTROL Publish B2C Forms]_ - Required to publish forms.
--->
+>A criação de formulário em [!DNL Marketo Optimizer] requer as [permissões](../start/permissions-reference.md) a seguir:
+>
+>* _[!UICONTROL Assets B2B]_ > _[!UICONTROL Exibir Forms B2B]_ - Necessário para acessar e exibir formulários.
+>* _[!UICONTROL Assets B2B]_ > _[!UICONTROL Gerenciar Forms B2B]_ - Necessário para criar, editar e excluir formulários.
+>* _[!UICONTROL Assets B2B]_ > _[!UICONTROL Publicar Forms B2B]_ - Necessário para publicar formulários.
 
 ## Acessar e gerenciar formulários {#view-forms}
 

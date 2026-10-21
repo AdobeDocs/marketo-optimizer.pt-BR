@@ -4,17 +4,18 @@ description: Saiba como configurar os pesos de atividade que direcionam o modelo
 TQID: 'https://experienceleague.adobe.com/ZL9RJqD-OZkIgFMpwJ4Cz-FW-463w6OJyEHAe5uJuec'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+    internal-label: Chat Interface
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Taxonomy
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 1322
-ht-degree: 2%
-
+source-wordcount: '1365'
+ht-degree: 1%
 ---
-
 
 # Configuração de intenção
 
@@ -28,6 +29,14 @@ Abra o painel usando um dos dois métodos na [interface de chat](../agents/chat-
 * Clique em **[!UICONTROL +]**, selecione **[!UICONTROL Usar uma habilidade de agente]**, selecione a guia **[!UICONTROL Intenção]** e clique em **[!UICONTROL Configuração de intenção]**.
 
 ![Painel de configuração de intenção aberto na interface de chat](./assets/intent-configuration-panel.png){width="700" zoomable="yes"}
+
+>[!PREREQUISITES]
+>
+>A configuração de intenção requer as seguintes [permissões](../start/permissions-reference.md):
+>
+>* **[!UICONTROL Exibir Configuração de Intenção B2B]** - Necessário para exibir configurações de intenção (modelos de ponderação de intenção).
+>* **[!UICONTROL Gerenciar configuração de intenção B2B]** - Necessário para criar, editar e excluir configurações de intenção.
+>* **[!UICONTROL Gerenciar Experiência de Conversação B2B]** - Necessário para abrir o painel da interface de chat.
 
 ## Exibição da lista de modelos
 

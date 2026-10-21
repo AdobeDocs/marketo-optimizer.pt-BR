@@ -1,27 +1,38 @@
 ---
 title: Interface de chat
-description: Use o painel de chat do Colaborador no Marketo Otimizer para criar programas, jornadas e listas usando a linguagem natural ou o menu de barra (/).
+description: Use o painel de chat do Colaborador no Marketo Optimizer para criar programas, jornadas e listas usando linguagem natural ou o menu de barra (/).
 TQID: 'https://experienceleague.adobe.com/5oj0glKEbJuzQFem-jxL4qjnzxVG4tlOaiHKM5SuiWQ'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+    internal-label: Chat Interface
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
   - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Optimization
+source-git-commit: be5df9d4e4482516a60b652d9ec2f977eb29b520
 workflow-type: tm+mt
-source-wordcount: 928
+source-wordcount: '955'
 ht-degree: 0%
-
 ---
-
 # Interface de chat
 
 O painel de chat está incorporado em todo o [!DNL Adobe Marketo Optimizer]. É onde você interage com os agentes de IA usando linguagem simples para criar programas e jornadas, criar e comparar listas de pessoas, investigar leads, configurar pontuação e muito mais.
+
+>[!PREREQUISITES]
+>
+>Para usar o painel de chat do Colaborador em [!DNL Marketo Optimizer], você deve ter a **[!UICONTROL permissão Gerenciar Experiência de Conversação B2B]** [4&rbrace;.](../start/permissions-reference.md)
+>
+>Essa permissão dá acesso ao painel de chat, mas não concede acesso a nenhum recurso. O sistema verifica todas as habilidades ou ações no chat em relação à mesma permissão que o recurso precisa fora do chat: _Gerenciar_ permissões para criar, editar ou publicar e _Exibir_ permissões para habilidades somente leitura. Se você não tiver a permissão do recurso, o assistente não poderá executar essa ação para você. Por exemplo, criar uma jornada requer **[!UICONTROL Gerenciar Jornadas de Pessoas B2B]**, e listar formulários requer **[!UICONTROL Exibir Forms B2B]**.
 
 Selecione o ícone de _Colaborador_ na navegação à esquerda para abrir o painel. O cabeçalho do painel tem quatro controles:
 
@@ -36,16 +47,6 @@ Na parte inferior do painel há uma caixa de mensagem na qual é possível:
 
 * Adicione uma mensagem e pressione **Enter** para enviar (**Shift+Enter** insere uma nova linha).
 * Anexe um arquivo usando o ícone _Anexar_ (formatos com suporte: `.txt`, `.md`, `.csv`, `.json`, `.xlsx`, `.docx`, `.pdf`). Use carregamentos de CSV e planilhas para iniciar uma importação de clientes potenciais.
-
->[!BEGINSHADEBOX]
-
-## Qualificador de Vendas
-
-[!DNL Adobe Sales Qualifier] é um aplicativo orientado por IA que pode ser usado com [!DNL Marketo Optimizer]. Ele implementa o Account Qualification Agent e foi projetado para simplificar os fluxos de trabalho dos BDRs (Business Development Representatives, representantes de desenvolvimento de negócios). O [!DNL Sales Qualifier] automatiza os fluxos de trabalho de qualificação de prospecto, alcance externo e envolvimento do comprador entre canais. Ele reduz a carga manual de BDR e acelera a velocidade do pipeline para empresas B2B corporativas.
-
-Para obter mais informações, consulte a [documentação do Sales Qualifier](https://experienceleague.adobe.com/pt-br/docs/sales-qualifier/using/home){target="_blank"}.
-
->[!ENDSHADEBOX]
 
 ## Pergunte ao colega de trabalho
 

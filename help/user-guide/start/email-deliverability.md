@@ -1,6 +1,6 @@
 ---
 title: Configuração da entregabilidade de email
-description: Configure pools de delegação de subdomínio, DMARC, SPF, DKIM e IP para o Marketo Otimizer.
+description: Configure pools de delegação de subdomínio, DMARC, SPF, DKIM e IP para o Marketo Optimizer.
 TQID: 'https://experienceleague.adobe.com/-7yEXTaOrGIfCFw-UzanMqA9VJ1Nk-BmdmE2JJJSoB4'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: cf3d8c71c9301ee038cc1b31968d30aba34d1fc7
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: '2590'
+source-wordcount: '2694'
 ht-degree: 0%
 ---
 # Capacidade de entrega de email
@@ -44,7 +44,7 @@ Ele usa os seguintes blocos fundamentais, configurados por um administrador, nor
 1. [Crie uma ou mais configurações de canal de email](../admin/email-channel-configuration.md#create-email-channel-configuration) que associam um subdomínio, um pool de IPs e uma identidade de remetente.
 1. [Inclua na lista de permissões os endereços IP de envio](#allowlist-ip-addresses) ao departamento de TI para que os emails de teste cheguem à sua caixa de entrada.
 
-![Configuração da capacidade de entrega de emails do Marketo Otimizer](./assets/email-deliverability-diagram.svg){width="600"}
+![Configuração da capacidade de entrega de emails do Marketo Optimizer](./assets/email-deliverability-diagram.svg){width="600"}
 
 >[!TIP]
 >
@@ -70,6 +70,18 @@ Antes de configurar o email, analise esses conceitos que se aplicam aos recursos
 | **_Subdomínio_** | Uma parte delegada do seu domínio de envio (por exemplo, `mail.contoso.com`) usada para enviar emails por meio de [!DNL Marketo Optimizer]. Os subdomínios isolam sua reputação de marketing B2B do correio corporativo ou transacional. |
 | **_Pool de IPs_** | Um grupo de endereços IP associados a um ou mais subdomínios. O [!DNL Marketo Optimizer] oferece suporte a um pool de IPs compartilhados gerenciado pela Adobe nesta versão; os pools de IP dedicados estão no roteiro de disponibilidade geral. |
 | **_Configuração de canal_** | Um conjunto reutilizável de configurações de envio de email (identidade do remetente, endereço de resposta, subdomínio, pool de IPs, tipo de email e rastreamento) que você anexa às ações de email no jornada. É possível ter várias configurações de canal nomeadas para diferentes marcas, unidades de negócios ou tipos de envio. |
+
+## Permissões necessárias {#required-permissions}
+
+A capacidade de entrega e a configuração do canal são tarefas de nível de administrador. As seguintes permissões na categoria _Configurações do canal B2B_ controlam o acesso:
+
+| Permissão | O que ele permite |
+| ---------- | -------------- |
+| Exibir configurações de email B2B | Exibir configurações de email (subdomínios, registros PTR, pools de IP, listas de supressão, listas de propagação, planos de aquecimento de IP). |
+| Gerenciar configurações de email B2B | Defina as configurações de email. Essas configurações são necessárias antes que os usuários possam enviar emails. |
+| Gerenciar configurações de canais B2B | Acesso ao item de menu _Canais_ na navegação à esquerda e em todas as operações de configuração de canal. |
+
+Para obter descrições de todas as permissões e permissões recomendadas para cada tipo de usuário, consulte [Permissões do produto](./permissions-reference.md).
 
 <!--
 
@@ -155,7 +167,7 @@ O [!DNL Marketo Optimizer] oferece suporte a dois dos três métodos de delegaç
 >* Decida sobre uma convenção de nomenclatura de subdomínio (por exemplo, `mail.contoso.com` para marketing, `alerts.contoso.com` para transacional).
 >* Confirme com a equipe de TI/DNS que eles podem delegar o subdomínio (registros NS) à Adobe.
 >* Crie o novo subdomínio em seu provedor de DNS e aguarde de de 24 a 48 horas pela propagação de DNS antes de delegar à Adobe.
->* Confirme se você tem a função de Administrador no [!DNL Marketo Optimizer].
+>* Confirme se você tem a permissão **[!UICONTROL Gerenciar configurações de email B2B]**. Para obter mais informações, consulte [Permissões necessárias](#required-permissions).
 
 1. Na navegação à esquerda [!DNL Marketo Optimizer], expanda **[!UICONTROL Administração]** e selecione **[!UICONTROL Canais]**.
 1. No painel, expanda **[!UICONTROL Configurações de email]** e selecione **[!UICONTROL Subdomínios]**.

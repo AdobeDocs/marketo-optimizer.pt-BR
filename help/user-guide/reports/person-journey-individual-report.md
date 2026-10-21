@@ -1,15 +1,15 @@
 ---
 title: Relatório Individual de Jornada de Pessoa
-description: Saiba mais sobre o relatório Jornada de pessoa individual no Adobe Marketo Otimizer, que mostra as métricas de conclusão, envolvimento e email de uma jornada.
+description: Saiba mais sobre o relatório Individual de Jornada de pessoa no Adobe Marketo Optimizer, que mostra as métricas de conclusão, envolvimento e email de uma jornada.
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
     internal-label: Marketo Optimizer
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
     internal-label: Reporting
-source-git-commit: 531dce4ffe6000efa0296f0e2393423f54124ea7
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '455'
 ht-degree: 0%
 ---
 
@@ -18,6 +18,10 @@ ht-degree: 0%
 <!-- SPHR-39120: UX plans to move the Journey activity flow tile to the top of the report. Update the tile order in this page when that ships. -->
 
 Clique em **[!UICONTROL Exibir relatório]** para que uma jornada de pessoa viva ou encerrada veja seu desempenho, incluindo status, envolvimento, métricas de email e fluxo de atividades.
+
+>[!PREREQUISITES]
+>
+>Para exibir este relatório, você deve ter a **[[!UICONTROL permissão [Exibir relatórios de Jornada de pessoas B2B]**]](../start/permissions-reference.md).
 
 _Para exibir o relatório :_
 

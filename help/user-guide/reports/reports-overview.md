@@ -1,15 +1,15 @@
 ---
 title: Relatórios
-description: Entenda a guia Relatórios no Adobe Marketo Otimizer, incluindo suas seções de relatório, opções de exportação e agendamento e como alterar o intervalo de datas.
+description: Entenda a guia Relatórios no Adobe Marketo Optimizer, incluindo suas seções de relatório, opções de exportação e agendamento e como alterar o intervalo de datas.
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
     internal-label: Marketo Optimizer
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
     internal-label: Reporting
-source-git-commit: 6e919a66af259ea1f5facf7f5c3e811d76101e85
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '508'
 ht-degree: 2%
 ---
 
@@ -20,6 +20,10 @@ A guia [!UICONTROL Relatórios] fornece insights de desempenho sobre o [!DNL Ado
 Cada relatório é compilado em [!DNL Adobe Customer Journey Analytics] e incorporado diretamente em [!DNL Marketo Optimizer]. Clique no ícone _Lista_ ( ![Ícone Lista](../assets/do-not-localize/icon-table-of-contents.svg) ) para usar o painel **[!UICONTROL Índice]** à esquerda para saltar entre as seções.
 
 ![Página de relatórios listando as seções Visão geral da Jornada de pessoas, Envolvimento, Envolvimento de email e Envolvimento com a Web](./assets/reports-table-of-contents.png){width="800" zoomable="yes"}
+
+>[!PREREQUISITES]
+>
+>Para exibir os relatórios na guia _[!UICONTROL Relatórios]_, você deve ter a **[!UICONTROL permissão Exibir Relatórios Inseridos B2B]** [5&rbrace;.](../start/permissions-reference.md)
 
 ## Seções do relatório {#report-sections}
 

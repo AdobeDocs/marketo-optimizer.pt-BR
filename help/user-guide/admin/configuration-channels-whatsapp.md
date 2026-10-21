@@ -1,30 +1,32 @@
 ---
 title: Configuração do canal do WhatsApp
-description: Conecte sua conta de negócios do WhatsApp por meio da API na nuvem do Meta para ativar as mensagens do WhatsApp nas jornadas de pessoas do Marketo Otimizer.
+description: Conecte sua conta comercial do WhatsApp por meio da API de nuvem do Meta para ativar as mensagens do WhatsApp nas jornadas de pessoa do Marketo Optimizer.
 TQID: 'https://experienceleague.adobe.com/y7rOywtyZ-OlupwLS-Fsjx72EVlaT7Vy-O1NEMwMO5E'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a659ad61-de21-559d-a901-02e2fb329ff5
+    internal-label: Administration
   - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Administration
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 1469
+source-wordcount: '1510'
 ht-degree: 13%
-
 ---
-
 # Configuração de canal do WhatsApp
 
-O Marketo Otimizer envia mensagens do WhatsApp por meio da API da nuvem da Meta. Antes que os profissionais de marketing possam criar mensagens de WhatsApp para jornadas pessoais, um administrador de produto deve configurar um canal de WhatsApp.
+O Marketo Optimizer envia mensagens de WhatsApp por meio da API da nuvem do Meta. Antes que os profissionais de marketing possam criar mensagens de WhatsApp para jornadas pessoais, um administrador de produto deve configurar um canal de WhatsApp.
 
-![Fluxo de tarefas do WhatsApp para o Marketo Otimizer](assets/whatsapp-flow-diagram.png)
-
-## Pré-requisitos {#prerequisites}
+![Fluxo de tarefas do WhatsApp para o Marketo Optimizer](assets/whatsapp-flow-diagram.png)
 
 Antes de configurar o canal do WhatsApp, verifique se você tem o seguinte:
 
@@ -35,13 +37,13 @@ Antes de configurar o canal do WhatsApp, verifique se você tem o seguinte:
 
 >[!IMPORTANT]
 >
->Seu uso dos serviços de mensagens do WhatsApp está sujeito aos termos e condições do Meta. Ao acessar mensagens do WhatsApp por meio do Marketo Otimizer, você reconhece que revisou e concorda em cumprir as [políticas de Negócios do Meta WhatsApp](https://www.whatsapp.com/legal/business-policy/).
+>Seu uso dos serviços de mensagens do WhatsApp está sujeito aos termos e condições do Meta. Ao acessar mensagens do WhatsApp por meio do Marketo Optimizer, você reconhece que revisou e concorda em cumprir com as [políticas comerciais do Meta WhatsApp](https://www.whatsapp.com/legal/business-policy/).
 
 ## Limitações {#limitations}
 
 Os seguintes limites se aplicam ao canal do WhatsApp:
 
-* O Adobe Marketo Otimizer **não é compatível com HIPAA e não está preparado para HIPAA**. Além disso, os fornecedores terceirizados não são cobertos pela BAA da Adobe. Os clientes são responsáveis por sua própria conformidade e validação do fornecedor.
+* O Adobe Marketo Optimizer **não é compatível com HIPAA e não está preparado para HIPAA**. Além disso, os fornecedores terceirizados não são cobertos pela BAA da Adobe. Os clientes são responsáveis por sua própria conformidade e validação do fornecedor.
 
 * As mensagens de resposta automatizadas ou predefinidas ainda não são compatíveis.
 
@@ -51,13 +53,21 @@ Os seguintes limites se aplicam ao canal do WhatsApp:
 
 ## Concluir a configuração do canal {#complete-channel-configuration}
 
-Antes de enviar a mensagem do WhatsApp, você deve configurar o ambiente do Marketo Otimizer e conectá-lo à conta do WhatsApp.
+Antes de enviar a mensagem do WhatsApp, você deve configurar o ambiente do Marketo Optimizer e conectá-lo à conta do WhatsApp.
 
 Conclua as seguintes tarefas:
 
 1. [Criar as credenciais da API do WhatsApp](#create-whatsapp-api-credentials)
 1. [Adicionar os webhooks do WhatsApp](#configure-webhooks)
 1. [Criar a configuração do canal do WhatsApp](#create-channel-configuration)
+
+>[!PREREQUISITES]
+>
+>Para concluir essas tarefas em [!DNL Marketo Optimizer], você precisa das seguintes [permissões](../start/permissions-reference.md):
+>
+>* **[!UICONTROL Gerenciar Configurações de Canais B2B]** - Necessário para acessar o menu _[!UICONTROL Canais]_.
+>* **[!UICONTROL Gerenciar configurações B2B do WhatsApp]** - Necessário para configurar o canal do WhatsApp.
+>* **[!UICONTROL Gerenciar predefinições B2B do WhatsApp]** - Necessário para criar as credenciais da API e os webhooks.
 
 ### Criar credenciais da API do WhatsApp {#create-whatsapp-api-credentials}
 
@@ -117,7 +127,7 @@ Se você encontrar um erro HTTP 500 ao configurar as credenciais da API do Whats
    * Token de API - Deve ser um [token de acesso Meta válido com permissões apropriadas](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/).
    * ID da Conta Comercial - deve corresponder exatamente à sua [ID da Conta Comercial da Meta](https://www.facebook.com/business/help/1181250022022158?id=180505742745347).
 
-1. Testar as credenciais externamente - Verifique suas credenciais diretamente com a API do Meta para confirmar se o problema está relacionado às credenciais ou ao manuseio de credenciais do Marketo Otimizer.
+1. Testar as credenciais externamente - Verifique suas credenciais diretamente com a API do Meta para confirmar se o problema está relacionado às credenciais ou ao manuseio de credenciais da Marketo Optimizer.
 
 1. Entre em contato com a Adobe - Se o ambiente e os direitos forem confirmados válidos, mas o erro HTTP 500 persistir, entre em contato com o representante da Adobe.
 
@@ -145,7 +155,7 @@ Se você encontrar um erro HTTP 500 ao configurar as credenciais da API do Whats
 >title="Verificar token"
 >abstract="O token que a Meta retorna para confirmar e verificar o URL de retorno de chamada durante o processo de verificação."
 
-Os webhooks permitem que o Marketo Otimizer receba mensagens de entrada, respostas de consentimento e notificações de entrega da sua conta comercial do WhatsApp. Configure webhooks para garantir o gerenciamento de consentimento e o rastreamento de mensagens adequados.
+Os webhooks permitem que o Marketo Optimizer receba mensagens de entrada, respostas de consentimento e notificações de entrega da sua conta comercial do WhatsApp. Configure webhooks para garantir o gerenciamento de consentimento e o rastreamento de mensagens adequados.
 
 >[!NOTE]
 >
@@ -224,7 +234,7 @@ Uma configuração de canal define as configurações de entrega usadas ao envia
 
    ![Detalhes de configuração do canal do WhatsApp](assets/config-whatsapp-channels-general-create.png){width="500" zoomable="yes"}
 
-1. (Não aplicável no momento para o Marketo Otimizer) Para o **[!UICONTROL Campo de Execução do WhatsApp]**, selecione o atributo de perfil a ser usado como o número de telefone de prioridade quando vários números de telefone estiverem disponíveis para um destinatário.
+1. (Não aplicável no momento para o Marketo Optimizer) Para o **[!UICONTROL Campo de Execução do WhatsApp]**, selecione o atributo de perfil a ser usado como o número de telefone de prioridade quando vários números de telefone estiverem disponíveis para um destinatário.
 
 1. Clique em **[!UICONTROL Enviar]** para salvar ou **[!UICONTROL Salvar como rascunho]** para concluir e enviar a configuração posteriormente.
 

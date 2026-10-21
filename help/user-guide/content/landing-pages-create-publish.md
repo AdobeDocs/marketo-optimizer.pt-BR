@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
+source-git-commit: b6253400e2c9fc5b7f277add102367743981ce8a
 workflow-type: tm+mt
-source-wordcount: '1550'
+source-wordcount: '1554'
 ht-degree: 11%
 ---
 # Criar e publicar páginas de destino
@@ -219,7 +219,7 @@ Quando as configurações e o conteúdo da landing page são definidos, você po
 
 >[!PREREQUISITES]
 >
->Para visualizar e testar páginas de aterrissagem, você deve ter a permissão **[!UICONTROL Publicar mensagens]** e um conjunto de dados definido que contenha perfis de teste.
+>Para visualizar e testar páginas de aterrissagem, você deve ter a permissão **[!UICONTROL Publicar página de aterrissagem B2B]** e um conjunto de dados definido que contenha perfis de teste.
 
 1. Clique em **[!UICONTROL Visualizar e testar]** para abrir a seleção de perfil de teste.
 
@@ -259,7 +259,7 @@ Quando as configurações e o conteúdo da landing page são definidos, você po
 
 >[!PREREQUISITES]
 >
->Para publicar páginas de aterrissagem, você deve ter a permissão **[!UICONTROL Publicar Mensagens]**. Antes de publicar, [verifique e resolva todos os alertas](#check-alerts).
+>Para publicar páginas de aterrissagem, você deve ter a permissão **[!UICONTROL Publicar página de aterrissagem B2B]**. Antes de publicar, [verifique e resolva todos os alertas](#check-alerts).
 
 Quando a página de rascunho atender aos seus critérios e você quiser disponibilizá-la para vinculação nas mensagens do jornada, clique em **[!UICONTROL Publicar]** na parte superior direita. Na caixa de diálogo de confirmação, clique em **[!UICONTROL Publicar]** novamente para confirmar.
 
