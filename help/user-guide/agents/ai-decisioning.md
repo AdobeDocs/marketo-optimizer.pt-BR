@@ -1,28 +1,35 @@
 ---
 title: Decisão sobre IA
-description: Entenda a decisão de IA no Marketo Otimizer, a camada de inteligência por trás do controle de tráfego do jornada, o próximo melhor caminho, a otimização de tempo de envio e outros recursos que substituem regras estáticas pela automação orientada por resultados.
+description: Entenda a decisão de IA no Marketo Optimizer, a camada de inteligência por trás do controle de tráfego do jornada, o próximo melhor caminho, a otimização de tempo de envio e outros recursos que substituem regras estáticas pela automação orientada por resultados.
 TQID: 'https://experienceleague.adobe.com/biPd2Zv3z75i7imGqRNuKXvgoD0sIcwrFrjWmSO7FpU'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
   - id: 5229c72e-d79b-574f-a03e-5c4bf48172c3
+    internal-label: AI Decisioning
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Optimization
+source-git-commit: 8a41dd1e42f5c39a2e9a5b54518fb88392776afe
 workflow-type: tm+mt
-source-wordcount: 808
+source-wordcount: '829'
 ht-degree: 2%
-
 ---
-
 
 # Decisão sobre IA
 
-O AI Decisioning é a camada de inteligência por trás do Adobe Marketo Otimizer. Em vez de pré-construir cada ramificação como uma regra estática, o AI Decisioning avalia continuamente o contexto de um perfil, incluindo a associação à jornada, o histórico de engajamento, as pontuações de intenção e o comportamento em tempo real, para determinar a próxima melhor ação ou caminho para essa pessoa.
+O AI decisioning é a camada de inteligência por trás do Adobe Marketo Optimizer. Em vez de pré-construir cada ramificação como uma regra estática, o AI Decisioning avalia continuamente o contexto de um perfil, incluindo a associação à jornada, o histórico de engajamento, as pontuações de intenção e o comportamento em tempo real, para determinar a próxima melhor ação ou caminho para essa pessoa.
 
 Essa avaliação contínua move a orquestração de regras estáticas para a automação orientada por resultados: em vez de definir cada condição antecipadamente, você descreve o resultado desejado e o sistema determina como chegar lá para cada pessoa.
+
+Assista a esta breve visão geral para ver como o raciocínio de IA no [!DNL Adobe Marketo Optimizer] usa os dados do Marketo Engage para otimizar seus fluxos de trabalho e resultados.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3504789?quality=12)
 
 ## Recursos {#capabilities}
 
@@ -83,7 +90,7 @@ A maioria das configurações maduras é executada em conjunto: regras como medi
 
 **Escopo futuro: contexto de conta e grupo de compras**
 
-Hoje não disponível no Marketo Otimizer. A decisão sobre IA deve ir além do perfil individual para:
+Não disponível hoje no Marketo Optimizer. A decisão sobre IA deve ir além do perfil individual para:
 
 * Contexto da conta — Sinais no nível da empresa e da conta como uma entrada de decisão.
 * Sinais do grupo de compra — função no status do negócio, tomador de decisão ou profissional e engajamento agregado a todos envolvidos em uma decisão de compra.

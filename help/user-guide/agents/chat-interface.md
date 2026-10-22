@@ -19,9 +19,9 @@ topic_v2:
     internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: be5df9d4e4482516a60b652d9ec2f977eb29b520
+source-git-commit: 52295deb478e2f7160a39fc1e554074aefe277ba
 workflow-type: tm+mt
-source-wordcount: '955'
+source-wordcount: '921'
 ht-degree: 0%
 ---
 # Interface de chat
@@ -30,11 +30,9 @@ O painel de chat está incorporado em todo o [!DNL Adobe Marketo Optimizer]. É 
 
 >[!PREREQUISITES]
 >
->Para usar o painel de chat do Colaborador em [!DNL Marketo Optimizer], você deve ter a **[!UICONTROL permissão Gerenciar Experiência de Conversação B2B]** [4&rbrace;.](../start/permissions-reference.md)
->
->Essa permissão dá acesso ao painel de chat, mas não concede acesso a nenhum recurso. O sistema verifica todas as habilidades ou ações no chat em relação à mesma permissão que o recurso precisa fora do chat: _Gerenciar_ permissões para criar, editar ou publicar e _Exibir_ permissões para habilidades somente leitura. Se você não tiver a permissão do recurso, o assistente não poderá executar essa ação para você. Por exemplo, criar uma jornada requer **[!UICONTROL Gerenciar Jornadas de Pessoas B2B]**, e listar formulários requer **[!UICONTROL Exibir Forms B2B]**.
+>O sistema verifica todas as habilidades ou ações no chat em relação às mesmas [permissões](../start/permissions-reference.md) que o recurso precisa fora do chat: _Gerenciar_ permissões para criar, editar ou publicar e _Exibir_ permissões para habilidades somente leitura. Se você não tiver a permissão do recurso, [!DNL Coworker] não poderá executar essa ação para você. Por exemplo, criar uma jornada requer **[!UICONTROL Gerenciar Jornadas de Pessoas B2B]**, e listar formulários requer **[!UICONTROL Exibir Forms B2B]**.
 
-Selecione o ícone de _Colaborador_ na navegação à esquerda para abrir o painel. O cabeçalho do painel tem quatro controles:
+Selecione o ícone _Chat_ na navegação à esquerda para abrir o painel. O cabeçalho do painel tem quatro controles:
 
 | Controle | Descrição |
 |---------|-------------|
