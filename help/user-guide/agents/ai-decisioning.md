@@ -29,7 +29,7 @@ Essa avaliação contínua move a orquestração de regras estáticas para a aut
 
 Assista a esta breve visão geral para ver como o raciocínio de IA no [!DNL Adobe Marketo Optimizer] usa os dados do Marketo Engage para otimizar seus fluxos de trabalho e resultados.
 
->[!VIDEO](https://video.tv.adobe.com/v/3504789?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3504802?captions=por_br&quality=12)
 
 ## Recursos {#capabilities}
 
