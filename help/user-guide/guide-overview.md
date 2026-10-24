@@ -42,7 +42,7 @@ O [!DNL Adobe Marketo Optimizer] é uma solução de automação de marketing ba
 
 Assista a esta breve visão geral para ver como o [!DNL Adobe Marketo Optimizer] usa o raciocínio de IA para envolver cada lead com a próxima melhor ação correta.
 
->[!VIDEO](https://video.tv.adobe.com/v/3504788?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3504793?captions=por_br&quality=12)
 
 ## Comece com as noções básicas {#basics}
 
