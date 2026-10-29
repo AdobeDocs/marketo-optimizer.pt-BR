@@ -19,18 +19,14 @@ topic_v2:
     internal-label: Accessibility
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
+source-git-commit: 6311ce00a5c7666c07fb1a523c954637d2e86e46
 workflow-type: tm+mt
-source-wordcount: '2325'
+source-wordcount: '2402'
 ht-degree: 2%
 ---
 # Criação de conteúdo de email
 
 No [!DNL Adobe Marketo Optimizer], o espaço de design de email fornece uma tela visual onde os profissionais de marketing compõem emails. As ferramentas de design de email nos painéis à esquerda e na parte superior (estruturas, componentes de conteúdo, modelos, fragmentos e muito mais) oferecem suporte à criação do zero com arrastar e soltar. Você também pode optar por iniciar com base em um modelo, colar HTML bruto ou reunir mensagens de fragmentos visuais reutilizáveis.
-
->[!IMPORTANT]
->
->Para obter a configuração do administrador de subdomínios, autenticação, pools de IP e configurações de canal de email, consulte [Entregabilidade de email](../start/email-deliverability.md) e [Configuração de canal de email](../admin/email-channel-configuration.md).
 
 >[!PREREQUISITES]
 >
@@ -38,9 +34,10 @@ No [!DNL Adobe Marketo Optimizer], o espaço de design de email fornece uma tela
 >
 >* **[!UICONTROL Exibir Emails B2B]** - Obrigatório para exibir mensagens de email.
 >* **[!UICONTROL Gerenciar Emails B2B]** - Necessário para criar, editar e excluir mensagens de email.
->* **[!UICONTROL Gerenciar Jornadas de Pessoa B2B]** - Necessário para adicionar o email a uma jornada de pessoa.
 
-No [!DNL Marketo Optimizer], cada email está associado a uma ação _[!UICONTROL Enviar Email]_ na jornada de uma pessoa. O fluxo de trabalho completo, desde o design da jornada até a definição de email, acontece em uma experiência contínua. Quando você [adicionar um nó _Enviar Email_](../marketing/action-nodes.md#add-an-action-node) a uma jornada de pessoa, clique em **[!UICONTROL Criar email]** para iniciar o processo. Primeiro, defina as Ações e as configurações de conteúdo para o email. Clique em **[!UICONTROL Editar corpo do email]** para iniciar o espaço de design de conteúdo de email, no qual você pode escolher como deseja criar seu email a partir das seguintes opções:
+No [!DNL Marketo Optimizer], um email é um ativo independente que você [cria em um programa ou pasta](../marketing/email-channel.md#create-email-from-programs) e [publica e seleciona em uma jornada](../marketing/email-channel.md#lifecycle). Primeiro você define as _Propriedades_ e _Ações_. Em seguida, você define o conteúdo.
+
+Clique em **[!UICONTROL Editar corpo de email]** para iniciar o espaço de design do corpo de email, onde você pode escolher como deseja criar seu email a partir das seguintes opções:
 
 * [Crie o email do zero](#design-from-scratch) usando a interface de design visual. Crie o componente de layout de email por componente usando a função arrastar e soltar em uma tela em branco. Esse método é melhor para criar novos modelos ou emails únicos.
 
@@ -83,15 +80,14 @@ Use o espaço de design de conteúdo visual para definir a estrutura e o conteú
 
 1. Na página _[!UICONTROL Criar seu email]_, selecione a opção **[!UICONTROL Criar do zero]**.
 
-<!-- 
 
-1. In the _[!UICONTROL Create email]_ dialog, choose the type of email content that you want to author.
+1. Na caixa de diálogo _[!UICONTROL Criar email]_, escolha o tipo de conteúdo de email que deseja criar.
 
-   * **[!UICONTROL Use Themes]** - Choose this option to create the email in _Theme mode_. In this mode, you can use a defined brand theme to streamline the content authoring process and make sure that the design aligns with defined standards.
+   * **[!UICONTROL Usar Temas]** - Escolha esta opção para criar o email no _Modo de Tema_. Nesse modo, é possível usar um tema de marca definido para simplificar o processo de criação de conteúdo e garantir que o design se alinhe aos padrões definidos.
 
-   * **[!UICONTROL Manual Styling]** - Choose this option to create the email in _Manual mode_. In this mode, you manually set the styling for all structure and content components that you add to the blank canvas.
+   * **[!UICONTROL Estilo Manual]** - Escolha esta opção para criar o email no _Modo manual_. Nesse modo, você define manualmente o estilo de todos os componentes de estrutura e conteúdo adicionados à tela em branco.
 
--->
+   ![Criar caixa de diálogo de email](./assets/email-design-create-your-email-dialog.png){width="450"}
 
 1. [Adicionar componentes de estrutura e conteúdo](#structure-content) à tela.
 
@@ -102,8 +98,6 @@ Use o espaço de design de conteúdo visual para definir a estrutura e o conteú
 Quando estiver satisfeito com o conteúdo, clique em **[!UICONTROL Salvar]**.
 
 ## Importar conteúdo existente do HTML {#import-html-content}
-
-<!-- originally  from   /help/_includes/content-design-import.md but copied and revised to omit the part about Marketo Engage assets and AEM assets -->
 
 O conteúdo importado pode ser:
 
@@ -140,17 +134,27 @@ Ao abrir o espaço de design de email, use a seção **[!UICONTROL Selecionar mo
 
 Use o editor visual de email para criar sua mensagem de email. Adicione um pré-cabeçalho, estruture o layout com colunas e divisores e preencha essas estruturas com componentes de conteúdo, como imagens, botões e texto. Você também pode aplicar CSS personalizado para estilos avançados e visualizar como o design é renderizado no modo escuro.
 
-### Definir o pré-cabeçalho {#preheader}
+### Definir as configurações do corpo {#body-settings}
 
-O pré-cabeçalho é o trecho de texto exibido após a linha de assunto nas visualizações da caixa de entrada. No [!DNL Marketo Optimizer], o pré-cabeçalho é configurado na tela visual do espaço de design de email, não na tela de propriedades de email ao lado da linha de assunto.
+As configurações do corpo definem o pré-cabeçalho, o título do documento e o idioma do documento para o email. Configure esses metadados no espaço de design de email, separadamente da linha de assunto do email.
 
-Com o **[!UICONTROL Corpo]** selecionado na árvore de navegação esquerda, abra o painel **[!UICONTROL Configurações]** à direita.
+1. Selecione **[!UICONTROL Corpo]** na árvore de navegação esquerda e, em seguida, selecione a guia **[!UICONTROL Configurações]** no painel direito.
 
-Clique na região de texto **[!UICONTROL Pré-cabeçalho]** e insira sua cópia de pré-cabeçalho. Clique no ícone _Adicionar personalização_ ( ![Adicionar ícone de personalização](../assets/do-not-localize/icon-personalization-field.svg) ) para aplicar formatação e [tokens de personalização](#personalize-content) conforme necessário usando os controles de rich text.
+   ![Configurações do corpo no painel direito](./assets/email-body-settings.png){width="800" zoomable="yes"}
 
->[!TIP]
->
->Mantenha seu pré-cabeçalho entre 40 e 100 caracteres. Ele deve complementar a linha de assunto (não repeti-la) e dar ao recipient um motivo extra para abrir o email.
+1. Preencha os campos a seguir:
+
+   * **[!UICONTROL Pré-cabeçalho]** - Insira o trecho de texto que aparece após a linha de assunto nas visualizações da caixa de entrada.
+
+     >[!TIP]
+     >
+     >Mantenha seu pré-cabeçalho entre 40 e 100 caracteres. Ele deve complementar a linha de assunto (não repeti-la) e dar ao recipient um motivo extra para abrir o email.
+
+   * **[!UICONTROL Título do documento]** - Insira um título para o documento de email do HTML. Isso é separado da linha de assunto do email.
+
+   * **[!UICONTROL Idioma do documento]** - Especifique o idioma do documento de email.
+
+   Você pode clicar no ícone _Adicionar personalização_ ( ![Adicionar ícone de personalização](../assets/do-not-localize/icon-personalization-field.svg) ) ao lado de um campo para inserir [tokens de personalização](#personalize-content).
 
 ### Modo escuro {#dark-mode}
 
@@ -163,6 +167,8 @@ Para obter orientações detalhadas sobre visualização, definição de configu
 Crie seu layout de email adicionando [componentes de estrutura](./structure-components.md) e [componentes de conteúdo](./content-components.md) à tela.
 
 Arraste os itens das seções **[!UICONTROL Estruturas]** e **[!UICONTROL Conteúdo]** no painel esquerdo e configure cada componente nas guias _[!UICONTROL Configurações]_ e _[!UICONTROL Estilos]_ à direita.
+
+![Arraste e solte componentes estruturais e elementos de conteúdo na página](./assets/content-components-add.png){width="700" zoomable="yes"}
 
 ### Adicionar CSS personalizado {#custom-css}
 
@@ -252,7 +258,7 @@ Use a árvore de navegação para selecionar componentes e colunas e, em seguida
 [!DNL Marketo Optimizer] usa a sintaxe Handlebars para personalização. Os tokens são substituídos no momento do envio por valores dos dados de perfil de cada recipient. Há vários lugares onde você pode usar a personalização em um email:
 
 * **Linha de assunto** — ponto de personalização mais comum.
-* **Pré-cabeçalho** — definido dentro da tela visual; oferece suporte a tokens de atributos de perfil.
+* **Metadados de corpo** — definidos dentro da tela visual; oferecem suporte a tokens de atributos de perfil.
 * **Texto do corpo do email** — nomes e outros atributos de perfil inseridos em linha.
 * **URLs de Botão** — acrescentar parâmetros por destinatário.
 
@@ -293,7 +299,7 @@ Além de `default`, o editor de personalização inclui auxiliares Handlebars in
 
 +++Expressões assistidas por IA {#ai-personalization}
 
-O Colaborador no editor de personalização pode gerar expressões Handlebars a partir de uma descrição em linguagem simples, explicar o que uma expressão existente faz e identificar possíveis problemas. Use-a para acelerar a criação de expressões, especialmente para lógica condicional ou auxiliares de formatação de data.
+O [!DNL Coworker] no editor de personalização pode gerar expressões Handlebars a partir de uma descrição em linguagem simples, explicar o que uma expressão existente faz e identificar possíveis problemas. Use-a para acelerar a criação de expressões, especialmente para lógica condicional ou auxiliares de formatação de data.
 
 +++
 

@@ -1,6 +1,6 @@
 ---
 title: Personalizar conteúdo de email por persona
-description: Use a habilidade Personalization de conteúdo no Marketo Otimizer para transformar um email em variantes com base em persona e informadas por dados. Personalize ou analise emails.
+description: Use a habilidade Personalization de conteúdo no Marketo Optimizer para transformar um email em variantes com base em persona e informadas por dados. Personalize ou analise emails.
 TQID: 'https://experienceleague.adobe.com/9fa1wfsHH6h46jJ-slLxMpB6fud1VHgmiWxbao-bWvo'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
@@ -19,26 +19,24 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+source-git-commit: d46d6ad64726b6a4fb07e10c081b08e7336f151a
 workflow-type: tm+mt
-source-wordcount: 1236
+source-wordcount: '1238'
 ht-degree: 0%
-
 ---
-
 
 # Personalizar conteúdo de email por persona
 
-A habilidade _Personalization de conteúdo_ transforma um email em variantes com base em persona e informadas por dados, de modo que não é necessário criar um email separado para cada público. Em vez de enviar uma mensagem após um evento, a habilidade resolve o público-alvo em coortes [persona derivadas](../audiences/personas.md), supera insights e gera variantes personalizadas. Cada variante é salva como conteúdo condicional em um único email, para que cada pessoa receba automaticamente a versão que corresponde à sua persona quando uma jornada a enviar.
+A habilidade _Personalization de conteúdo_ transforma um email em variantes com base em persona e informações de dados, assim você não precisa criar um email separado para cada público. Em vez de enviar uma mensagem após um evento, a habilidade resolve o público-alvo em coortes [persona derivadas](../audiences/personas.md), supera insights e gera variantes personalizadas. Cada variante é salva como conteúdo condicional em um único email, para que cada pessoa receba automaticamente a versão que corresponde à sua persona quando uma jornada a enviar.
 
 * **Habilidade** - `content-personalization`
-* **Chamada** - Na [interface de chat](./chat-interface.md), descreva um público-alvo para um novo email ou selecione **[!UICONTROL Personalizar este email]** ou **[!UICONTROL Analisar este Email]** em um email existente em um [Nó Enviar Email](../marketing/action-nodes.md)
+* **Chamada** - Na [interface de chat](./chat-interface.md), descreva um público-alvo para um novo email ou selecione **[!UICONTROL Personalizar email]** ou **[!UICONTROL Analisar email]** no menu _Mais_ de um rascunho [de email na árvore de programas](../marketing/email-channel.md#personalize-analyze)
 * **Leituras/gravações em** - [!DNL Marketo Optimizer]
 
 ## Principais conceitos {#key-concepts}
 
 | Termo | Definição |
-|---|---|
+| --- | --- |
 | **Coorte de personalidades** | Um grupo de pessoas que compartilham uma [pessoa derivada](../audiences/personas.md), como _CXO/EVP_ ou _Colaborador Individual_. |
 | **Segmento** | Um grupo de pessoas definidas por qualquer critério, como perfil, setor ou nível de envolvimento. Um coorte de persona é um segmento definido especificamente pelo persona derivado compartilhado. |
 | **Grupo de destino** | O público-alvo que você descreve em linguagem natural. A habilidade o transforma em coortes de persona correspondentes. |
@@ -49,23 +47,27 @@ A habilidade _Personalization de conteúdo_ transforma um email em variantes com
 
 ## Pré-requisitos {#prerequisites}
 
-* Acesso a [!DNL Marketo Optimizer] com o Colaborador habilitado.
+* Acesso a [!DNL Marketo Optimizer] com [!DNL CX Coworker] habilitado.
 * [Personalidades derivadas](../audiences/personas.md) resolvidas em seus dados. A habilidade depende dessas classificações para criar coortes de persona. O suporte personalizado está planejado para uma versão futura.
 * Dados históricos suficientes para insights. Se os insights não estiverem disponíveis para um coorte de persona, a habilidade informará que os dados são insuficientes e recorrerá às práticas recomendadas gerais para esse persona.
-* Um [modelo de email](../content/templates.md) ou um email existente referenciado por um nó de ação [_Enviar Email_](../marketing/action-nodes.md).
+* Um [modelo de email](../content/templates.md) ou um [email](../marketing/email-channel.md) de rascunho existente em um programa.
 * Uma jornada de [pessoa](../marketing/person-journeys.md) que contém o nó da ação _Enviar Email_ usado para entregar o email personalizado.
 
 ## Criar e personalizar um email a partir de um modelo {#create-personalize-from-template}
 
 Esse fluxo cria um novo email e o personaliza na mesma conversa.
 
-1. **Forneça o conteúdo.** Faça upload de um resumo de conteúdo ou descreva o conteúdo desejado em linguagem natural.
+1. **Chame a `/content-personalization` habilidade** na interface de chat [!DNL Coworker].
 
-1. **Selecione um [modelo](../content/templates.md)** da biblioteca de modelos.
+1. **Forneça o conteúdo.**
+
+   Faça upload de um resumo de conteúdo ou descreva o conteúdo desejado em linguagem natural.
+
+1. **Selecione um modelo** da biblioteca [de modelos](../content/templates.md).
 
 1. **Revise o rascunho.**
 
-   O colaborador mapeia o conteúdo para o modelo e produz um email de rascunho. É possível fazer edições de texto básicas em linha.
+   [!DNL Coworker] mapeia seu conteúdo para o modelo e produz um email de rascunho. É possível fazer edições de texto básicas em linha.
 
    >[!WARNING]
    >
@@ -75,11 +77,11 @@ Esse fluxo cria um novo email e o personaliza na mesma conversa.
 
 1. **Revise os coortes de persona resolvidos**.
 
-   O colaborador inspeciona seus dados e retorna os coortes de persona que correspondem à sua descrição, com uma contagem para cada um. Revise a descrição do grupo-alvo e tente novamente se necessário.
+   O [!DNL Coworker] inspeciona seus dados e retorna os coortes de persona que correspondem à sua descrição, com uma contagem para cada um. Revise a descrição do grupo-alvo e tente novamente se necessário.
 
 1. **Confirmar o grupo alvo**.
 
-   Em seguida, o Colaborador recupera insights para cada coorte de persona resolvida.
+   Em seguida, [!DNL Coworker] recupera insights para cada coorte de persona resolvida.
 
 1. **Selecione as seções a serem personalizadas**, como a linha de assunto ou uma seção de corpo, e revise as variantes geradas.
 
@@ -93,11 +95,11 @@ Esse fluxo cria um novo email e o personaliza na mesma conversa.
 
 ## Analisar um email existente {#analyze-existing-email}
 
-Em um nó [_Enviar Email_](../marketing/action-nodes.md) do jornada que faz referência a um email existente, o painel **[!UICONTROL Realizar uma ação]** mostra o nome do email com duas opções: **[!UICONTROL Personalizar este email]** e **[!UICONTROL Analisar este Email]**.
+A ferramenta _Analisar_ está disponível somente para emails de rascunho. Depois que um email é publicado, ele não pode ser alterado. Na árvore de programas, clique no ícone _Mais_ (**...**) ao lado de um rascunho de [email](../marketing/email-channel.md#manage-emails) e escolha **[!UICONTROL Analisar email]**.
 
-<!-- screenshot: Send Email node "Take an action" panel showing the email name and the Personalize this email / Analyze this Email options -->
+![Email da árvore de programas no menu Mais](../marketing/assets/email-tree-more-menu.png){width="400"}
 
-Selecione **[!UICONTROL Analisar este email]** para executar uma auditoria de email:
+Para executar uma auditoria de e-mail:
 
 1. **Descreva o grupo alvo** que deseja personalizar em termos de persona.
 
@@ -105,9 +107,9 @@ Selecione **[!UICONTROL Analisar este email]** para executar uma auditoria de em
 
 1. **Revise a auditoria de email.**
 
-   O Colaborador resolve sua descrição em segmentos de persona e mostra um cartão de **Auditoria de email** listando cada segmento e, em seguida, revisa o email em relação a cada um para destacar o que tem impacto e o que deve ser melhorado.
+   O [!DNL Coworker] resolve sua descrição em segmentos de persona e mostra um cartão de **Auditoria de email** listando cada segmento e, em seguida, revisa o email em relação a cada um para destacar o que está correto e o que deve ser melhorado.
 
-1. O colega pergunta o que fazer em seguida, incluindo **[!UICONTROL Ver auditoria seção por seção]** e **[!UICONTROL Personalizar este email]**.
+1. [!DNL Coworker] pergunta o que fazer em seguida, incluindo **[!UICONTROL Ver auditoria seção por seção]** e **[!UICONTROL Personalizar este email]**.
 
 1. Selecione **[!UICONTROL Ver auditoria seção a seção]** para abrir uma exibição de **_Análise de email_** com um seletor de persona e recomendações específicas para cada seção.
 
@@ -121,37 +123,39 @@ Selecione **[!UICONTROL Analisar este email]** para executar uma auditoria de em
 
 ## Personalizar um email existente {#personalize-existing-email}
 
-Selecione **[!UICONTROL Personalizar este email]** em um nó de ação _Enviar Email_ ou continue em uma [auditoria de email](#analyze-existing-email) para personalizar um email que você já criou.
+Selecione **[!UICONTROL Personalizar email]** no menu _Mais_ de um rascunho de email na árvore de programas, ou continue em uma [auditoria de email](#analyze-existing-email) para personalizar um email que você já criou.
 
 1. **Revise os coortes de persona resolvidos.**
 
-   O colaborador inspeciona seus dados e retorna os coortes de persona que correspondem à sua descrição, com uma contagem para cada um. Revise a descrição do grupo-alvo e tente novamente se necessário.
+   O [!DNL Coworker] inspeciona seus dados e retorna os coortes de persona que correspondem à sua descrição, com uma contagem para cada um. Revise a descrição do grupo-alvo e tente novamente se necessário.
 
-   Se você chegou a esta etapa a partir de uma auditoria de email, o Colaborador continua diretamente a partir dos insights de auditoria.
+   Se você chegou a esta etapa a partir de uma auditoria de email, [!DNL Coworker] continua diretamente a partir dos insights de auditoria.
 
 1. **Selecione as seções a serem personalizadas** na visualização de email, como a linha de assunto e seções de conteúdo específicas, e confirme.
 
 1. **Revise as variantes geradas.**
 
-   Além do perfil, as variantes também podem variar por setor, por exemplo, um CXO na área de saúde em comparação com um CXO em serviços financeiros. O colaborador apresenta uma grade **[!UICONTROL Variantes personalizadas]**, um cartão por coorte personalizada, cada uma com uma linha de assunto, um título, um corpo e uma opção **[!UICONTROL Visualizar]**.
+   As variantes também podem variar por setor, como um CXO em serviços de saúde versus serviços financeiros. [!DNL Coworker] apresenta uma grade **[!UICONTROL Variantes personalizadas]**, um cartão por coorte personalizada, com uma linha de assunto, título, corpo e uma opção **[!UICONTROL Visualizar]**.
 
-   Selecione o ícone _Informações_ em um cartão para ver a insight por trás dessa variante (a persona em que ela se baseia e a insight de envolvimento que a moldou) e gerar novamente uma variante, se necessário.
+   Selecione o ícone _Informações_ em um cartão para ver a insight dessa variante (a persona em que ela se baseia e a insight de envolvimento que a informou) e gerar novamente uma variante, se necessário.
 
    Você pode filtrar a grade por persona.
 
 1. **Salvar o conjunto.**
 
-   Clique em **[!UICONTROL Salvar]** e confirme. O colaborador confirma que o email agora está disponível na Biblioteca de IA e pergunta se as alterações no email original também devem ser aplicadas, o que as atualiza no local.
+   Clique em **[!UICONTROL Salvar]** e confirme. [!DNL Coworker] confirma que o email agora está disponível na Biblioteca de IA e pergunta se também deve aplicar as alterações ao email original, que o atualiza no local.
 
 <!-- screenshot: "Personalized variants" grid showing persona cards with subject, headline, body, Preview, and the info-icon insight tooltip -->
 
 ## Saída salva e uso em uma jornada {#saved-output}
 
-Qualquer que seja o fluxo do qual você comece, a personalização produz um único **Email personalizado da IA** armazenado na Biblioteca da IA. O email contém [conteúdo condicional](../content/conditional-content.md) blocos com chave por persona. Para editar seções, abra-as no [espaço de design visual](../content/email-authoring.md) e para visualizar como é resolvido cada bloco com chave personalizada, use **[!UICONTROL Simular Conteúdo]**.
+Qualquer que seja o fluxo do qual você comece, a personalização produz um único _email personalizado para IA_ armazenado na Biblioteca de IA. O email contém [conteúdo condicional](../content/conditional-content.md) blocos com chave por persona. Para editar seções, abra-as no [espaço de design visual](../content/email-authoring.md) e para visualizar como é resolvido cada bloco com chave personalizada, use **[!UICONTROL Simular Conteúdo]**.
 
-Para usar o email em uma jornada, adicione um [nó Enviar email](../marketing/action-nodes.md) e selecione **[!UICONTROL Emails personalizados da IA]** em vez de **[!UICONTROL Criar um email]**. Em seguida, escolha o email salvo. Aplique sua configuração e regras de negócios ao nó como de costume.
+Para usar o email em uma jornada, adicione um [nó Enviar Email](../marketing/action-nodes.md) e selecione **[!UICONTROL Usar um email personalizado por IA]**.
 
-<!-- screenshot: Send Email node configuration with "AI Personalized Emails" selected and the saved email applied -->
+![Realizar uma ação - Enviar email - Usar um email personalizado com IA](../marketing/assets/person-action-node-email-source-personalized.png){width="450"}
+
+Em seguida, escolha o email salvo. Aplique sua configuração e regras de negócios ao nó como de costume.
 
 ## Comportamento de tempo de execução {#run-time-behavior}
 
@@ -160,8 +164,8 @@ Você seleciona o único email personalizado de IA na jornada, não uma variante
 ## Limitações {#limitations}
 
 | Limitação | Detalhe |
-|---|---|
+| --- | --- |
 | **Personalidades** | Ainda não suportado. A habilidade classifica coortes de persona somente a partir de [personas derivadas](../audiences/personas.md) predefinidas. |
 | **Dados insuficientes para insights** | Se os seus dados não forem compatíveis com uma insight para uma coorte de persona, a habilidade declara isso e retorna às práticas recomendadas gerais para essa persona. |
 | **Edição em linha durante a criação** | Somente edições de texto básicas estarão disponíveis em linha quando você [criar e personalizar um email a partir de um modelo](#create-personalize-from-template). Edições avançadas exigem o [espaço de design visual](../content/email-authoring.md). |
-| **Ponto inicial necessário** | A personalização de um email requer um modelo ou um email existente referenciado por um nó Enviar email. |
+| **Ponto inicial necessário** | A personalização de um email requer um modelo ou um email de rascunho existente em um programa. |
