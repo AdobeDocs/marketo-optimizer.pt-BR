@@ -1,18 +1,18 @@
 ---
 title: Modo escuro para conteúdo de email
-description: Saiba mais sobre o design de email no modo escuro no Marketo Otimizer. Visualize a renderização, personalize as configurações e teste em clientes de email.
+description: Saiba mais sobre o design de email no modo escuro no Marketo Optimizer. Visualize a renderização, personalize as configurações e teste em clientes de email.
 TQID: 'https://experienceleague.adobe.com/IFAOy7HJQ93uT4Mz70dC-RPHPaWhUhE9T0d5dEgJYgk'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Accessibility
+source-git-commit: d46d6ad64726b6a4fb07e10c081b08e7336f151a
 workflow-type: tm+mt
-source-wordcount: 1476
+source-wordcount: '1476'
 ht-degree: 7%
-
 ---
-
 # Modo escuro para conteúdo de email {#dark-mode}
 
 >[!CONTEXTUALHELP]
@@ -158,7 +158,7 @@ _Para definir configurações personalizadas do modo escuro :_
 
 O modo escuro pode alterar cores, planos de fundo e imagens — às vezes substituindo as opções de design. Para garantir a consistência visual, a acessibilidade e a integridade da marca, siga estas práticas recomendadas:
 
-| Prática |            |
+| Prática | |
 | -------- | ---------- |
 | Otimize suas imagens e logotipos | Lista de verificação:<ul><li>Salve logotipos e ícones como arquivos PNG com fundo transparente para evitar caixas brancas visíveis no modo escuro. <li>Evite imagens com fundos brancos ou claros codificados. <li>Se a transparência não for uma opção, coloque as imagens em um plano de fundo sólido no design para evitar inversões de cores estranhas. |
 | Veja seus planos de fundo | Lista de verificação:<ul><li>Verifique se há contraste suficiente entre o texto e as cores do plano de fundo para facilitar a leitura nos modos claro e escuro. <li>Evite depender apenas das cores do plano de fundo para o conteúdo crítico. Alguns clientes substituem as cores do plano de fundo no modo escuro, portanto, verifique se as informações principais ainda estão visíveis. |

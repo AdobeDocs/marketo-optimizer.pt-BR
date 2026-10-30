@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
+source-git-commit: 6311ce00a5c7666c07fb1a523c954637d2e86e46
 workflow-type: tm+mt
-source-wordcount: '2694'
+source-wordcount: '2697'
 ht-degree: 0%
 ---
 # Capacidade de entrega de email
@@ -53,7 +53,7 @@ Ele usa os seguintes blocos fundamentais, configurados por um administrador, nor
 > Consulte os seguintes tópicos para obter informações adicionais sobre canais de email:
 >
 >* Configurando canais de email - [Configuração de canal de email](../admin/email-channel-configuration.md)
->* Criando emails - [Adicionar emails ao jornada](../marketing/email-channel.md)
+>* Criando emails - [Crie emails e adicione-os ao jornada](../marketing/email-channel.md)
 >* Criando conteúdo de email - [Criação de conteúdo de email](../content/email-authoring.md)
 
 ## Limitações atuais {#limitations}

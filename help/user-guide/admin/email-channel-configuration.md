@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b6253400e2c9fc5b7f277add102367743981ce8a
+source-git-commit: d46d6ad64726b6a4fb07e10c081b08e7336f151a
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '641'
 ht-degree: 0%
 ---
 # Configuração do canal de email
@@ -89,7 +89,7 @@ Quando você edita uma configuração que está em uso:
 >
 >A exclusão de uma configuração de canal é permanente. Não é possível excluir uma configuração à qual uma jornada ativa faz referência. Remova ou reatribua todas as ações de email primeiro.
 
-Para excluir uma configuração, primeiro remova ou atualize cada ação de email que a referencie em [Adicionar emails ao jornada](../marketing/email-channel.md#define-email-properties). [!DNL Marketo Optimizer] não exclui uma configuração que está sendo usada por uma jornada ativa.
+Para excluir uma configuração, primeiro remova ou atualize cada ação de email que a referencie em [Criar emails e adicioná-los ao jornada](../marketing/email-channel.md#define-email-properties). [!DNL Marketo Optimizer] não exclui uma configuração que está sendo usada por uma jornada ativa.
 
 ## Configurações de vários canais {#multiple-channel-configurations}
 

@@ -1,23 +1,27 @@
 ---
 title: Criar um programa a partir de um resumo
-description: Use a habilidade de Criação de programas no Marketo Otimizer para criar programas, tokens, listas de pessoas e jornadas de um resumo da campanha.
+description: Use a habilidade de Criação de programas no Marketo Optimizer para criar programas, tokens, listas de pessoas e jornadas a partir de um resumo da campanha.
 TQID: 'https://experienceleague.adobe.com/Bi7ZemHiGpKwxsYZkrfCyT5IzFAJ8ZTyFr8KxwO4z6w'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+    internal-label: Chat Interface
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Personalization
+source-git-commit: d46d6ad64726b6a4fb07e10c081b08e7336f151a
 workflow-type: tm+mt
-source-wordcount: 1110
+source-wordcount: '1110'
 ht-degree: 4%
-
 ---
-
 # Criar um programa a partir de um resumo
 
 Em [!DNL Adobe Marketo Optimizer], o [_programa_](../marketing/programs.md) é o contêiner de nível superior para jornadas, listas de pessoas, tokens e configurações em uma campanha. Na [interface de chat](./chat-interface.md), a habilidade de Criação de programa cria essa estrutura inteira de ponta a ponta do seu resumo — o próprio programa, subpastas, tokens, listas de pessoas e jornadas de pessoas — em uma conversa guiada.
@@ -33,7 +37,7 @@ Clique no ícone _Anexar_ na entrada do chat para carregar o arquivo e descrever
 ### Tipos de arquivo compatíveis
 
 | Formato | Comportamento |
-|---|---|
+| --- | --- |
 | `.txt`, `.md` | Ler diretamente no navegador |
 | `.pdf`, `.docx`, `.xlsx`, `.json`, `.csv` | Enviado para o serviço de extração de texto de back-end |
 
@@ -84,7 +88,7 @@ Nenhuma ferramenta de criação será chamada até que você responda com um cla
 As etapas de criação são executadas em uma ordem fixa; cada uma depende das IDs produzidas pela etapa anterior.
 
 | Etapa | Descrição | Ferramentas | Output |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **1. Pasta** | Resolve a pasta pai por nome ou usa a raiz do espaço de trabalho; é possível criar uma nova subpasta | `getRootTree`, `browseFolders`, `createFolder` | Nome da pasta + ID |
 | **1.5. Tipo de programa** | Procura tipos de programas de locatários e escolhe a correspondência para o resumo | `browseProgramTypes` | Nome do tipo + `programTypeId` |
 | **2. Programa** | Cria o Programa na pasta resolvida, vinculado ao tipo escolhido | `createProgram` | Nome do programa, ID, tipo |
@@ -107,7 +111,7 @@ As etapas de criação são executadas em uma ordem fixa; cada uma depende das I
 O contêiner de nível superior. Sua exibição detalhada expõe as seguintes guias:
 
 | Tabulação | Conteúdo |
-|---|---|
+| --- | --- |
 | **Visão geral** | Nome, descrição, tipo de programa, status, local da pasta, carimbos de data e hora |
 | **Atributos** | Campos personalizados definidos pelo tipo (somente se o tipo de programa os ativar) |
 | **Tokens** | `my.*` tokens com escopo para este programa |
@@ -130,7 +134,7 @@ Uma jornada de pessoa que começa com um nó de entrada de público-alvo Pessoa 
 Os programas estão **permanentemente vinculados** a um tipo de programa definido pelo locatário na criação — isso não pode ser alterado posteriormente. O fluxo resolve o tipo explicitamente via `browseProgramTypes` em todos os casos.
 
 | Caso | Comportamento |
-|---|---|
+| --- | --- |
 | **Vários tipos disponíveis** | Corresponde uma breve redação a um tipo (como tradeshow/booth/expo = *Tradeshow*/*Event*; webinar = *Webinar*/*Event*; Nurture/drip = *Nurture*; sem sinal claro = *Default*). Se nenhuma correspondência for encontrada, o Colaborador listará os tipos e as tarefas disponíveis. |
 | **Locatário somente padrão** | Usa o *Padrão* e observa que um administrador pode adicionar [tipos de programas](../admin/program-types.md) personalizados. |
 | **Nenhum tipo configurado** | Paradas — a criação falharia. Solicita que um administrador provisione tipos de programas antes de tentar novamente. |
@@ -138,7 +142,7 @@ Os programas estão **permanentemente vinculados** a um tipo de programa definid
 ## Padrões
 
 | Configuração | Padrão |
-|---|---|
+| --- | --- |
 | **Pasta** | Raiz do Workspace (se nenhuma pasta for especificada) |
 | **Tipo de programa** | *Padrão* (se não houver um sinal curto e nenhuma seleção manual) |
 | **Atributos do Personalization** | Persona derivada, Intenção derivada, Nível de envolvimento incluído por padrão (opção de não participação disponível) |
@@ -148,7 +152,7 @@ Os programas estão **permanentemente vinculados** a um tipo de programa definid
 ## Limitações
 
 | Limitação | Detalhe |
-|---|---|
+| --- | --- |
 | **Limite de comprimento curto** | ~30 mil caracteres; resumos truncados perdem conteúdo à direita — coloque os essenciais em primeiro lugar |
 | **Tipo de programa imutável** | Não pode ser alterado após a criação; verifique o tipo correto antes da aprovação |
 | **Campos internos obrigatórios** | `parent` e `programTypeId` estão sempre definidos; omitir `parent` causa acesso negado; omitir tipo silenciosamente retorna para *Padrão* |
@@ -156,7 +160,7 @@ Os programas estão **permanentemente vinculados** a um tipo de programa definid
 | **Associação de lista assíncrona** | As listas estáticas (de critérios) são preenchidas ao longo de vários minutos, não instantaneamente |
 | **Tratamento de erros** | Falhas de ferramenta são relatadas com o erro exato; o colega de trabalho solicita a confirmação da entrada e tenta novamente |
 | **Colisões de nome** | Não resolvido automaticamente — um nome diferente será solicitado |
-| **Escopo** | Somente Marketo Otimizer; [!DNL Marketo Engage] usuários devem usar as habilidades de criação/planejamento de programas separadas |
+| **Escopo** | Somente Marketo Optimizer; [!DNL Marketo Engage] usuários devem usar as habilidades de criação/planejamento de programas separadas |
 
 
 ## Verificação de controle de qualidade

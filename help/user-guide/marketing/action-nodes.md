@@ -1,22 +1,25 @@
 ---
 title: Fazer um nó de ação
-description: Configurar um nó Realizar uma ação no Marketo Otimizer para adicionar, remover ou atualizar pessoas, listas, programas e destinos, ou enviar mensagens, quando eles atingirem o nó em uma jornada de pessoa.
+description: Configurar um nó Realizar uma ação no Marketo Optimizer para adicionar, remover ou atualizar pessoas, listas, programas e destinos, ou enviar mensagens, quando elas atingirem o nó em uma jornada de pessoa.
 TQID: 'https://experienceleague.adobe.com/KmYvfJm9d5YZdC7ZWQiybjNsFmnt0GLReJIL8nDQF-k'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 46e599c6-e20f-5f67-9824-93415016f66b
+    internal-label: Audiences
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Optimization
+source-git-commit: d46d6ad64726b6a4fb07e10c081b08e7336f151a
 workflow-type: tm+mt
-source-wordcount: 1145
+source-wordcount: '1167'
 ht-degree: 0%
-
 ---
-
 # Executar um nó de ação
 
 Em uma jornada de pessoa, use uma ação em pessoas quando quiser aplicar uma alteração a todas as pessoas no caminho do nó.
@@ -100,13 +103,13 @@ Use esta ação para adicionar pessoas a outras jornadas agendadas ou ativas. As
 
 +++[!UICONTROL Adicionar à lista]
 
-Use esta ação para adicionar pessoas a uma lista estática no Marketo Otimizer.
+Use esta ação para adicionar pessoas a uma lista estática no Marketo Optimizer.
 
 ![Realizar uma ação - Adicionar à lista](./assets/person-action-node-add-to-list.png){width="450"}
 
 Escolha uma das seguintes opções:
 
-* **[!UICONTROL Criar]** — Crie um novo ativo de lista estática e adicione pessoas a ele. A lista está imediatamente disponível para uso por outros ativos no Marketo Otimizer.
+* **[!UICONTROL Criar]** — Crie um novo ativo de lista estática e adicione pessoas a ele. A lista está imediatamente disponível para uso por outros ativos na Marketo Optimizer.
 * **[!UICONTROL Selecionar]** — Selecione um ativo de lista estática existente no qual você deseja adicionar pessoas que chegam ao nó.
 
 +++
@@ -149,7 +152,7 @@ Use esta ação para alterar o status de uma pessoa em relação a um webinário
 
 +++[!UICONTROL Remover da lista]
 
-Use esta ação para remover pessoas de uma lista estática no Marketo Otimizer. Se uma pessoa não for membro da lista no momento, a ação será ignorada para ela.
+Use esta ação para remover pessoas de uma lista estática no Marketo Optimizer. Se uma pessoa não for membro da lista no momento, a ação será ignorada para ela.
 
 ![Realizar uma ação - Remover da lista](./assets/person-action-node-remove-from-list.png){width="450"}
 
@@ -183,9 +186,9 @@ Use esta ação para adicionar pessoas a uma campanha de solicitação em uma in
 
 Use esta ação para enviar um email para as pessoas que aceitaram. As pessoas que cancelaram a inscrição, estão na lista de bloqueios, têm emails suspensos ou têm marketing suspenso ignoram essa ação.
 
-![Executar uma ação - Enviar email](./assets/person-action-node-send-email.png){width="450"}
+![Executar uma ação - Enviar email](./assets/person-action-node-email-source.png){width="450"}
 
-Você pode criar um email, editar um email existente ou usar um email personalizado por IA. Para obter informações sobre como criar e editar emails, consulte [Canal de email](./email-channel.md). Para gerar variantes com base em persona para um email existente, consulte [Personalizar conteúdo de email por persona](../agents/personalize-content.md).
+Você pode escolher um email publicado na árvore do programa, o que adiciona uma cópia do email à jornada ou usar um email personalizado por IA. A cópia é somente leitura. Para obter informações sobre como criar, publicar e duplicar emails, consulte [_Criar emails e adicioná-los ao jornada_](./email-channel.md). Para gerar variantes com base em persona para um email de rascunho, consulte [_Personalizar conteúdo de email por persona_](../agents/personalize-content.md).
 
 Você pode usar a [Otimização de hora de envio](./email-send-time-optimization.md) para personalizar o tempo de entrega de email prevendo quando cada perfil tem maior probabilidade de participar.
 
