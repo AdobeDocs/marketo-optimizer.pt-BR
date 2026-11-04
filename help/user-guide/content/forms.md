@@ -17,9 +17,9 @@ topic_v2:
     internal-label: Data collection
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
+source-git-commit: 407092d59071fb4fdf49de4ed91455637979643b
 workflow-type: tm+mt
-source-wordcount: '2473'
+source-wordcount: '2528'
 ht-degree: 2%
 ---
 # Formulários
@@ -41,6 +41,8 @@ A quantidade de informações que o formulário deve capturar depende do valor d
 ## Acessar e gerenciar formulários {#view-forms}
 
 Para acessar formulários em [!DNL Marketo Optimizer], vá para a navegação à esquerda e clique em **[!UICONTROL Gerenciamento de Conteúdo]** > **[!UICONTROL Forms]**. Essa ação abre uma página de listagem que exibe todos os formulários criados na instância.
+
+Use esta lista para acessar e gerenciar formulários existentes. Para [criar um formulário](#new-form), use a estrutura de árvore _[!UICONTROL Programas]_.
 
 ![Acessar a biblioteca de formulários](./assets/forms-list.png){width="800" zoomable="yes"}
 
@@ -78,7 +80,7 @@ Há vários aspectos a serem considerados antes de você começar a criar formul
 
 * Determine quais formulários são necessários.
 
-  Pode ser possível utilizar apenas quatro formulários-tipo. Um para acessar conteúdo baixável, um para acessar páginas da Web premium, um para visualizar vídeos e um para se registrar em coisas como webinários. Se você precisar alterar um campo em um formulário, é mais fácil atualizar quatro formulários padrão usados globalmente do que alterar vários formulários distribuídos em todos os seus programas de marketing.
+  Pode ser que você precise usar apenas quatro formulários padrão. Um para acessar conteúdo baixável, um para acessar páginas da Web premium, um para visualizar vídeos e um para se registrar em coisas como webinários. Se você precisar alterar um campo em um formulário, é mais fácil atualizar quatro formulários padrão usados globalmente do que alterar vários formulários distribuídos em todos os seus programas de marketing.
 
   <!-- Global forms also make progressive profiling much easier to implement. -->
 
@@ -86,15 +88,15 @@ Há vários aspectos a serem considerados antes de você começar a criar formul
 
   Considere usar formulários mais curtos, pois eles são comprovadamente melhores para conversões. Ao analisar cada formulário, decida quais campos são razoáveis e necessários para sua finalidade.
 
-  Considere se os campos de formulário devem ser preenchidos previamente, para que as informações básicas, como nome e email, sejam preenchidas previamente. Mas outras informações, como cargo e tamanho da organização, não são. Dessa forma, o visitante precisa preencher apenas dois campos e enviar o formulário. Também é possível usar um preenchimento de formulário social com dados do Facebook ou do Twitter.
+  Considere se os campos de formulário devem ser preenchidos previamente, para que as informações básicas, como nome e email, sejam preenchidas previamente. Mas outras informações, como cargo e tamanho da organização, não são. Dessa forma, o visitante precisa preencher apenas dois campos e enviar o formulário. Também é possível usar um preenchimento de formulário social com dados de plataformas de redes sociais.
 
 * Planeje qual página de acompanhamento será exibida depois que um visitante enviar um formulário (_página de agradecimento_).
 
-  Todos recebem a mesma página ou ela é dinâmica e baseada em seus dados? Por exemplo, alguém no setor de saúde pode ver um conteúdo de página diferente de alguém no setor de tecnologia.
+  Todos recebem a mesma página ou ela é dinâmica e baseada em seus dados? Por exemplo, alguém no setor de saúde vê um conteúdo de página diferente de alguém no setor de tecnologia.
 
 * Considere se deve ignorar completamente um formulário se já tiver as informações necessárias.
 
-  Quando você permite um bypass de formulário para uma pessoa conhecida que visita sua landing page, ela pode simplesmente acessar o conteúdo diretamente. Ignorar o formulário fornece uma experiência do visitante mais simplificada.
+  Quando você permite um bypass de formulário para uma pessoa conhecida que visita sua landing page, ela pode acessar o conteúdo diretamente. Ignorar o formulário fornece uma experiência do visitante mais simplificada.
 
 ### Adicionar um novo formulário {#new-form}
 
@@ -102,9 +104,19 @@ Há vários aspectos a serem considerados antes de você começar a criar formul
 >id="ajo-b2b-prime_lp_form_preset"
 >title="Selecionar uma predefinição"
 >abstract="Escolha uma predefinição que contenha a conexão a ser usada e um conjunto de dados predefinido para o formulário."
->additional-url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/prime/admin/channels/configuration-presets-forms#create-preset" text="Criar uma predefinição de formulário"
+>additional-url="https://experienceleague.adobe.com/en/docs/marketo-optimizer/user/admin/channels/configuration-presets-forms#create-preset" text="Criar uma predefinição de formulário"
 
-Você pode criar um formulário em [!DNL Marketo Optimizer] clicando em **[!UICONTROL Criar formulário]** na parte superior direita da página da lista _[!UICONTROL Forms]_.
+Crie um formulário em um programa ou uma pasta dentro de um programa a partir da estrutura de árvore _[!UICONTROL Programas]_.
+
+1. Na navegação à esquerda, expanda **[!UICONTROL Gerenciamento de marketing]** e selecione **[!UICONTROL Programas]**.
+
+1. Localize o programa ou uma pasta no programa em que deseja criar o formulário.
+
+   Se necessário, [crie um programa](../marketing/programs.md#create-program) primeiro.
+
+1. Clique no ícone _Mais_ (**...**) ao lado do nome do programa ou pasta e selecione **[!UICONTROL Criar formulário]**.
+
+   ![Criar um novo formulário da árvore de programas](../marketing/assets/email-create-from-programs-tree.png){width="425"}
 
 1. Na caixa de diálogo _[!UICONTROL Criar formulário]_, insira um **[!UICONTROL Nome]** útil (obrigatório) e a **[!UICONTROL Descrição]** (opcional).
 
@@ -123,21 +135,19 @@ Você pode criar um formulário em [!DNL Marketo Optimizer] clicando em **[!UICO
 
 1. Clique em **[!UICONTROL Criar]**.
 
-   A página de detalhes do formulário é aberta com uma definição de formulário básico padrão.
+   A página de detalhes do formulário é aberta.
 
    ![Conteúdo de formulário padrão](assets/form-new-default-content.png){width="700" zoomable="yes"}
 
-### Alterar o design do formulário padrão {#design}
+1. Clique em **[!UICONTROL Editar formulário]** e use as ferramentas de design visual para definir o conteúdo do formulário conforme necessário:
 
-Use as ferramentas de design visual para alterar o conteúdo do formulário conforme necessário:
+   * [Adicionar campos](./form-design.md#add-field)
+   * [Alterar estilo do campo](./form-design.md#field-styling)
+   * [Reordenar campos](./form-design.md#field-reorder)
+   * [Alterar o texto e o estilo do botão Enviar](./form-design.md#submit-button)
+   * [Alterar o estilo do formulário](./form-design.md#form-styling)
 
-* [Adicionar campos](./form-design.md#add-field)
-* [Alterar estilo do campo](./form-design.md#field-styling)
-* [Reordenar campos](./form-design.md#field-reorder)
-* [Alterar o texto e o estilo do botão Enviar](./form-design.md#submit-button)
-* [Alterar o estilo do formulário](./form-design.md#form-styling)
-
-Clique em **[!UICONTROL Salvar e fechar]** para salvar as alterações de design do conteúdo do formulário e ir para os detalhes do formulário.
+   Clique em **[!UICONTROL Salvar e fechar]** para salvar as alterações de design do conteúdo do formulário e retornar aos detalhes do formulário.
 
 ### Defina a página de agradecimento {#thank-you-page}
 
@@ -204,7 +214,7 @@ Se o formulário estiver em uso no momento, a ação abrirá uma caixa de diálo
 
 ## Formulários duplicados {#duplicate-forms}
 
-Duplique um formulário como uma maneira rápida e fácil de criar um novo formulário usando um formulário existente como ponto de partida para o design do formulário.
+Duplique um formulário para criar um novo formulário usando um formulário existente como ponto de partida para o design do formulário.
 
 É possível duplicar um formulário usando um dos seguintes métodos:
 
@@ -217,7 +227,7 @@ Na caixa de diálogo do, digite um nome útil (exclusivo) e uma descrição. Cli
 
 ![Nome e descrição do formulário duplicado](assets/form-duplicate-dialog.png){width="400"}
 
-Edite o formulário duplicado para alterar o nome conforme necessário e alterar o formulário para o uso pretendido.
+Para alterar o nome conforme necessário e alterar o formulário para seu uso pretendido, edite o formulário duplicado.
 
 ## Editar formulários {#edit-forms}
 
