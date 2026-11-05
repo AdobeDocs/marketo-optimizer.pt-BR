@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: b6253400e2c9fc5b7f277add102367743981ce8a
+source-git-commit: 407092d59071fb4fdf49de4ed91455637979643b
 workflow-type: tm+mt
-source-wordcount: '1554'
+source-wordcount: '1571'
 ht-degree: 11%
 ---
 # Criar e publicar páginas de destino
@@ -57,11 +57,17 @@ Para direcionar membros de um público-alvo do jornada para uma página da Web d
 
 _Para criar uma página de aterrissagem :_
 
-1. Vá para a navegação à esquerda e selecione **[!UICONTROL Gerenciamento de conteúdo]** > **[!UICONTROL Páginas de aterrissagem]**.
+1. Na navegação à esquerda, expanda **[!UICONTROL Gerenciamento de marketing]** e selecione **[!UICONTROL Programas]**.
 
-1. Na lista de páginas de aterrissagem, clique em **[!UICONTROL Criar página de aterrissagem]**.
+1. Na estrutura de árvore _[!UICONTROL Programas]_, localize o programa ou uma pasta dentro do programa onde deseja criar a página de aterrissagem.
 
-1. Insira um **[!UICONTROL Título]** (obrigatório) e uma **[!UICONTROL Descrição]** (opcional).
+   Se necessário, [crie um programa](../marketing/programs.md#create-program) primeiro.
+
+1. Clique no ícone _Mais_ (**...**) ao lado do nome do programa ou pasta e selecione **[!UICONTROL Criar página de aterrissagem]**.
+
+   ![Criar uma nova página de aterrissagem da árvore de programas](../marketing/assets/email-create-from-programs-tree.png){width="400"}
+
+1. Na caixa de diálogo _[!UICONTROL Criar página de aterrissagem]_, digite um **[!UICONTROL Título]** (obrigatório) e **[!UICONTROL Descrição]** (opcional).
 
    Critérios de título e descrição:
 
@@ -70,7 +76,7 @@ _Para criar uma página de aterrissagem :_
    * São permitidos caracteres Alpha, numéricos e especiais.
    * Os caracteres reservados **_não são permitidos_**: `\ / : * ? " < > |`
 
-   ![Criar página de aterrissagem](assets/landing-page-create.png){width="600"}
+   ![Criar página de aterrissagem](assets/landing-page-create.png){width="425"}
 
 1. Selecione uma **[!UICONTROL Predefinição]**.
 
@@ -82,11 +88,13 @@ _Para criar uma página de aterrissagem :_
 
    ![Nova página de aterrissagem - propriedades da página principal](assets/landing-page-primary-new-properties.png){width="700" zoomable="yes"}
 
-1. Para adicionar uma subpágina (por exemplo, uma página de agradecimento ou de erro), clique no ícone **+**.
+<!--
+1. To add a subpage (for example, a thank-you or error page), click the **+** icon.
 
-   É possível adicionar até duas subpáginas por página de aterrissagem.
+   You can add up to two subpages per landing page.
+-->
 
-Depois de configurar e projetar a página principal e quaisquer subpáginas, [teste sua página de aterrissagem](#test-landing-page) antes de publicá-la.
+Depois de configurar e projetar a página, [teste sua página de aterrissagem](#test-landing-page) antes de publicá-la.
 
 >[!CAUTION]
 >
@@ -147,7 +155,7 @@ Depois de selecionar seu método preferido para iniciar o design da página de a
 
 ### Criar do zero {#design-from-scratch}
 
-Use o espaço de design de conteúdo visual para definir a estrutura e o conteúdo da landing page. Ao adicionar e mover componentes estruturais com ações simples de arrastar e soltar, é possível projetar o layout e a organização do conteúdo da página em segundos.
+Use o espaço de design de conteúdo visual para definir a estrutura e o conteúdo da landing page. Ao adicionar e mover componentes estruturais com ações simples de arrastar e soltar, é possível projetar o layout e a organização do conteúdo da página rapidamente.
 
 1. Na página inicial de design, selecione a opção **[!UICONTROL Design do zero]**.
 
@@ -235,11 +243,11 @@ Quando as configurações e o conteúdo da landing page são definidos, você po
 
    +++Adicionar perfis de teste
 
-   Para o **[!UICONTROL Namespace de identidade]**, clique no ícone _Selecionar_ ( ![Selecionar ícone](../assets/do-not-localize/icon-select-data.svg) ) e escolha o namespace `Email` a ser usado para testar perfis.
+   Para o **[!UICONTROL Namespace de identidade]**, clique no ícone _Selecionar_ ( ![Selecionar ícone](../assets/do-not-localize/icon-select-data.svg) ) e escolha o namespace `Email` para testar perfis.
 
    ![Gerenciar perfis de teste definir namespace de identidade de email](assets/manage-test-profiles.png){width="700" zoomable="yes"}
 
-   No campo **[!UICONTROL Valor de identidade]**, insira o endereço de email para identificar o perfil de teste e clique em **[!UICONTROL Adicionar perfil]**. Você pode repetir isso para adicionar vários perfis.
+   No campo **[!UICONTROL Valor de identidade]**, insira o endereço de email para identificar o perfil de teste e clique em **[!UICONTROL Adicionar perfil]**. Para adicionar vários perfis, repita isso.
 
    ![Gerenciar perfis de teste adicionar perfis](assets/manage-test-profiles-add.png){width="700" zoomable="yes"}
 

@@ -10,18 +10,18 @@ feature_v2:
     internal-label: Journeys
   - id: 8881ff95-1653-5fea-82af-ce1549c0d99d
     internal-label: Content Management
-source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
+source-git-commit: 407092d59071fb4fdf49de4ed91455637979643b
 workflow-type: tm+mt
-source-wordcount: '1627'
+source-wordcount: '1649'
 ht-degree: 2%
 ---
 # Páginas de destino
 
-Uma landing page é uma página da Web independente onde você pode direcionar contatos e clientes depois que eles clicarem em um item vinculado em um email, mensagem SMS ou qualquer local digital. É possível incorporar essas páginas em suas jornadas para que seus clientes potenciais e de terceiros visualizem suas mensagens na Web e avancem com suas jornadas.
+Uma landing page é uma página da Web independente onde você pode direcionar contatos e clientes depois que eles clicarem em um item vinculado em um email, mensagem SMS ou qualquer local digital. Para fazer com que seus clientes potenciais e de destino visualizem suas mensagens na Web e o progresso em suas jornadas, você pode incorporar essas páginas em suas jornadas.
 
 Casos de uso comuns para landing pages:
 
-* Forneça aceitar ou recusar comunicações de marketing ou um serviço específico. Use um link em um email ou outra comunicação para uma lista direcionada.
+* Forneça aceitação ou recusa de comunicações de marketing ou um serviço específico. Use um link em um email ou outra comunicação para uma lista direcionada.
 * Colete o consentimento antes de enviar comunicações e envie um email de confirmação ao aceitar ou recusar.
 * Capture ou atualize os dados de perfil (criação de perfil progressiva, preferências, registros e cenários semelhantes) usando formulários nas páginas de aterrissagem.
 * Direcione pessoas para informações específicas de campanha criadas para a orquestração de jornadas.
@@ -39,17 +39,19 @@ Casos de uso comuns para landing pages:
 
 Para direcionar membros de um público-alvo do jornada para uma página da Web definida quando clicarem em um link específico, crie uma página de aterrissagem em [!DNL Marketo Optimizer]:
 
-1. [Criar a página](./landing-pages-create-publish.md#create-landing-page) - Selecione uma predefinição, configure a página principal e adicione as subpáginas necessárias.
+1. [Criar a página](./landing-pages-create-publish.md#create-landing-page) - Iniciar a partir da estrutura de árvore Programas, selecionar uma predefinição e configurar a página principal.
 1. [Criar o conteúdo da página de aterrissagem](./landing-page-design.md) - Criar o conteúdo da página usando componentes de design visual de arrastar e soltar.
 1. [Testar a página de aterrissagem](./landing-pages-create-publish.md#test-landing-page) - Visualizar a página e testar o comportamento do formulário.
 1. [Publicar a página de aterrissagem](./landing-pages-create-publish.md#publish-landing-page) - Publicar para ativar a página e disponibilizá-la para vinculação.
 1. [Link para a página da sua jornada](#link-to-landing-page) - Adicione a URL da página de aterrissagem a um email, SMS ou ação de jornada para que os destinatários possam acessá-la.
 
-Por exemplo, você pode criar e projetar páginas de aterrissagem para direcionar seus usuários para informações online. A página pode incluir um formulário no qual eles possam aceitar ou recusar receber suas comunicações. Ou pode ser uma oportunidade de assinar uma comunicação recorrente, como um boletim informativo.
+Por exemplo, para direcionar os usuários para informações online, é possível criar e projetar páginas de aterrissagem. A página pode incluir um formulário no qual eles possam aceitar ou recusar receber suas comunicações. Ou pode ser uma oportunidade de assinar uma comunicação recorrente, como um boletim informativo.
 
 ## Acessar e gerenciar páginas de destino {#access-manage-landing-pages}
 
 Para acessar as páginas de aterrissagem em [!DNL Marketo Optimizer], vá para a navegação à esquerda e expanda **[!UICONTROL Gerenciamento de Conteúdo]**. Em seguida, selecione **[!UICONTROL Landing pages]**. Essa ação exibe uma lista de todas as landing pages criadas na instância.
+
+Use esta lista para acessar e gerenciar landing pages existentes. Para [criar uma página de aterrissagem](./landing-pages-create-publish.md#create-landing-page), use a estrutura de árvore _[!UICONTROL Programas]_.
 
 ![Acessar a biblioteca de páginas de aterrissagem](./assets/landing-pages-list.png){width="800" zoomable="yes"}
 
@@ -197,7 +199,7 @@ Essa ação abre uma caixa de diálogo de confirmação. Você pode anular o pro
 
 ## Link para uma landing page {#link-to-landing-page}
 
-Como profissional de marketing ou criador que produz conteúdo de email, fragmento e página, você pode incorporar links às páginas de aterrissagem publicadas (online) que são criadas na instância do [!DNL Marketo Optimizer].
+Como profissional de marketing ou criativo que produz conteúdo de email, fragmento e página, você pode incorporar links às páginas de aterrissagem publicadas (online) que são criadas na instância do [!DNL Marketo Optimizer].
 
 1. Conforme você trabalha no espaço de design visual de um fragmento, email, página de aterrissagem ou modelo, selecione um trecho de texto, um componente de botão ou um componente de imagem para o link.
 

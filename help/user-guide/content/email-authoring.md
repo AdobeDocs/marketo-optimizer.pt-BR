@@ -19,9 +19,9 @@ topic_v2:
     internal-label: Accessibility
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 6311ce00a5c7666c07fb1a523c954637d2e86e46
+source-git-commit: 8c2e4b17decc42fe5efe36f5bd50ebceacb5d8a1
 workflow-type: tm+mt
-source-wordcount: '2402'
+source-wordcount: '2583'
 ht-degree: 2%
 ---
 # Criação de conteúdo de email
@@ -78,8 +78,7 @@ Seguir as práticas recomendadas do HTML e do CSS ajuda a garantir a renderizaç
 
 Use o espaço de design de conteúdo visual para definir a estrutura e o conteúdo do email. Ao adicionar e mover componentes estruturais com ações simples de arrastar e soltar, é possível projetar o layout e a organização do conteúdo de email em segundos.
 
-1. Na página _[!UICONTROL Criar seu email]_, selecione a opção **[!UICONTROL Criar do zero]**.
-
+1. Na página _[!UICONTROL Criar email]_, selecione a opção **[!UICONTROL Design do zero]**.
 
 1. Na caixa de diálogo _[!UICONTROL Criar email]_, escolha o tipo de conteúdo de email que deseja criar.
 
@@ -126,9 +125,40 @@ Você pode personalizar o conteúdo importado conforme necessário com as ferram
 
 Ao abrir o espaço de design de email, use a seção **[!UICONTROL Selecionar modelo de design]** para começar a partir de um modelo de amostra interno ou de um modelo personalizado salvo. Consulte [Usar um modelo em um email](./templates.md#use-in-journey) para obter o fluxo de trabalho completo.
 
+Você pode escolher entre:
+
+* **Modelos de exemplo** - Modelos de email internos fornecidos pela Adobe.
+* **Modelos salvos** - Modelos personalizados criados do zero ou salvos de conteúdo de email existente.
+
+>[!BEGINTABS]
+
+>[!TAB Modelos salvos]
+
+Na página _[!UICONTROL Criar email]_, a guia _[!UICONTROL Modelos de amostra]_ é selecionada por padrão. Para usar um modelo personalizado, selecione a guia **[!UICONTROL Modelos salvos]**.
+
 >[!NOTE]
 >
 >Os modelos salvos podem ter configurações de governança (bloqueio de conteúdo) aplicadas a um ou mais componentes. O espaço de design visual fornece diretrizes sobre componentes bloqueados quando você [cria um email a partir de um modelo controlado](./template-content-governance.md).
+
+A lista exibe todos os modelos de email criados na sandbox atual. Você pode classificá-los por **[!UICONTROL Nome]**, **[!UICONTROL Última modificação]** e **[!UICONTROL Última criação]**.
+
+![Escolher um modelo salvo](./assets/templates-design-saved-sort-by.png){width="800" zoomable="yes"}
+
+Selecione o template que deseja na lista para exibir uma visualização. No modo de visualização, use as setas para a direita e para a esquerda para navegar entre os modelos na categoria selecionada (amostra ou salva).
+
+![Visualizar o modelo salvo](./assets/templates-design-saved-preview.png){width="800" zoomable="yes"}
+
+Quando a visualização corresponder ao que você deseja usar, clique em **[!UICONTROL Usar este modelo]** na parte superior direita da janela de visualização.
+
+Essa ação copia o conteúdo para o espaço visual de design de email, onde você pode editá-lo conforme necessário.
+
+>[!TAB Modelos de exemplo]
+
+O [!DNL Adobe Marketo Optimizer] fornece uma seleção de modelos internos que você pode usar para criar emails e modelos de email.
+
+![Escolha um modelo fornecido pelo Adobe](./assets/templates-design-samples.png){width="800" zoomable="yes"}
+
+>[!ENDTABS]
 
 ## Adicionar estrutura e conteúdo {#structure-content}
 

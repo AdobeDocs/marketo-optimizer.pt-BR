@@ -1,6 +1,6 @@
 ---
 title: Design de formulário
-description: Crie formulários com tipos de campo, validação, estilo e atributos de esquema XDM para a coleta de dados de negócios no Marketo Otimizer.
+description: Crie formulários com tipos de campo, validação, estilo e atributos de esquema XDM para a coleta de dados de negócios no Marketo Optimizer.
 TQID: 'https://experienceleague.adobe.com/NyFwttqh2J9hkgS4tE9B-R2GCsZnsJXwoIX27yV-epA'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
@@ -8,13 +8,11 @@ product_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+source-git-commit: 407092d59071fb4fdf49de4ed91455637979643b
 workflow-type: tm+mt
-source-wordcount: 2177
+source-wordcount: '2175'
 ht-degree: 1%
-
 ---
-
 # Design de formulário
 
 Depois que você [cria um formulário](./forms.md#create-forms), o espaço de design visual abre um rascunho com uma definição de formulário básica padrão. No painel _[!UICONTROL Resumo]_ à direita, clique em **[!UICONTROL Editar formulário]** e use o espaço de design visual para definir o estilo do formulário e os componentes do campo.
@@ -94,7 +92,7 @@ Os campos de formulário são usados para capturar dados de perfil de pessoas qu
 
    * **[!UICONTROL Valor padrão]** - Use esta opção para especificar um valor padrão para o campo.
 
-   * **[!UICONTROL Mensagem de validação]** - Use esta opção para especificar uma mensagem de validação para o campo. Essa mensagem será exibida se o visitante inserir um valor inválido no campo. A mensagem _[!UICONTROL Padrão]_ está definida por padrão. Escolha **[!UICONTROL Personalizar]** e insira sua própria mensagem.
+   * **[!UICONTROL Mensagem de validação]** - Use esta opção para especificar uma mensagem de validação para o campo. Essa mensagem será exibida se o visitante inserir um valor inválido no campo. O sistema define a mensagem _[!UICONTROL Standard]_ por padrão. Escolha **[!UICONTROL Personalizar]** e insira sua própria mensagem.
 
    * **[!UICONTROL Comprimento máximo]** - Insira o número máximo de caracteres que podem ser inseridos no campo.
 
@@ -106,7 +104,7 @@ Os campos de formulário são usados para capturar dados de perfil de pessoas qu
 
    * **[!UICONTROL Preenchimento prévio Habilitado]** - Marque a caixa de seleção para preencher o campo com base nas informações de perfil, se disponíveis.
 
-   * **[!UICONTROL Habilitar máscara de entrada]** - Marque a caixa de seleção para restringir a entrada do visitante usando uma máscara de entrada. Por exemplo, talvez você queira que os visitantes insiram números de telefone em um formato específico. Na caixa de diálogo, insira a máscara usando `9` para qualquer número, `a` para qualquer letra e `*` para qualquer um.
+   * **[!UICONTROL Habilitar máscara de entrada]** - Marque a caixa de seleção para restringir a entrada do visitante usando uma máscara de entrada. Por exemplo, você pode querer que os visitantes insiram números de telefone em um formato específico. Na caixa de diálogo, insira a máscara usando `9` para qualquer número, `a` para qualquer letra e `*` para qualquer um.
 
      ![Definir uma máscara de entrada para o campo](assets/form-field-mask-input-dialog.png){width="550" zoomable="yes"}
 
@@ -124,7 +122,7 @@ Selecione a guia **[!UICONTROL Estilos]** no painel direito para alterar o estil
 
   ![Definir os estilos de rótulo para o campo de formulário](assets/form-field-styles-label.png){width="600" zoomable="yes"}
 
-* **[!UICONTROL Borda]** - Clique no quadrado **[!UICONTROL Cor da borda]** para abrir o seletor de cores pop-up e escolher uma cor para a borda. É possível definir uma borda para o campo, incluindo a cor e a largura da linha. Desmarque a caixa de seleção para remover a borda do campo exibido. Também é possível alterar o tamanho da borda (largura em pixels), o estilo e a configuração de raio dos cantos.
+* **[!UICONTROL Borda]** - Clique no quadrado **[!UICONTROL Cor da borda]** para abrir o seletor de cores pop-up e escolher uma cor para a borda. É possível definir uma borda para o campo, incluindo a cor e a largura da linha. Para remover a borda do campo exibido, desmarque a caixa de seleção. Também é possível alterar o tamanho da borda (largura em pixels), o estilo e a configuração de raio dos cantos.
 
   ![Definir os estilos de borda para o campo de formulário](assets/form-field-styles-border.png){width="600" zoomable="yes"}
 
@@ -148,7 +146,7 @@ Adicione [componentes estruturais](./structure-components.md) ao formulário e m
 
 Clique no ícone _Excluir_ ( ![Ícone Excluir](../assets/do-not-localize/icon-delete.svg) ) na barra de ferramentas ou no painel direito para excluir um campo selecionado. Na caixa de diálogo de confirmação, clique em **[!UICONTROL Excluir]**.
 
-Clique no ícone _Duplicar_ ( ![Duplicar ícone](../assets/do-not-localize/icon-duplicate.svg) ) na barra de ferramentas ou no painel direito para duplicar um campo selecionado. O novo campo é exibido logo abaixo do campo original. Clique em **[!UICONTROL Selecionar atributo de campo]** para definir o atributo do campo. Defina o tipo de campo, os detalhes e os estilos conforme necessário.
+Clique no ícone _Duplicar_ ( ![Duplicar ícone](../assets/do-not-localize/icon-duplicate.svg) ) na barra de ferramentas ou no painel direito para duplicar um campo selecionado. O novo campo é exibido abaixo do campo original. Clique em **[!UICONTROL Selecionar atributo de campo]** para definir o atributo do campo. Defina o tipo de campo, os detalhes e os estilos conforme necessário.
 
 ![Excluir e duplicar ícones para campos de formulário](assets/form-field-delete-duplicate.png){width="600" zoomable="yes"}
 
@@ -172,7 +170,7 @@ Selecione a guia **[!UICONTROL Estilos]** no painel direito para alterar o estil
 
 * **[!UICONTROL Rótulo]** - O estilo do rótulo controla as características visuais do texto dentro do botão. É possível definir o tamanho da fonte, a altura da linha, o estilo do texto e o alinhamento do texto. Clique no quadrado **[!UICONTROL Cor da fonte]** para abrir o seletor de cores pop-up e escolher uma cor para o texto do rótulo.
 
-* **[!UICONTROL Borda]** - Clique no quadrado **[!UICONTROL Cor da borda]** para abrir o seletor de cores pop-up e escolher uma cor para a borda. É possível definir uma borda para o botão, incluindo a cor e a largura da linha. Desmarque a caixa de seleção para remover a borda do botão exibido. Também é possível alterar o tamanho da borda (largura em pixels), o estilo e a configuração de raio de cantos arredondados.
+* **[!UICONTROL Borda]** - Clique no quadrado **[!UICONTROL Cor da borda]** para abrir o seletor de cores pop-up e escolher uma cor para a borda. É possível definir uma borda para o botão, incluindo a cor e a largura da linha. Para remover a borda do botão exibido, desmarque a caixa de seleção. Também é possível alterar o tamanho da borda (largura em pixels), o estilo e a configuração de raio de cantos arredondados.
 
 * **[!UICONTROL Tamanho]** - Selecione uma configuração de tamanho para determinar a largura de exibição do botão. Escolha _[!UICONTROL Largura total]_, _[!UICONTROL Meia largura]_ ou _[!UICONTROL Automático]_. O preenchimento se ajusta de acordo com as configurações de tamanho e alinhamento.
 
@@ -206,7 +204,7 @@ _Para definir um CSS personalizado para o formulário :_
 
 1. Clique em **[!UICONTROL Fechar]**.
 
-1. (Opcional) Cole o código copiado em sua ferramenta de CSS favorita e edite o CSS para refletir o estilo desejado.
+1. (Opcional) Cole o código copiado na ferramenta de CSS e edite o CSS para refletir o estilo desejado.
 
 1. Clique em **[!UICONTROL Adicionar CSS personalizado]** no painel direito.
 
@@ -220,7 +218,7 @@ _Para definir um CSS personalizado para o formulário :_
 
 ### Estilo manual {#manual-styling}
 
-Altere as configurações no painel direito para definir a exibição para todo o formulário.
+Para definir a exibição para todo o formulário, altere as configurações no painel direito.
 
 * **[!UICONTROL Cor do plano de fundo]** - Marque a caixa de seleção para aplicar uma cor de plano de fundo ao redor da área do formulário. Branco é a cor padrão. Clique no quadrado colorido para abrir o seletor de cores pop-up e escolha uma cor para o plano de fundo do formulário.
 
