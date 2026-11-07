@@ -31,7 +31,7 @@ A mensagem de boas-vindas personalizada pergunta sobre suas tarefas atuais. Esco
 
 Assista ao vídeo para um tour pela página inicial e pelo espaço de trabalho de marketing. As seções a seguir fornecem instruções escritas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3505360/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3505365/?captions=por_br&quality=12&learn=on)
 
 ## Iniciar uma conversa sobre IA
 
