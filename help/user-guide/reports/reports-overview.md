@@ -7,23 +7,23 @@ product_v2:
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
     internal-label: Reporting
-source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
+source-git-commit: e4b0bd62a974e32297b11177d13a783c631597fb
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '519'
 ht-degree: 2%
 ---
 
 # Relatórios
 
-A guia [!UICONTROL Relatórios] fornece insights de desempenho sobre o [!DNL Adobe Marketo Optimizer], incluindo envolvimento da jornada, desempenho de email e atividade da Web. Na navegação à esquerda, selecione **[!UICONTROL Relatórios]** para abri-lo.
+A página _[!UICONTROL Relatórios]_ fornece insights de desempenho sobre [!DNL Adobe Marketo Optimizer], incluindo envolvimento da jornada, desempenho de email e atividade da Web. Na navegação à esquerda, selecione **[!UICONTROL Relatórios]** para abri-lo.
 
-Cada relatório é compilado em [!DNL Adobe Customer Journey Analytics] e incorporado diretamente em [!DNL Marketo Optimizer]. Clique no ícone _Lista_ ( ![Ícone Lista](../assets/do-not-localize/icon-table-of-contents.svg) ) para usar o painel **[!UICONTROL Índice]** à esquerda para saltar entre as seções.
+Cada relatório é compilado usando os recursos do [!DNL Adobe Customer Journey Analytics] e incorporado diretamente no [!DNL Marketo Optimizer]. Clique no ícone _Lista_ ( ![Ícone Lista](../assets/do-not-localize/icon-table-of-contents.svg) ) para usar o painel **[!UICONTROL Índice]** à esquerda para saltar entre as seções.
 
 ![Página de relatórios listando as seções Visão geral da Jornada de pessoas, Envolvimento, Envolvimento de email e Envolvimento com a Web](./assets/reports-table-of-contents.png){width="800" zoomable="yes"}
 
 >[!PREREQUISITES]
 >
->Para exibir os relatórios na guia _[!UICONTROL Relatórios]_, você deve ter a **[!UICONTROL permissão Exibir Relatórios Inseridos B2B]** [5&rbrace;.](../start/permissions-reference.md)
+>Para exibir os relatórios na guia _[!UICONTROL Relatórios]_, você deve ter a **[!UICONTROL permissão Exibir Relatórios Inseridos B2B]** [5}.](../start/permissions-reference.md)
 
 ## Seções do relatório {#report-sections}
 
@@ -41,7 +41,7 @@ A guia [!UICONTROL Relatórios] organiza relatórios pré-criados em quatro seç
 Alguns relatórios se concentram em um único registro, em vez de uma visualização em toda a seção, e são acessados de uma área diferente no aplicativo.
 
 * Para obter o desempenho da otimização de tempo de envio de email, abra o relatório na interface de chat do [!UICONTROL Colaborador]. Para ver as etapas, consulte [Otimização do tempo de envio de email](../marketing/email-send-time-optimization.md#reporting).
-* Para o progresso de uma pessoa por meio de uma única jornada, abra o [Relatório individual de Jornada de pessoa](./person-journey-individual-report.md) dentro dessa jornada.
+* Para desempenho de jornada de pessoa, abra o [Relatório individual de Jornada de pessoa](./person-journey-individual-report.md) em uma jornada ativa ou concluída. Depois de abrir o relatório, você pode selecionar várias jornadas para incluir.
 
 ## Exportar um relatório {#export-a-report}
 
