@@ -1,15 +1,15 @@
 ---
 title: Relatório de engajamento no email
-description: Saiba mais sobre o relatório Envolvimento de email no Adobe Marketo Otimizer, que mostra as métricas de capacidade de entrega e engajamento de email por email e jornada.
+description: Saiba mais sobre o relatório Engajamento com o email no Adobe Marketo Optimizer, que mostra a capacidade de entrega de email e as métricas de engajamento por email e jornada.
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
     internal-label: Marketo Optimizer
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
     internal-label: Reporting
-source-git-commit: 6e919a66af259ea1f5facf7f5c3e811d76101e85
+source-git-commit: 84abcbf4ddf114898768766d6e91ec855e3f979f
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '394'
 ht-degree: 0%
 ---
 
@@ -24,7 +24,9 @@ _Para exibir o relatório :_
 1. Na navegação à esquerda, selecione **[!UICONTROL Relatórios]**.
 1. Clique no ícone _Lista_ ( ![Ícone Lista](../assets/do-not-localize/icon-table-of-contents.svg) ) e selecione **[!UICONTROL Envolvimento de email]** no painel _[!UICONTROL Índice]_.
 
-![Relatório de Envolvimento de Email com o Nome da Jornada e os filtros Persona, um intervalo de datas dos Últimos 30 dias e uma tabela de métricas de atividade de email.](./assets/reports-email-engagement.png){width="700" zoomable="yes"}
+![Relatório de Envolvimento de Email com os filtros Nome da Jornada (Evento) e Persona (Evento), um intervalo de datas dos Últimos 30 dias e uma tabela de métricas de atividade de email.](./assets/reports-email-engagement.png){width="700" zoomable="yes"}
+
+Use os filtros **[!UICONTROL Nome da Jornada (Evento)]** e **[!UICONTROL Persona (Evento)]** na parte superior do relatório para restringir os dados de email. Abra uma lista de filtros e selecione os valores que serão incluídos. Consulte [Filtros](#filters).
 
 Você pode [alterar o intervalo de datas](./reports-overview.md#change-the-date-range) usando o mesmo seletor de intervalo de datas disponível em outras seções de relatório.
 
@@ -56,7 +58,11 @@ Colunas de métrica estão agrupadas em **[!UICONTROL Atividades de email]**.
 
 ## Filtros {#filters}
 
-Use filtros para restringir o relatório a uma jornada ou persona específica. Selecione **[!UICONTROL Redefinir tudo]** para limpar todos os filtros e retornar ao modo de exibição padrão.
+Use filtros para restringir o relatório por jornada ou persona.
 
 * **[!UICONTROL Nome da Jornada (Evento)]** - Filtre pela jornada que enviou o email. O padrão é [!UICONTROL Nenhum filtro].
-* **[!UICONTROL Persona (Evento)]** - Filtre pela pessoa associada ao email. O padrão é [!UICONTROL Nenhum filtro].
+* **[!UICONTROL Pessoa (Evento)]** - Filtre pela [pessoa derivada](../audiences/personas.md#filter-by-derived-persona) associada ao email. O padrão é [!UICONTROL Nenhum filtro].
+
+![Filtros de relatório de Engajamento no email com quatro jornadas selecionadas e a lista de filtros Persona (Evento) aberta, mostrando os perfis disponíveis.](./assets/reports-email-engagement-filters.png){width="500" zoomable="yes"}
+
+Selecione **[!UICONTROL Redefinir tudo]** para limpar todos os filtros e retornar ao modo de exibição padrão.

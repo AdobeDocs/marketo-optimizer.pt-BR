@@ -1,15 +1,15 @@
 ---
 title: Relatório de engajamento na Web
-description: Saiba mais sobre o relatório Envolvimento da Web no Adobe Marketo Otimizer, que mostra as dez páginas mais visualizadas e o envolvimento do visitante na sua instância.
+description: Saiba mais sobre o relatório Envolvimento da Web no Adobe Marketo Optimizer, que mostra as dez páginas mais visualizadas e o engajamento do visitante em sua instância.
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
     internal-label: Marketo Optimizer
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
     internal-label: Reporting
-source-git-commit: 64d70f192f1ef972590aef2811e2e91908691196
+source-git-commit: 84abcbf4ddf114898768766d6e91ec855e3f979f
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '281'
 ht-degree: 1%
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!-- SPHR-39571: Audience, Company Name, Company Industry, and Region filters, plus the report title/subtitle rename, are planned under SPHR-32471 (not yet shipped) and should be documented separately once delivered  -->
 
-Use o relatório [!UICONTROL Envolvimento da Web] para revisar o envolvimento dos principais webinários interativos na sua instância.
+Use o relatório [!UICONTROL Envolvimento da Web] para revisar o envolvimento dos webinários interativos mais populares em sua instância.
 
 _Para exibir o relatório :_
 
@@ -44,9 +44,13 @@ O relatório [!UICONTROL Envolvimento da Web] mostra as 10 páginas mais visuali
 
 ## Filtros {#filters}
 
-Use o filtro a seguir para restringir o relatório a um perfil específico.
+Use o filtro **[!UICONTROL Persona (Evento)]** na parte superior do relatório para restringir os dados de exibição de página. Abra a lista de filtros e selecione os valores que serão incluídos.
 
-* **[!UICONTROL Pessoa]** - Filtre pela persona associada às exibições de página.
+* **[!UICONTROL Persona (Evento)]** - Filtre pela [persona derivada](../audiences/personas.md#filter-by-derived-persona) associada às exibições de página. O padrão é [!UICONTROL Nenhum filtro].
+
+![Relatório de Envolvimento da Web com a lista de filtros Persona (Evento) aberta, mostrando os perfis disponíveis e o controle Redefinir tudo.](./assets/reports-web-engagement-filters.png){width="500" zoomable="yes"}
+
+Selecione **[!UICONTROL Redefinir tudo]** para limpar o filtro e retornar à exibição padrão.
 
 >[!NOTE]
 >
