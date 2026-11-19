@@ -1,6 +1,6 @@
 ---
 title: Criação de fragmentos
-description: Crie fragmentos de conteúdo reutilizáveis com ferramentas de design visual - adicione estrutura, ativos, personalização, conteúdo condicional e rastreamento de URL vinculado para emails e modelos no Marketo Otimizer.
+description: Crie fragmentos de conteúdo reutilizáveis com ferramentas de design visual - adicione estrutura, ativos, personalização, conteúdo condicional e rastreamento de URL vinculado para emails e modelos no Marketo Optimizer.
 TQID: 'https://experienceleague.adobe.com/KbnYkUMVfjBv5ST55WwAqYiMDkynwSw4BKIP0bsE-DI'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
@@ -8,16 +8,18 @@ product_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+source-git-commit: e48e778c3a62154297e2c4464f49c3010917d984
 workflow-type: tm+mt
-source-wordcount: 203
+source-wordcount: '204'
 ht-degree: 3%
-
 ---
-
 # Criação de fragmentos
 
-Depois de [criar um fragmento](./fragments.md#create-fragments), use o espaço de design visual para criar os componentes de estrutura e conteúdo no fragmento.
+Depois de [criar um fragmento](./fragments.md#create-fragments), use o espaço de design visual para definir o layout e o conteúdo do fragmento.
+
+## Adicionar módulos
+
+{{$include /help/_includes/content-design-modules.md}}
 
 ## Adicionar estrutura e conteúdo {#design-fragment}
 

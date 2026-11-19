@@ -1,6 +1,6 @@
 ---
 title: Criar modelos de email
-description: Saiba como criar modelos de email no Marketo Optimizer — crie novos, salve um email de uma jornada como modelo ou converta uma imagem de design em um modelo de email.
+description: Saiba como criar modelos de email no Marketo Optimizer, personalizar módulos de conteúdo, salvar um email como modelo ou converter uma imagem de design em um modelo de email.
 TQID: 'https://experienceleague.adobe.com/Hag-o6Hu-82rqnWHnDBgPD-dKApy5JGsPMD5cGFOCfA'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
@@ -15,30 +15,32 @@ topic_v2:
     internal-label: Accessibility
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: b6253400e2c9fc5b7f277add102367743981ce8a
+source-git-commit: e48e778c3a62154297e2c4464f49c3010917d984
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '937'
 ht-degree: 1%
 ---
 
 # Criar modelos de email
 
-Você pode criar um modelo de email no [!DNL Adobe Marketo Optimizer] de três maneiras:
+Criar modelos de email no [!DNL Adobe Marketo Optimizer] usando o espaço de design visual. Os modelos de email são compatíveis com módulos de conteúdo preparados e componentes individuais de estrutura e conteúdo.
+
+>[!NOTE]
+>
+>Somente modelos de email são aceitos no momento. Os modelos de landing page não estão disponíveis no momento.
+
+Para modelos de email, você pode iniciar de três maneiras:
 
 * **Criar um novo modelo** — Crie um modelo na biblioteca de modelos usando o espaço de design de email visual.
 * **Salvar de um email de jornada** — Salve um email criado em uma jornada como um modelo reutilizável.
 * **Converter uma imagem** — carregue uma imagem de design e use a IA gerativa para convertê-la em um modelo de email editável.
 
-## Criar um novo modelo {#build-new}
+## Criar um novo modelo de email {#build-new}
 
 1. Na navegação à esquerda, expanda **[!UICONTROL Gerenciamento de conteúdo]** e selecione **[!UICONTROL Modelos]**.
 1. Clique em **[!UICONTROL Criar modelo]**.
 1. Insira um **[!UICONTROL Nome do modelo]** e uma **[!UICONTROL Descrição]** opcional.
-1. Defina o **[!UICONTROL Canal]** (tipo) para o modelo.
-
-   >[!NOTE]
-   >
-   >Nesta versão do Beta, somente os modelos de email são compatíveis.
+1. Defina o **[!UICONTROL Canal]** como Email.
 
    <!-- 1. Optionally add **[!UICONTROL Tags]** to categorize the template. -->
 
@@ -46,11 +48,23 @@ Você pode criar um modelo de email no [!DNL Adobe Marketo Optimizer] de três m
 
 1. Clique em **[!UICONTROL Editar corpo do email]** para acessar o espaço de design de conteúdo.
 
-   Consulte [Criação de email](email-authoring.md) para obter informações detalhadas sobre o design de conteúdo.
+   [Adicione módulos](#add-modules) ou use o [Criação de email](email-authoring.md) para obter informações detalhadas sobre design de conteúdo.
 
 1. Habilite opcionalmente a **[!UICONTROL Governança]** e configure o [bloqueio de conteúdo](template-content-governance.md) para restringir quais partes dos autores de modelo podem editar ao aplicar o modelo.
 
 1. Clique em **[!UICONTROL Salvar]**.
+
+## Adicionar módulos {#add-modules}
+
+Em um template de email, use módulos para começar a partir de seções preparadas e personalizar seu conteúdo e estilo.
+
+{{$include /help/_includes/content-design-modules.md}}
+
+### Adicionar estrutura e conteúdo
+
+Para criar seções do zero ou estender um módulo, adicione componentes de estrutura e conteúdo.
+
+{{$include /help/_includes/content-design-components-prime.md}}
 
 ## Salvar um email como modelo {#save-as-template}
 

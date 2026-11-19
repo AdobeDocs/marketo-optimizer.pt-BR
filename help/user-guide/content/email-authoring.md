@@ -19,9 +19,9 @@ topic_v2:
     internal-label: Accessibility
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 8c2e4b17decc42fe5efe36f5bd50ebceacb5d8a1
+source-git-commit: e48e778c3a62154297e2c4464f49c3010917d984
 workflow-type: tm+mt
-source-wordcount: '2583'
+source-wordcount: '2590'
 ht-degree: 2%
 ---
 # Criação de conteúdo de email
@@ -52,7 +52,7 @@ Clique em **[!UICONTROL Editar corpo de email]** para iniciar o espaço de desig
 ## Ferramentas de design de email {#email-design-tools}
 
 * **Barra de ferramentas superior:** Salvar, Voltar, Alternar para o editor de código, controles de visualização.
-* **Painel esquerdo:** Estruturas (layouts de coluna), Conteúdo (texto, botão, imagem, divisor, social, HTML), Fragmentos, Modelos, Árvore de navegação (hierarquia de estilo DOM do email).
+* **Painel esquerdo:** Módulos (seções preparadas), Estruturas (layouts de coluna), Conteúdo (texto, botão, imagem, divisor, social, HTML), Fragmentos, Modelos, Árvore de navegação (hierarquia de estilo DOM do email).
 * **Tela do Centro:** editor do WYSIWYG com visualização móvel e de área de trabalho.
 * **Painel direito:** configurações e estilos do componente selecionado no momento, incluindo propriedades de conteúdo, plano de fundo, borda, preenchimento e personalização.
 
@@ -88,7 +88,7 @@ Use o espaço de design de conteúdo visual para definir a estrutura e o conteú
 
    ![Criar caixa de diálogo de email](./assets/email-design-create-your-email-dialog.png){width="450"}
 
-1. [Adicionar componentes de estrutura e conteúdo](#structure-content) à tela.
+1. [Adicionar módulos](#add-modules) ou [componentes de estrutura e conteúdo](#structure-content) na tela.
 
 1. [Examinar e atualizar links](#preview-and-edit-linked-urls).
 
@@ -159,6 +159,10 @@ O [!DNL Adobe Marketo Optimizer] fornece uma seleção de modelos internos que v
 ![Escolha um modelo fornecido pelo Adobe](./assets/templates-design-samples.png){width="800" zoomable="yes"}
 
 >[!ENDTABS]
+
+## Adicionar módulos {#add-modules}
+
+{{$include /help/_includes/content-design-modules.md}}
 
 ## Adicionar estrutura e conteúdo {#structure-content}
 
