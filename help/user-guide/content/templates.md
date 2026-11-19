@@ -10,19 +10,21 @@ feature_v2:
     internal-label: Journeys
   - id: 8881ff95-1653-5fea-82af-ce1549c0d99d
     internal-label: Content Management
-source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
+source-git-commit: e48e778c3a62154297e2c4464f49c3010917d984
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 1%
+source-wordcount: '525'
+ht-degree: 2%
 ---
 
 # Modelos de email
 
-Os modelos de email no [!DNL Adobe Marketo Optimizer] permitem que os especialistas em conteúdo criem layouts de email reutilizáveis de maneira independente, para que as equipes de marketing possam aplicá-los nas jornadas de conta sem reconstruir os designs a cada vez.
+Os modelos de email no [!DNL Adobe Marketo Optimizer] permitem que os especialistas em conteúdo criem layouts de email reutilizáveis de maneira independente, para que as equipes de marketing possam reutilizar designs sem reconstruí-los a cada vez.
 
 >[!NOTE]
 >
->Nesta versão do Beta, somente os modelos de email são compatíveis.
+>Somente modelos de email são aceitos no momento. Os modelos de landing page não estão disponíveis no momento.
+
+Use os [módulos de conteúdo](./content-modules.md) ao [criar modelos de email](./templates-create.md) para reunir layouts de seções preparadas.
 
 Quando um modelo é aplicado a um novo email, o conteúdo é copiado nesse momento. As edições no modelo não afetam os emails criados anteriormente a partir dele.
 

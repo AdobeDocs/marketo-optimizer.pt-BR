@@ -18,14 +18,18 @@ topic_v2:
     internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
+source-git-commit: e48e778c3a62154297e2c4464f49c3010917d984
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '557'
 ht-degree: 2%
 ---
 # Design da página de destino
 
-Depois de [criar uma página de aterrissagem](./landing-pages-create-publish.md#create-landing-page), use o espaço de design visual para criar os componentes estruturais e de conteúdo na sua página.
+Depois de [criar uma página de aterrissagem](./landing-pages-create-publish.md#create-landing-page), use o espaço de design visual para definir o layout e o conteúdo da página.
+
+## Adicionar módulos
+
+{{$include /help/_includes/content-design-modules.md}}
 
 ## Adicionar estrutura e conteúdo {#structure-content-landing-page}
 
