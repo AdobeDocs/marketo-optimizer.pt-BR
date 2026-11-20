@@ -11,9 +11,9 @@ feature_v2:
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
     internal-label: Taxonomy
-source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
+source-git-commit: b41193169434abe23589cde8e73bf6c9016ec04d
 workflow-type: tm+mt
-source-wordcount: '1365'
+source-wordcount: '1404'
 ht-degree: 1%
 ---
 
@@ -141,7 +141,9 @@ A coluna **[!UICONTROL Ponderação]** exibe o número usado na pontuação diá
 
 1. **Frequência**: quantas vezes um cliente potencial interagiu com esse conteúdo, fatorado na média entre os compromissos de uma pessoa.
 
-Formalmente, por engajamento: `activity weight × content relevance`, média de **pontuação diária** com um **declínio exponencial de 7 dias** aplicado de modo que a atividade recente domina, em seguida, mín-máx normalizado para 0 a 1 na população atual e classificado:
+Para [!DNL Marketo Optimizer], a inicialização inicial das pontuações de intenção retrocede dois anos de atividade do lead.
+
+Formalmente, por engajamento: peso da atividade × relevância do conteúdo, calculado em média em uma pontuação diária com um declínio exponencial de sete dias aplicado de modo que a atividade recente domina. O mecanismo de declínio é executado a cada sete dias: se um lead não se envolver em novas atividades, sua pontuação de intenção se deteriora. O resultado é então normalizado para mín.-máx. para 0 a 1 na população atual e classificado:
 
 | Pontuação final | Nível de intenção |
 | --- | --- |
