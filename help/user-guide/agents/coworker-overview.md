@@ -45,7 +45,7 @@ O [!DNL Coworker] usa habilidades criadas para [!DNL Marketo Optimizer] a fim de
 
 Para obter mais informações, consulte:
 
-* [Visão geral do chat do [!DNL Adobe CX Enterprise Coworker]](https://experienceleague.adobe.com/en/docs/coworker/content/chat/overview)
+* [Visão geral do chat do [!DNL Adobe CX Enterprise Coworker]](https://experienceleague.adobe.com/pt-br/docs/coworker/content/chat/overview)
 * [Interface de chat em  [!DNL Marketo Optimizer]](./chat-interface.md)
 * [[!DNL Coworker] habilidades em  [!DNL Marketo Optimizer]](./skills.md)
 
