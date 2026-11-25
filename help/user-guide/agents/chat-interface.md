@@ -19,9 +19,9 @@ topic_v2:
     internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 52295deb478e2f7160a39fc1e554074aefe277ba
+source-git-commit: 418b81a0a39eca0ca7b537c76da972df7eefd09f
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '919'
 ht-degree: 0%
 ---
 # Interface de chat
@@ -35,7 +35,7 @@ O painel de chat está incorporado em todo o [!DNL Adobe Marketo Optimizer]. É 
 Selecione o ícone _Chat_ na navegação à esquerda para abrir o painel. O cabeçalho do painel tem quatro controles:
 
 | Controle | Descrição |
-|---------|-------------|
+| --------- | ------------- |
 | **Nova conversa** | Iniciar um novo bate- papo (limpa a discussão atual). |
 | **Histórico da conversa** | Abrir conversas passadas para que você possa reabrir uma. |
 | **Trocar painéis** | Mova o painel de chat para o outro lado do espaço de trabalho. |
@@ -53,7 +53,7 @@ Há duas maneiras igualmente válidas de fazer um trabalho — você nunca preci
 **Linguagem natural** — digite sua solicitação da maneira que você diria a um colega:
 
 * _&quot;Crie uma jornada de boas-vindas para novas inscrições em avaliação.&quot;_
-* _&quot;Por que o john@acme.com não inseriu esta jornada?&quot;_
+* _&quot;Por que `john@acme.com` não inseriu esta jornada?&quot;_
 * _&quot;Comparar minhas listas &#39;Participantes do webinário do 3º trimestre&#39; e &#39;Contas da empresa&#39;.&quot;_
 
 O agente corresponde sua redação à habilidade correta nos bastidores e executa o fluxo de trabalho apropriado.
@@ -69,7 +69,7 @@ Use **/** para percorrer as entradas, **Enter** ou **Tab** para selecionar e **E
 As entradas de menu são agrupadas em seções rotuladas:
 
 | Seção | Contém |
-|---------|----------|
+| --------- | ---------- |
 | **Investigar** | Pesquisas de diagnóstico somente leitura (por exemplo, investigação de cliente potencial, consultas de intenção). |
 | **Validar** | Controle de qualidade e fluxos de trabalho de auditoria. |
 | **Compilação** | Fluxos de trabalho de criação (programas, jornadas, listas, pontuação). |
